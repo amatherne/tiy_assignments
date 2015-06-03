@@ -177,8 +177,13 @@ cite, em {
   text-transform: uppercase;
 }
 
-.menu li {
-	display: inline;
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
 }
 
 .tagline {
@@ -200,6 +205,8 @@ cite, em {
 .primary-footer a:hover {
   color: #648880;
 }
+
+
 /*
   ========================================
   Primary footer
@@ -286,8 +293,26 @@ p a {
 
 
 
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+  
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+.speaker {
+  margin-bottom: 44px;
+}
 
-
+em {
+  font-style: italic;
+}
 
 
 
