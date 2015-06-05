@@ -2,7 +2,11 @@ body {
 	font-family: helvetica;
 	max-width: 1280px;
 	background-color: #ffffff;
+	box-sizing:border-box;
+}
 
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 /*
@@ -10,9 +14,56 @@ body {
 	Login Nav
 ===========================================
 */
+nav {
+	background-color: white;
+	max-width: 75%;
+	height: 50px;
+	margin: auto;
+	font-size: 12px;
+	padding-top: 8px;
+}
 
+nav input {
+	width: 237px;
+	height:34px;
+	font-size: 12px;
+	border-radius: 20px;
+	border:none;
+	padding-left: 15px;
+	background-image: url('../img/search.png');
+	background-repeat: no-repeat;
+	background-size: 19px 19px;
+	background-position: right 10px bottom 7px;
+	background-color: #f5f8fa;
+}
 
+.left {
+	float: left;
+}
+.left img {
+	max-width: 30px;
+	padding-top: 7px;
+}
 
+img input {
+	max-width: 18px;
+}
+.right {
+	float: right;
+}
+
+.right li {
+	display: inline-block;
+}
+
+.right a {
+	margin-left: 20px;
+}
+
+strong {
+	color: #666666;
+	font-weight: bold;
+}
 /*
 ===========================================
 	Banner box
@@ -20,14 +71,18 @@ body {
 */
 
 .banner {
+	clear: both;
 	width: 100%;
 	height: 320px;
+
+
 }
 
 .banner {
 	background-color: #669999;
 	background-image: url('../img/banner.jpg');
-
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /*
