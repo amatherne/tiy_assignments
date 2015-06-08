@@ -198,9 +198,10 @@ strong {
 */
 
 aside {
-	clear:both;
+	/*clear:both;*/
 	margin: 55px 0px 0px 168px;
 	max-width: 25%;
+	float: left;
 }
 .icon {
 	max-width: 21px;
@@ -423,3 +424,64 @@ a {
 
 }
 
+.feed {
+	width: 50%;
+	float: left;
+	/*padding:15px;*/
+	background-color: white;
+	border: 2px solid rgba(0,0,0,.1);
+	margin-top: 12px;
+	margin-left: 30px;
+	border-radius: 9px;
+}
+.feed-links {
+	width: 100%;
+	padding: 15px;
+	border-bottom: 2px solid rgba(0,0,0,.1);
+	border-radius: none;
+}
+.feed-links li{
+	display: inline;
+	padding-right: 20px;
+	font-size: 18px;
+	margin: 10px;
+	font-weight: 300;
+
+}
+
+.feed a {
+	color:#55acee;
+}
+
+.live-feed {
+	width: 100%;
+	float: left;
+	background-color: white;
+	margin-top: 12px;
+	border-radius: 9px;
+}
+.live-feed .img1 {
+	width: 18px;
+	clear:both;
+}
+.side-bar {
+	width: 70px;
+	float: left;
+}
+
+.live-feed .img2{
+	width: 60px;
+
+}
+.user-name {
+	float: left;
+	width: 550px;
+
+}
+.user-name h3 {
+	color: black;
+	font-size: 16px;
+}
+.user-name:hover a{
+	color: #2968b0;
+}
