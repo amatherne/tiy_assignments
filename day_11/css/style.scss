@@ -56,12 +56,15 @@ body {
 		text-decoration: none;
 		color: #083657; 
 	}
-}
-*, *:before, *:after {
-box-sizing: border-box;
+	*, *:before, *:after {
+	box-sizing: border-box;
+	}
 }
 
 
+// // ==========================
+// 	Main css
+// // ==========================
 header {
 	nav {
 		display:inline;
@@ -107,178 +110,189 @@ header {
 		color: white;
 	}
 }
-.container {
-	margin-top: 85px;
-	max-width: 75%;
-	clear: both;
-	margin-left: auto;
-	margin-right: auto;
+.container{
+	margin-top: 3em;
+	margin-left: 10%;
+	margin-right: 14%;
+	max-width:1300px;
 		.article {
-		width: 55%;
-		color:  #5e686f;
-		float: left;
-		img {
-		width: 25px;	
-		padding-right: 80px;
-		}
-		p {
-		line-height: 1.7;
-		}
-		h2 {
-		font-size: 38px;
-		padding-bottom: 15px;
-		color: black;
-		}
-		em {
-		color: #a3b3bf;
-		text-decoration: underline;
-		}
-		.quote {
-		font-style: italic;
-		color: #106db3;
-		border-left: 2px solid #5e686f;
-		font-size: 25px;
-		margin-left: 8px;
-		padding-left: 20px;
-		}
-		strong {
-		text-decoration: underline;
-		color: #106db3;
-		}
-		.buttons {
-		color: white;
-		height: 25px;
-		background-color: #5e686f;
-		display: inline-block;
-		float: left;
-		margin-left: 10px;
-		margin-bottom: 70px;
-			img {
-			margin-right: -80px;
-			}
+			color:  #5e686f;
+			float: left;
+			max-width: 50%;
+			margin-right: 6%;
 			p {
-			background-color: #a3b3bf;
-			float: right;
-			height: 20px;
-			font-size: 12px;
-			padding-top: 5px;
-			padding-left: 8px;
-			padding-right: 8px;
+				line-height: 1.7;
+				font-size: 1em;
+				img {
+					max-width: 23%;	
+					padding-right: 87px;
+				}
+			} 
+			h2 {
+				font-size: 2.188em;
+				padding-bottom: 15px;
+				color: black;
+				}
+			em {
+				color: #a3b3bf;
+				text-decoration: underline;
+				}
+			.quote {
+				font-style: italic;
+				color: #106db3;
+				border-left: 2px solid #5e686f;
+				font-size: 1.563em;
+				margin-left: 8px;
+				padding-left: 20px;
+				}
+			strong {
+				text-decoration: underline;
+				color: #106db3;
+				}
+			.buttons {
+				margin-right: 10px;
+				font-size: 0.9em;
+				margin-bottom: 70px;
+				.button {
+					background-color:#a3b3c0;
+					display: inline-block;
+					max-height: 30px;
+					text-decoration: none;
+
+				}
+				.share {
+					background-color: #106db3;
+				}
+
+				img {
+					background-color: #5f686f;
+				}
+				a {
+					
+					display: inline-block;
+
+				}
+				em{
+					color: white;
+					padding-left: 6px;
+					padding-right:4px;
+
+				}
+
 			}
-			.share p {
-			background-color: #106db3;}}}
+		}
 		.sidebar {
-		width: 30%;
-	 	float: right;
-	 	vertical-align: bottom;
-	 	text-align: center;
-		.icon img {
-		padding-bottom: 30px;
-		}
-		.social li {
-		display: inline;
-		color: #a3b3bf;
-		padding: 7px;
-		font-size: 12px;
-		}
-		.paddle {
-		margin-top: 40px;
-			p {
-			float: right;
-			padding-top: 10px;
-			color: #a3b3bf;
-			text-decoration: underline;
-			margin-right: -35px;
+			max-width: 25.5%;
+		 	float: right;
+		 	text-align: center;
+			.icon {
+				img {
+					padding-bottom: 30px;
+					max-width: 280px;
+					}
 			}
-		}
-		.finalside {
-		text-align: left;
-		clear: both;
-		padding-top: 35px; 
-		line-height: 1.5;	
-			h4 {
-			color: #106db3;
-			font-size: 16px;
-			font-weight: bold;
-			text-transform: uppercase;
+			.social li {
+				display: inline;
+				color: #a3b3bf;
+				padding: 7px;
+				font-size: 0.750em;
+				}
+			.paddle {
+				margin-top: 40px;
+				p {
+					float: right;
+					padding-top: 10px;
+					color: #a3b3bf;
+					text-decoration: underline;
+					margin-right: -35px;
+					}
 			}
-			p{
-			color: #a3b3bf;
-			font-size: 13px;}}} }
+			.finalside {
+				text-align: left;
+				clear: both;
+				padding-top: 35px; 
+				line-height: 1.5;	
+				h4 {
+					color: #106db3;
+					font-size: 1em;
+					font-weight: bold;
+					text-transform: uppercase;
+					}
+				p{
+					color: #a3b3bf;
+					font-size: 0.813em;}}} 
+			}
 .popular {
 	.box {
 		clear: both;
-		font-size: 55px;
+		font-size: 3.125em;
 		color:black;
 		text-align: center;
 		border-top: 2px solid #a3b3bf;
 		padding: 50px;
 	}
 	.posts {
-		p {
-		font-weight: 400;
-		}
-		.stories {
-			height:330px;
-			background-image: url('../img/surfer.jpg');
-			background-repeat: no-repeat;
-			background-size: contain;
-			float: left;
-				p {
-				width: 325px;
-				color: #083452;
-				font-size: 30px;
-				padding-top: 290px;
-				text-align: center;
-				}	
-		}
-		.brews {
-			height:330px;
-			background-image: url('../img/beer.jpg');
-			background-repeat: no-repeat;
-			background-size: contain;
-			float: left;
-				p {
-				width: 325px;
-				color: white;
-				font-size: 30px;
-				padding-top: 290px;
-				text-align: center;
+		max-width: 1300px;
+		margin-bottom: -2px;
+		.thumbs {
+			display: inline-block;
+			color: #003366;
+			
+			width: 325px;
+				a {
+					position: relative;
+					text-transform: uppercase;
+					line-height: 1.3;
 				}
-		}
-		.zack {
-			 height:330px;
-			background-image: url('../img/zack.jpg');
-			background-repeat: no-repeat;
-			background-size: contain;
-			float: left;
-				p {
-				width: 325px;
-				color: #083452;
-				font-size: 30px;
-				padding-top: 255px;
+				a.surf {
+					width: 325px;
+					height: 330px;
+					display: block;
+					background-image: url('../img/surfer.jpg') ;
+					background-repeat: no-repeat;
+					font-size: 1.8em;
+					}
+				a.brew {
+					width: 325px;
+					height: 330px;
+					display: block;
+					background-image: url('../img/beer.jpg') ;
+					background-repeat: no-repeat;
+					font-size: 1.8em;
+					color:white;
+					}
+				a.zack {
+					width: 325px;
+					height: 330px;
+					display: block;
+					background-image: url('../img/zack.jpg') ;
+					background-repeat: no-repeat;
+					font-size: 1.8em;
+				
+					}
+				a.shot {
+					width: 325px;
+					height: 330px;
+					display: block;
+					background-image: url('../img/booze.jpg') ;
+					background-repeat: no-repeat;
+					font-size: 1.8em;
+					}
+				a span {
+					position: absolute;
+					bottom: 5px;
+					left:5px;
 				}
-		}
-		.shots {
-			height:330px;
-			background-image: url('../img/surfer.jpg');
-			background-repeat: no-repeat;
-			background-size: contain;
-			float: left;
-				p {
-				width: 325px;
-				color: #083452;
-				font-size: 30px;
-				padding-top: 290px;
-				text-align: center;
 				}
-		}
-	}}
+				
+			
+	}
+}
 footer {
 	clear: both;
 	max-width: 1300px;
 	background-color: #083452;
-	height: 100px;
+ 	height: 100px;
 		.bottom{
 		max-width: 75%;
 		margin-right:auto;
