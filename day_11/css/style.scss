@@ -1,0 +1,284 @@
+body {
+	font-size: 14px;
+	font-family: helvetica;
+}
+
+header {
+	max-width: 1300px;
+	height: 50px;
+	font-size: 15px;
+	font-family: helvetica;
+	text-transform: uppercase;
+}
+
+.main {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 20px;
+
+
+}
+li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float:right;
+	padding-top: 8.5px;
+}
+
+.jumbotron {
+	max-width: 1300px;
+	height:528px;
+	margin-top: -50px;
+	background-image: url('../img/surf.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+	font-family: helvetica;
+
+}
+
+.jumbotron h1 {
+	padding-top: 190px;
+	font-size: 95px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.jumbotron p {
+	font-size: 14px;
+	color: white;
+}
+.container {
+	margin-top: 85px;
+	max-width: 75%;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+
+ }
+.article {
+	width: 55%;
+	color:  #5e686f;
+	float: left;
+}
+.article img {
+	width: 25px;	
+	padding-right: 80px;
+}
+
+.article p {
+	line-height: 1.7;
+}
+
+.article h2 {
+	font-size: 38px;
+	padding-bottom: 15px;
+	color: black;
+}
+
+em {
+	color: #a3b3bf;
+	text-decoration: underline;
+}
+
+.quote {
+	font-style: italic;
+	color: #106db3;
+	border-left: 2px solid #5e686f;
+	font-size: 25px;
+	margin-left: 8px;
+	padding-left: 20px;
+
+}
+
+strong {
+	text-decoration: underline;
+	color: #106db3;
+}
+.buttons {
+	color: white;
+	height: 25px;
+	background-color: #5e686f;
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 70px;
+}
+
+.buttons img {
+	margin-right: -80px;
+}
+
+.buttons p {
+	background-color: #a3b3bf;
+	float: right;
+	height: 20px;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.share p {
+	background-color: #106db3;
+}
+
+.sidebar {
+	width: 30%;
+ 	float: right;
+ 	vertical-align: bottom;
+ 	text-align: center;
+}
+.icon img {
+	padding-bottom: 30px;
+
+}
+
+.social li {
+	display: inline;
+	color: #a3b3bf;
+	padding: 7px;
+	font-size: 12px;
+}
+
+.paddle {
+	margin-top: 40px;
+}
+
+.paddle p {
+	float: right;
+	padding-top: 10px;
+	color: #a3b3bf;
+	text-decoration: underline;
+	margin-right: -35px;
+}
+
+.finalside {
+	text-align: left;
+	clear: both;
+	padding-top: 35px; 
+	line-height: 1.5;	
+
+}
+
+.finalside h4 {
+	color: #106db3;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.finalside p{
+	color: #a3b3bf;
+	font-size: 13px;
+
+}
+
+.box {
+	clear: both;
+	font-size: 55px;
+	color:black;
+	text-align: center;
+	border-top: 2px solid #a3b3bf;
+	padding: 50px;
+}
+
+.posts p {
+	font-weight: 400;
+}
+.stories p {
+	width: 325px;
+	color: #083452;
+	font-size: 30px;
+	padding-top: 290px;
+	text-align: center;
+}
+
+.brews p {
+	width: 325px;
+	color: white;
+	font-size: 30px;
+	padding-top: 290px;
+	text-align: center;
+}
+
+.zack p {
+	width: 325px;
+	color: #083452;
+	font-size: 30px;
+	padding-top: 255px;
+}
+
+.shots p {
+	width: 325px;
+	color: #083452;
+	font-size: 30px;
+	padding-top: 290px;
+	text-align: center;
+}
+
+.stories {
+	height:330px;
+	background-image: url('../img/surfer.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.brews {
+	height:330px;
+	background-image: url('../img/beer.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+
+.zack {
+	height:330px;
+	background-image: url('../img/zack.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+.zack p {
+}
+
+.shots {
+	height:330px;
+	background-image: url('../img/booze.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+footer {
+	clear: both;
+	max-width: 1300px;
+	background-color: #083452;
+	height: 100px;
+}
+
+.blue {
+	max-width: 75%;
+	margin-right:auto;
+	margin-left: auto;
+	text-align: center;
+	color: #a3b3bf;
+}
+
+.blue .left {
+	padding-top: 20px;
+}
+
+.blue .right {
+	padding-top: 45px;
+}
