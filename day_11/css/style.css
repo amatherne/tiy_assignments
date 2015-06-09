@@ -60,7 +60,7 @@ body {
 header nav {
   display: inline; }
   header nav .left {
-    margin-left: 10%; }
+    margin-left: 7%; }
     header nav .left ul {
       float: left; }
   header nav .right {
@@ -75,12 +75,21 @@ header nav {
     vertical-align: middle; }
 
 .jumbotron {
-  clear: both;
   width: 100%;
   height: 528px;
   background-image: url("../img/surf.jpg");
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  text-align: center; }
+  .jumbotron h1 {
+    padding-top: 190px;
+    font-size: 5.688em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .jumbotron p {
+    font-size: 1em;
+    color: white; }
 
 .container {
   margin-top: 85px;
