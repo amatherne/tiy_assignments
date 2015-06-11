@@ -20,7 +20,7 @@
 
 ##Tuesday June 9th
 	- [x] Make a grid codepen
-	- [ ] [First blog post](http://tiy-atx-ui-may2015.github.io/assignments/12.html)
+	- [x] [First blog post](http://tiy-atx-ui-may2015.github.io/assignments/12.html)
 	- [ ] **Reading**
 		1. [Cleaner Sass](http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code)
 		2. [Choosing variable names](http://thesassway.com/beginner/variable-naming)
@@ -29,8 +29,8 @@
 
 ##Wednesday June 10th
 	- [ ] add to [Master Checklist](http://tiy-atx-ui-may2015.github.io/week3/13.html)
-	- [ ] fork grid mixin from codepen
-		- [ ] use percentages
+	- [x] fork grid mixin from codepen
+		- [x] use percentages
 		- [ ] try 18 columns
 	- [ ] blog about what sounds interesting in the design process
 	- [ ] blog about what i think of Sass
@@ -44,4 +44,3 @@
 		7. [Elemental Collages](http://danielmall.com/articles/rif-element-collages/)
 		8. [Sketching can help your web design](http://webdesign.tutsplus.com/articles/sketching-how-a-simple-pen-and-paper-can-transform-your-web-designs--webdesign-3073)
 		9. [How to plan your website with sketches](http://tympanus.net/codrops/2013/01/29/planning-your-web-design-with-sketches/)
-		
