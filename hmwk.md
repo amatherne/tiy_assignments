@@ -29,8 +29,8 @@
 
 ### Wednesday June 10th
 - [ ] add to [Master Checklist](http://tiy-atx-ui-may2015.github.io/week3/13.html)
--[x]fork grid mixin from codepen
-	-[x]use percentages
+- [x] fork grid mixin from codepen
+	- [x] use percentages
 	- [ ] try 18 columns
 - [ ] blog about what sounds interesting in the design process
 - [ ] blog about what i think of Sass
