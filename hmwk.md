@@ -1,12 +1,12 @@
 # Daily Homework Checklist
 
-## Thursday June 4th
+### Thursday June 4th
 - [ ] Finish Shay Howe site
 
-## Friday June 5th
+### Friday June 5th
 - [ ] Finish Twitter page
 
-## Monday June 8th
+### Monday June 8th
 - [ ] Remake Cool Design Agency with Sass  
 - [x] Remake Surf and Paddle with Sass  
 - [ ] **Reading**  
@@ -18,7 +18,7 @@
 	6. [Dont overthink grids](http://css-tricks.com/dont-overthink-it-grids/)  
 
 
-## Tuesday June 9th
+### Tuesday June 9th
 - [x] Make a grid codepen
 - [x] [First blog post](http://tiy-atx-ui-may2015.github.io/assignments/12.html)
 - [ ] **Reading**
@@ -27,14 +27,14 @@
 	3. [Codepen with Golden Mean on type](http://codepen.io/samkap/pen/azbxaK)
 	4. [Why Sass?](http://alistapart.com/article/why-sass)
 
-## Wednesday June 10th
--[ ]add to [Master Checklist](http://tiy-atx-ui-may2015.github.io/week3/13.html)
+### Wednesday June 10th
+- [ ] add to [Master Checklist](http://tiy-atx-ui-may2015.github.io/week3/13.html)
 -[x]fork grid mixin from codepen
 	-[x]use percentages
-	-[ ]try 18 columns
--[ ]blog about what sounds interesting in the design process
--[ ]blog about what i think of Sass
--[ ]**Reading**
+	- [ ] try 18 columns
+- [ ] blog about what sounds interesting in the design process
+- [ ] blog about what i think of Sass
+- [ ] **Reading**
 	1. [On Creative Direction](http://danielmall.com/articles/on-creative-direction/)
 	2. [Periodic Table of Web Design Process](http://www.webdesignerdepot.com/2014/09/the-periodic-table-of-web-design/)
 	3. [Process, Methodolgy, Life Cycle, Oh My!](http://alistapart.com/article/Process)
