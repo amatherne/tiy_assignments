@@ -1,14 +1,18 @@
 @import "reset.css";
 
+$max: 1280px;
+$size: 1em;
+
+
 body {
 	font-family: helvetica;
-	
+	max-width:$max;
+	font-size:$size;
 }
 
 
 
 .menu {
- 	max-width: 1280px;
  	height: 50px;
  	text-transform: uppercase;
  	margin-left: auto;
