@@ -8,7 +8,9 @@ Now there's a visual.
 
 Things are going exceptionally well, though. For the most part. Since this is the first school I've been to in almost a decade (and definitely the first school I've cared to learn) I'm having to teach myself study techniques and force myself to carve out time for it all. Which is difficult. It's been interesting figuring out the struggle between homework, working downtown, band practice/shows, and seeing my friends/girlfriend. Not the easiest balance. 
 
-I have performed a seach of the google and prepared a series of images that I feel appriately display my current feelings on the past two weeks. 
+I have performed a seach of the google and prepared a series of images that I feel appriately display my current feelings on the past two weeks. I have no idea how to make them work. So....
+
+We have to go deeper...
 
 ![Hulk Hogan. Div Master](img/beachpatrol.png)
 ![Leonardo is here. He heard you like div'ing](img/inception-xhibit.jpg)
