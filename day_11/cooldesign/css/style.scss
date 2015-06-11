@@ -1,0 +1,162 @@
+@import "reset.css";
+
+body {
+	font-family: helvetica;
+	
+}
+
+
+
+.menu {
+ 	max-width: 1280px;
+ 	height: 50px;
+ 	text-transform: uppercase;
+ 	margin-left: auto;
+ 	margin-right:auto;
+}
+
+
+h1 {
+	float: left;
+	font-weight:bold;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-left: 40px;
+}
+
+ul {
+	float:right;
+	margin-top: 25px;
+
+}
+
+li {
+	display: inline;
+	margin-right: 40px;
+	font-size: 9px;
+}
+
+.main-photo {
+	max-width: 1280px;
+	height:580px;
+	background: url('../img/main-photo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px 25px;
+	clear:both;
+}
+
+.company {
+	max-width: 1280px;
+}
+.staff {
+ 	text-align: center;
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	margin: 60px;
+}
+
+.staff-photo {
+	float:left;
+	height:600px;
+  	width:100%;
+  	margin-left:auto;
+ 	margin-right:auto;
+ 	text-align: center;
+ 	border-radius: 100px;
+}
+
+.filler {
+	width:200px;
+	height:200px;
+}
+.han {
+	margin-left: 60px;
+	max-width: 200px;
+	height:200px;
+	background: url('../img/han.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*width: 33.3333%;*/
+}
+
+.chewy {
+	float: left;
+	max-width: 200px;
+	height:200px;
+	background: url('../img/chewbacca.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*width: 33.333%;*/
+	margin-left:20%;
+	margin-right:20%;
+
+}
+
+.vader {
+	float: left;
+	max-width: 200px;
+	height:200px;
+	background: url('../img/darth.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*width: 33.333%;*/
+}
+
+.staff-photo h2 {
+	padding-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.staff-photo p {
+	padding-top:2px;
+	font-size: 11px;
+
+}
+
+.map {
+	clear:left;
+	max-width: 1280px;
+	background-color: #f2ede5;
+}
+
+.mapbox {
+	max-width: 640px;
+	height:500px;
+	background: url('../img/map.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+
+.address p {
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 180px;
+	padding-left: 770px;
+	white-space: nowrap
+	
+}
+.address h3 {
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 770px;
+	padding-top: 15px;
+	white-space: nowrap
+
+
+}
+ .footer  {
+	clear:both;
+	text-align: center;
+	padding-top: 63px;
+ 	max-width: 1280px;
+ 	height: 65px;
+ 	font-size: 20px; }
+
+
+
+
