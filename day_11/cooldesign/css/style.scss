@@ -1,43 +1,50 @@
 @import "reset.css";
 
-$max: 1280px;
-$size: 1em;
+@mixin box{
+	-webkit-box-sizing: border-box;
+  	   -moz-box-sizing: border-box;
+ 		    box-sizing: border-box;
+}
+@mixin grid ($col-num) {
+  width: ($col * $col-num)+($gut * (($col-num)-1));
+  margin-right: $gut;
+}
 
+$global: 100%;
+$col: 5%;
+$gut: .588%;
+$max: 1180px;
+
+
+// Main Body
 
 body {
 	font-family: helvetica;
 	max-width:$max;
-	font-size:$size;
+	font-size:16px;
+	@include box;
 }
-
-
-
 .menu {
  	height: 50px;
  	text-transform: uppercase;
  	margin-left: auto;
  	margin-right:auto;
-}
-
-
-h1 {
-	float: left;
-	font-weight:bold;
-	font-size: 20px;
-	margin-top: 25px;
-	margin-left: 40px;
-}
-
-ul {
-	float:right;
-	margin-top: 25px;
-
-}
-
-li {
-	display: inline;
-	margin-right: 40px;
-	font-size: 9px;
+ 		h1 {
+			float: left;
+			font-weight:bold;
+			font-size:20px;
+			margin-top: 25px;
+			margin-left: 40px;
+		}
+		ul {
+			float:right;
+			margin-top: 25px;
+		}
+		li {
+			display: inline;
+			margin-right: 40px;
+			font-size: 9px;
+		}
 }
 
 .main-photo {
@@ -49,117 +56,82 @@ li {
 	background-position: 0px 25px;
 	clear:both;
 }
-
-.company {
-	max-width: 1280px;
+.row {
+	width: $global;
+	max-width: $max;
+	overflow: hidden;
+	padding: .5em 0;
+	margin: 0 auto;
+	.col1 {
+		@include grid(1);
+		background-color: #997D92;
+	}
+	.col2 {
+		@include grid(2);
+		background-color: #38221B;
+	}
+	.col1,
+	.col2 {
+		width: $global;
+  		box-sizing: border-box;
+ 		float: left;
+  		padding: 7px 0;
+  		text-align: center;
+		}
 }
-.staff {
- 	text-align: center;
- 	font-size: 30px;
- 	font-weight: bold;
- 	margin: 60px;
-}
+// .han {
+// 	background: url('../img/han.jpg');
+// }
 
-.staff-photo {
-	float:left;
-	height:600px;
-  	width:100%;
-  	margin-left:auto;
- 	margin-right:auto;
- 	text-align: center;
- 	border-radius: 100px;
-}
+// .chewy {
+// 	background: url('../img/chewbacca.jpg');
+// }
 
-.filler {
-	width:200px;
-	height:200px;
-}
-.han {
-	margin-left: 60px;
-	max-width: 200px;
-	height:200px;
-	background: url('../img/han.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	/*width: 33.3333%;*/
-}
+// .vader {
+// 	background: url('../img/darth.jpg');
+// }
 
-.chewy {
-	float: left;
-	max-width: 200px;
-	height:200px;
-	background: url('../img/chewbacca.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	/*width: 33.333%;*/
-	margin-left:20%;
-	margin-right:20%;
+// .map {
+// 	clear:left;
+// 	max-width: 1280px;
+// 	background-color: #f2ede5;
+// }
 
-}
-
-.vader {
-	float: left;
-	max-width: 200px;
-	height:200px;
-	background: url('../img/darth.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	/*width: 33.333%;*/
-}
-
-.staff-photo h2 {
-	padding-top: 15px;
-	font-size: 18px;
-	font-weight: bold;
-}
-
-.staff-photo p {
-	padding-top:2px;
-	font-size: 11px;
-
-}
-
-.map {
-	clear:left;
-	max-width: 1280px;
-	background-color: #f2ede5;
-}
-
-.mapbox {
-	max-width: 640px;
-	height:500px;
-	background: url('../img/map.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-left: 0px;
-	margin-right: 0px;
+// .mapbox {
+// 	max-width: 640px;
+// 	height:500px;
+// 	background: url('../img/map.png');
+// 	background-size: cover;
+// 	background-repeat: no-repeat;
+// 	margin-left: 0px;
+// 	margin-right: 0px;
 	
-}
+// }
 
-.address p {
-	font-size: 30px;
-	font-weight: bold;
-	padding-top: 180px;
-	padding-left: 770px;
-	white-space: nowrap
+// .address p {
+// 	font-size: 30px;
+// 	font-weight: bold;
+// 	padding-top: 180px;
+// 	padding-left: 770px;
+// 	white-space: nowrap
 	
-}
-.address h3 {
-	font-size: 20px;
-	font-weight: bold;
-	padding-left: 770px;
-	padding-top: 15px;
-	white-space: nowrap
+// }
+// .address h3 {
+// 	font-size: 20px;
+// 	font-weight: bold;
+// 	padding-left: 770px;
+// 	padding-top: 15px;
+// 	white-space: nowrap
 
 
-}
- .footer  {
-	clear:both;
-	text-align: center;
-	padding-top: 63px;
- 	max-width: 1280px;
- 	height: 65px;
- 	font-size: 20px; }
+// }
+//  .footer  {
+// 	clear:both;
+// 	text-align: center;
+// 	padding-top: 63px;
+//  	max-width: 1280px;
+//  	height: 65px;
+//  	font-size: 20px; }
 
 
 
