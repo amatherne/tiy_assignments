@@ -44,3 +44,6 @@
 	7. [Elemental Collages](http://danielmall.com/articles/rif-element-collages/)
 	8. [Sketching can help your web design](http://webdesign.tutsplus.com/articles/sketching-how-a-simple-pen-and-paper-can-transform-your-web-designs--webdesign-3073)
 	9. [How to plan your website with sketches](http://tympanus.net/codrops/2013/01/29/planning-your-web-design-with-sketches/)
+
+### Thursday June 11th
+- [ ] Create Style tiles for the 10 websites you drew the other day.
