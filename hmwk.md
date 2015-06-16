@@ -15,15 +15,15 @@
 	3. [x] [It's dangerous to go alone!](https://www.youtube.com/watch?v=1i8ylq4j_EY)  
 	4. [x] [How to structure Sass](http://thesassway.com/beginner/how-to-structure-a-sass-project)  
 	5. [x] [The Inception Rule](http://thesassway.com/beginner/the-inception-rule)  
-	6. [ ] [Dont overthink grids](http://css-tricks.com/dont-overthink-it-grids/)  
+	6. [x] [Dont overthink grids](http://css-tricks.com/dont-overthink-it-grids/)  
 
 
 ### Tuesday June 9th
 - [x] Make a grid codepen
 - [x] [First blog post](http://tiy-atx-ui-may2015.github.io/assignments/12.html)
 - [ ] **Reading**
-	1. [ ] [Cleaner Sass](http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code)
-	2. [ ] [Choosing variable names](http://thesassway.com/beginner/variable-naming)
+	1. [x] [Cleaner Sass](http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code)
+	2. [x] [Choosing variable names](http://thesassway.com/beginner/variable-naming)
 	3. [ ] [Codepen with Golden Mean on type](http://codepen.io/samkap/pen/azbxaK)
 	4. [ ] [Why Sass?](http://alistapart.com/article/why-sass)
 
@@ -42,7 +42,7 @@
 	5. [ ] [Why every coder should write](https://medium.com/@SchnettHappens/why-every-coder-should-start-writing-fe05e831d1cf)
 	6. [ ] [Read about Style Tiles](http://styletil.es/)
 	7. [ ] [Elemental Collages](http://danielmall.com/articles/rif-element-collages/)
-	8. [Sketching can help your web design](http://webdesign.tutsplus.com/articles/sketching-how-a-simple-pen-and-paper-can-transform-your-web-designs--webdesign-3073)
+	8. [ ] [Sketching can help your web design](http://webdesign.tutsplus.com/articles/sketching-how-a-simple-pen-and-paper-can-transform-your-web-designs--webdesign-3073)
 	9. [ ] [How to plan your website with sketches](http://tympanus.net/codrops/2013/01/29/planning-your-web-design-with-sketches/)
 
 ### Thursday June 11th
