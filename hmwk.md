@@ -60,7 +60,7 @@
 	10. [Responsive web design](http://www.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
 
 ### Friday June 12th
-- [ ] Update your Grid Codepen with 1-column grid for all of the 		same class names. Use media queries for the multi-column 		grids and break the one-column grid at 500px.
+
 - [ ] [sketch out RWD surf and paddle ideas](http://tiy-atx-ui-may2015.github.io/assignments/15.html)
 - [ ] [complete a series of RWD codepens](http://tiy-atx-ui-may2015.github.io/assignments/15b.html)
 - [ ] **Reading**
@@ -68,3 +68,11 @@
 	2. [fluid grids](http://alistapart.com/article/fluidgrids)
 	3. [Device Agnostic](http://trentwalton.com/2014/03/10/device-agnostic)
 	4. [where to start](http://trentwalton.com/2013/02/07/where-to-start/)
+
+### Monday June 16th
+- [ ] **Reading**
+	1. [rwd Checklist](http://rwdchecklist.com/)
+	2. [Responsize Strategy](http://bradfrost.com/blog/post/responsive-strategy/)
+	3. [9 gifs that example RWD perfectly](http://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly)
+- [ ] Update your Grid Codepen with 1-column grid for all of the 		same class names. Use media queries for the multi-column 		grids and break the one-column grid at 500px.
+- [ ] Sketch out how to retrofit Surf and Paddle into a one 		   column layout
