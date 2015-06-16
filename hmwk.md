@@ -48,31 +48,31 @@
 ### Thursday June 11th
 - [ ] Create Style tiles for the 10 websites you drew the other day.
 - [ ] **Reading**
-	1. [How to switch git remote repos connected to your repo](https://help.github.com/articles/changing-a-remote-s-url/)
-	2. [Photoshop Etiqutte](http://photoshopetiquette.com/)
-	3. [Photoshop Layer shortcuts](http://www.photoshopessentials.com/basics/layer-shortcuts/)
-	4. [Older pre-work with more photoshop tips](http://tiy-austin-wd-jan2015.github.io/PreWorkPlus/)
-	5. [Style Tiles](http://www.styletil.es/)
-	6. [quotes and accents(punctuation grammar for design)](http://quotesandaccents.com/)
-	7. [Dawns style guide](http://www.dawndelatte.com/fqf_styleguide)
-	8. [Jesse's style guide](http://jessecrow.com/nps_styleguide)
-	9. [more info on organizing css](https://mattstauffer.co/blog/organizing-css-oocss-smacss-and-bem)
-	10. [Responsive web design](http://www.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
+	1. [ ] [How to switch git remote repos connected to your repo](https://help.github.com/articles/changing-a-remote-s-url/)
+	2. [ ] [Photoshop Etiqutte](http://photoshopetiquette.com/)
+	3. [ ] [Photoshop Layer shortcuts](http://www.photoshopessentials.com/basics/layer-shortcuts/)
+	4. [ ] [Older pre-work with more photoshop tips](http://tiy-austin-wd-jan2015.github.io/PreWorkPlus/)
+	5. [ ] [Style Tiles](http://www.styletil.es/)
+	6. [ ] [quotes and accents(punctuation grammar for design)](http://quotesandaccents.com/)
+	7. [ ] [Dawns style guide](http://www.dawndelatte.com/fqf_styleguide)
+	8. [ ] [Jesse's style guide](http://jessecrow.com/nps_styleguide)
+	9. [ ] [more info on organizing css](https://mattstauffer.co/blog/organizing-css-oocss-smacss-and-bem)
+	10. [ ] [Responsive web design](http://www.smashingmagazine.com/2011/01/12/guidelines-for-responsive-web-design/)
 
 ### Friday June 12th
 
 - [ ] [sketch out RWD surf and paddle ideas](http://tiy-atx-ui-may2015.github.io/assignments/15.html)
 - [ ] [complete a series of RWD codepens](http://tiy-atx-ui-may2015.github.io/assignments/15b.html)
 - [ ] **Reading**
-	1. [The first responsive web design article](http://tiy-atx-ui-may2015.github.io/week3/alistapart.com/article/responsive-web-design)
-	2. [fluid grids](http://alistapart.com/article/fluidgrids)
-	3. [Device Agnostic](http://trentwalton.com/2014/03/10/device-agnostic)
-	4. [where to start](http://trentwalton.com/2013/02/07/where-to-start/)
+	1. [ ] [The first responsive web design article](http://tiy-atx-ui-may2015.github.io/week3/alistapart.com/article/responsive-web-design)
+	2. [ ] [fluid grids](http://alistapart.com/article/fluidgrids)
+	3. [ ] [Device Agnostic](http://trentwalton.com/2014/03/10/device-agnostic)
+	4. [ ] [where to start](http://trentwalton.com/2013/02/07/where-to-start/)
 
 ### Monday June 16th
 - [ ] **Reading**
-	1. [rwd Checklist](http://rwdchecklist.com/)
-	2. [Responsize Strategy](http://bradfrost.com/blog/post/responsive-strategy/)
-	3. [9 gifs that example RWD perfectly](http://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly)
+	1. [ ] [rwd Checklist](http://rwdchecklist.com/)
+	2. [ ] [Responsize Strategy](http://bradfrost.com/blog/post/responsive-strategy/)
+	3. [ ] [9 gifs that example RWD perfectly](http://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly)
 - [ ] Update your Grid Codepen with 1-column grid for all of the 		same class names. Use media queries for the multi-column 		grids and break the one-column grid at 500px.
 - [ ] Sketch out how to retrofit Surf and Paddle into a one 		   column layout
