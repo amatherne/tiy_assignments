@@ -2,7 +2,7 @@
 
 ![Art Of The Menu](img/art_of_menu.jpg)
 
-![Fuzzco](imgfuzzco.jpg)
+![Fuzzco](img/fuzzco.jpg)
 
 ![My Github Page](img/github.jpg)
 
