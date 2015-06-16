@@ -32,8 +32,8 @@
 - [x] fork grid mixin from codepen
 	- [x] use percentages
 	- [ ] try 18 columns
-- [ ] blog about what sounds interesting in the design process
-- [ ] blog about what i think of Sass
+- [x] blog about what sounds interesting in the design process
+- [x] blog about what i think of Sass
 - [ ] **Reading**
 	1. [x] [On Creative Direction](http://danielmall.com/articles/on-creative-direction/)
 	2. [x] [Periodic Table of Web Design Process](http://www.webdesignerdepot.com/2014/09/the-periodic-table-of-web-design/)
@@ -64,8 +64,8 @@
 - [ ] [sketch out RWD surf and paddle ideas](http://tiy-atx-ui-may2015.github.io/assignments/15.html)
 - [ ] [complete a series of RWD codepens](http://tiy-atx-ui-may2015.github.io/assignments/15b.html)
 - [ ] **Reading**
-	1. [ ] [The first responsive web design article](http://alistapart.com/article/responsive-web-design)
-	2. [ ] [fluid grids](http://alistapart.com/article/fluidgrids)
+	1. [x] [The first responsive web design article](http://alistapart.com/article/responsive-web-design)
+	2. [x] [fluid grids](http://alistapart.com/article/fluidgrids)
 	3. [ ] [Device Agnostic](http://trentwalton.com/2014/03/10/device-agnostic)
 	4. [ ] [where to start](http://trentwalton.com/2013/02/07/where-to-start/)
 
