@@ -9,7 +9,7 @@
 ### Monday June 8th
 - [ ] Remake Cool Design Agency with Sass  
 - [x] Remake Surf and Paddle with Sass  
-- [ ] **Reading**  
+- [x] **Reading**  
 	1. [x] [Helpful Hints For Sass](http://iamsteve.me/blog/entry/sass_hints_tips)  
 	2. [x] [Clear your mental cache](http://robots.thoughtbot.com/clear-your-mental-cache)  
 	3. [x] [It's dangerous to go alone!](https://www.youtube.com/watch?v=1i8ylq4j_EY)  
@@ -24,8 +24,8 @@
 - [ ] **Reading**
 	1. [x] [Cleaner Sass](http://thesassway.com/intermediate/leveraging-sass-mixins-for-cleaner-code)
 	2. [x] [Choosing variable names](http://thesassway.com/beginner/variable-naming)
-	3. [ ] [Codepen with Golden Mean on type](http://codepen.io/samkap/pen/azbxaK)
-	4. [ ] [Why Sass?](http://alistapart.com/article/why-sass)
+	3. [x] [Codepen with Golden Mean on type](http://codepen.io/samkap/pen/azbxaK)
+	4. [x] [Why Sass?](http://alistapart.com/article/why-sass)
 
 ### Wednesday June 10th
 - [ ] add to [Master Checklist](http://tiy-atx-ui-may2015.github.io/week3/13.html)
@@ -35,8 +35,8 @@
 - [ ] blog about what sounds interesting in the design process
 - [ ] blog about what i think of Sass
 - [ ] **Reading**
-	1. [ ] [On Creative Direction](http://danielmall.com/articles/on-creative-direction/)
-	2. [ ] [Periodic Table of Web Design Process](http://www.webdesignerdepot.com/2014/09/the-periodic-table-of-web-design/)
+	1. [x] [On Creative Direction](http://danielmall.com/articles/on-creative-direction/)
+	2. [x] [Periodic Table of Web Design Process](http://www.webdesignerdepot.com/2014/09/the-periodic-table-of-web-design/)
 	3. [ ] [Process, Methodolgy, Life Cycle, Oh My!](http://alistapart.com/article/Process)
 	4. [ ] [Website Design Creative Process](http://justcreative.com/2014/06/03/website-design-creative-process-workflow/)
 	5. [ ] [Why every coder should write](https://medium.com/@SchnettHappens/why-every-coder-should-start-writing-fe05e831d1cf)
@@ -64,7 +64,7 @@
 - [ ] [sketch out RWD surf and paddle ideas](http://tiy-atx-ui-may2015.github.io/assignments/15.html)
 - [ ] [complete a series of RWD codepens](http://tiy-atx-ui-may2015.github.io/assignments/15b.html)
 - [ ] **Reading**
-	1. [ ] [The first responsive web design article](http://tiy-atx-ui-may2015.github.io/week3/alistapart.com/article/responsive-web-design)
+	1. [ ] [The first responsive web design article](http://alistapart.com/article/responsive-web-design)
 	2. [ ] [fluid grids](http://alistapart.com/article/fluidgrids)
 	3. [ ] [Device Agnostic](http://trentwalton.com/2014/03/10/device-agnostic)
 	4. [ ] [where to start](http://trentwalton.com/2013/02/07/where-to-start/)
