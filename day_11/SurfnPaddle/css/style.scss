@@ -1,10 +1,12 @@
 @import "reset.css";
 
+$emdefault: 0.625em;
+$max:1300px;
 body {
 	box-sizing: border-box;
-	font-size: 1em;
+	font-size: $emdefault;
 	font-family: helvetica;
-	max-width: 1300px;
+	max-width:$max;
 	a {
 		text-decoration: none;
 		color: #083657; 
@@ -15,6 +17,377 @@ body {
 	box-sizing: border-box;
 	}
 
+@media screen and (max-width:500px) {
+	.main img {
+		width:60%;
+	}
+	.left {
+		margin-left: 2%;
+		li {
+		margin-top:3px;
+		}
+	}
+	.right {
+		margin-right: 2%;
+	}
+	h1 {
+		font-size: 3.7em;
+		padding-top:85px;
+	}
+	p {
+		font-size: 1em;
+	}
+	.container {
+		margin-top:-32em;
+	}
+	.article {
+		width: 90%;
+		margin: 0 auto;
+		img {
+			width: 20%;
+		}
+		h2 {
+			font-size: 1.5em;
+		}
+	}
+	.sidebar {
+		width: 90%;
+		margin: 0 auto;
+		h4 {
+			font-size: 1em;
+		}
+		p {
+			font-size: 0.8em;
+		}
+	}
+	.side-links {
+		float:left;
+		width: 50%
+		img {
+			width: 40%;
+		}
+	}
+	.paddle {
+		width: 50%;
+		float:left;
+		img {
+			width: 100%;
+			padding-left:2em;
+		}
+		a {
+			float:right;
+		}
+	}
+	.popular {
+		h2 {
+			font-size:2.1em;
+		}
+	}
+}
+// end of query
+@media screen and (min-width:500px) {
+	.main img {
+		width: 70%;
+	}
+	.left {
+		margin-left: 3%;
+	}
+	.right {
+		margin-right: 3%;
+	}
+	h1 {
+		font-size: 4.5em;
+		padding-top: 100px;
+	}
+	p {
+		font-size: 1.2em;
+	}
+	.container {
+		margin-top:-24em;
+	}
+	.article {
+		width: 90%;
+		margin: 0 auto;
+		h2 {
+			font-size: 2em;
+		}
+	}
+	.sidebar {
+		width: 90%;
+		margin: 0 auto;
+		h4 {
+			font-size: 1.1em;
+		}
+		p {
+			font-size: 0.9em;
+		}
+	}
+	.side-links {
+		float:left;
+		width: 50%;
+		margin-top:2.5em;
+		img {
+			width: 30%;
+		}
+	}
+	.paddle {
+		width: 46%;
+		margin-right: 4%;
+		float:left;
+		img {
+			width: 100%;
+		}
+		a {
+			float:right;
+		}
+	}
+	.popular {
+		h2 {
+			font-size:2.5em;
+		}
+	}
+}
+// end of query
+@media screen and (min-width:650px) {
+	.main img {
+		width:85%;
+	}
+	.left {
+		margin-left: 5%;
+	}
+	.right {
+		margin-right: 6%;
+	}
+	h1 {
+		font-size: 5em;
+		padding-top: 125px; 
+	}
+	p {
+		font-size: 1.3em;
+	}
+	.container {
+		margin-top:-20em;
+	}
+	.article {
+		width: 90%;
+		margin: 0 auto;
+		p {
+			font-size: 1.1em;
+		}
+		h2 {
+			font-size: 2.5em;
+		}
+	}
+	.sidebar {
+		width: 90%;
+		margin: 0 auto;
+		h4 {
+			font-size: 1.2em;
+		}
+		p {
+			font-size: 1em;
+		}
+	}
+	.side-links {
+		float:left;
+		width: 40%;
+		margin-top: 7.5em;
+	}
+	.paddle {
+		width: 48%;
+		margin-right: 2%;
+		float:left;
+		img {
+			width: 100%;
+		}
+		a {
+			float:right;
+		}
+	}
+	.popular {
+		h2 {
+			font-size:2.8em;
+		}
+	}
+}
+// end of query
+@media screen and (min-width:750px) {
+	.main img {
+		width: 100%;
+	}
+	.left {
+		margin-left: 6%;
+	}
+	.right {
+		margin-right: 8%;
+	}
+	h1 {
+		font-size: 7em;
+		padding-top:150px;
+	}
+	p {
+		font-size: 1.42em;
+	}
+	.container {
+		margin-top:-16em;
+	}
+	.article {
+		float:left;
+		width: 50%;
+		margin: 0 6%;
+		p {
+			font-size: 1.15em;
+		}
+		h2 {
+			font-size: 3em;
+		}
+	}
+	.sidebar {
+		float:left;
+		width: 30%;
+		margin:0 6% 0 2%;
+	}
+	.side-links {
+		clear:both;
+		margin-top: 1em;
+		width: 100%;
+		img {
+			width: 30%;
+		}
+	}
+	.paddle {
+		clear:both;
+		width: 100%;
+		margin-top: 3em;
+		img {
+			width: 100%;
+		}
+		a {
+			float:right;
+		}
+	}
+	.popular {
+		h2 {
+			font-size:3em;
+		}
+	}
+}
+// end of query
+@media screen and (min-width:900px) {
+	.main img {
+		width: 100%;
+	}
+	.left {
+		margin-left: 6%;
+	}
+	.right {
+		margin-right: 8%;
+	}
+	h1 {
+		font-size: 7em;
+		padding-top:2em;
+	}
+	p {
+		font-size: 1.42em;
+	}
+	.container {
+		margin-top:-6em;
+	}
+	.article {
+		float:left;
+		width: 50%;
+		margin: 0 6%;
+		h2 {
+			font-size: 3em;
+		}
+	}
+	.sidebar {
+		float:left;
+		width: 25.5%;
+		margin:0 4% 0 4%;
+	}
+	.side-links {
+		clear:both;
+		margin-top: 1em;
+		width: 100%;
+		img {
+			width: 30%;
+		}
+	}
+	.paddle {
+		clear:both;
+		width: 100%;
+		margin-top: 3em;
+		img {
+			width: 100%;
+		}
+		a {
+			text-align:right;
+		}
+	}
+	.popular {
+		h2 {
+			font-size:3.2em;
+		}
+	}
+}
+// end of query
+@media screen and (min-width:1100px) {
+	.left {
+		margin-left: 7%;
+	}
+	.right {
+		margin-right: 10%;
+	}
+	h1 {
+		font-size: 9.1em;
+		padding-top: 2.1em;
+	}
+	p {
+		font-size: 1.6em;
+	}
+	.container {
+		margin-top:-0.2em;
+	}
+	.article {
+		float:left;
+		width: 50%;
+		margin: 0 6%;
+		h2 {
+			font-size: 3em;
+		}
+	}
+	.sidebar {
+		float:left;
+		width: 25.5%;
+		margin:0 4% 0 4%;
+	}
+	.side-links {
+		clear:both;
+		margin-top: 1em;
+		width: 100%;
+		img {
+			width: 25%;
+		}
+	}
+	.paddle {
+		clear:both;
+		width: 100%;
+		margin-top: 3em;
+		img {
+			width: 100%;
+		}
+		a {
+			text-align:right;
+		}
+	}
+	.popular {
+		h2 {
+			font-size:3.2em;
+		}
+	}
+}
+// end of query
 
 // // ==========================
 // 	Main css
@@ -23,13 +396,12 @@ header {
 	nav {
 		display:inline;
 		.left {
-			margin-left: 7%;
 			ul {
 				float: left;
+				margin-top:1px;
 			}
 		}
 		.right {
-			margin-right: 10%;
 			ul {
 				float: right;
 				padding-top: 10px;
@@ -53,38 +425,33 @@ header {
 	background-size: contain;
 	text-align:center;
 	h1 {
-		padding-top: 190px;
-		font-size: 5.688em;
 		color: white;
 		text-transform: uppercase;
 		font-weight: bold;
 	}
 	p {
-		font-size: 1em;
 		color: white;
 	}
 }
 
 .container{
-	margin-top: 3em;
-	margin-left: 10%;
-	margin-right: 14%;
-	max-width:1300px;
+	// margin-left: 10%;
+	// margin-right: 14%;
 		.article {
 			color:  #5e686f;
-			float: left;
-			max-width: 50%;
-			margin-right: 6%;
+			// float: left;
+			// max-width: 50%;
+			// margin-right: 6%;
 			p {
 				line-height: 1.7;
-				font-size: 1em;
+				// font-size: 1em;
 				img {
 					max-width: 23%;	
 					padding-right: 87px;
 				}
 			} 
 			h2 {
-				font-size: 2.188em;
+				// font-size: 3.5em;
 				padding-bottom: 15px;
 				color: black;
 				}
@@ -92,7 +459,7 @@ header {
 				color: #a3b3bf;
 				text-decoration: underline;
 				}
-			.quote {
+			h3 {
 				font-style: italic;
 				color: #106db3;
 				border-left: 2px solid #5e686f;
@@ -137,8 +504,8 @@ header {
 			}
 		}
 		.sidebar {
-			max-width: 25.5%;
-		 	float: right;
+			// max-width: 25.5%;
+		 	// float: right;
 		 	text-align: center;
 			.icon {
 				img {
@@ -153,13 +520,13 @@ header {
 				font-size: 0.750em;
 				}
 			.paddle {
-				margin-top: 40px;
+				// margin-top: 40px;
 				p {
-					float: right;
+					// float: right;
 					padding-top: 10px;
 					color: #a3b3bf;
 					text-decoration: underline;
-					margin-right: -35px;
+					// margin-right: -35px;
 					}
 			}
 			.finalside {
@@ -169,25 +536,26 @@ header {
 				line-height: 1.5;	
 				h4 {
 					color: #106db3;
-					font-size: 1em;
+					// font-size: 1em;
 					font-weight: bold;
 					text-transform: uppercase;
 					}
 				p{
 					color: #a3b3bf;
-					font-size: 0.813em;}}} 
+					// font-size: 0.813em;
+					}}} 
 			}
 .popular {
 	.box {
 		clear: both;
-		font-size: 3.125em;
+		// font-size: 3.125em;
 		color:black;
 		text-align: center;
 		border-top: 2px solid #a3b3bf;
 		padding: 50px;
 	}
 	.posts {
-		max-width: 1300px;
+		max-width: $max;
 		margin-bottom: -2px;
 		.thumbs {
 			display: inline-block;
@@ -200,7 +568,7 @@ header {
 					line-height: 1.3;
 				}
 				a.surf {
-					width: 325px;
+					width: 100%;
 					height: 330px;
 					display: block;
 					background-image: url('../img/surfer.jpg') ;
@@ -208,7 +576,7 @@ header {
 					font-size: 1.8em;
 					}
 				a.brew {
-					width: 325px;
+					width: 100%;
 					height: 330px;
 					display: block;
 					background-image: url('../img/beer.jpg') ;
@@ -217,7 +585,7 @@ header {
 					color:white;
 					}
 				a.zack {
-					width: 325px;
+					width: 100%;
 					height: 330px;
 					display: block;
 					background-image: url('../img/zack.jpg') ;
@@ -226,7 +594,7 @@ header {
 				
 					}
 				a.shot {
-					width: 325px;
+					width: 100%;
 					height: 330px;
 					display: block;
 					background-image: url('../img/booze.jpg') ;

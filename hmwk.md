@@ -76,3 +76,20 @@
 	3. [ ] [9 gifs that example RWD perfectly](http://www.fastcodesign.com/3038367/9-gifs-that-explain-responsive-design-brilliantly)
 - [ ] Update your Grid Codepen with 1-column grid for all of the 		same class names. Use media queries for the multi-column 		grids and break the one-column grid at 500px.
 - [ ] Sketch out how to retrofit Surf and Paddle into a one 		   column layout
+
+###Tuesday June 17th###
+- [ ] Codepens
+	- [ ] [Chris' Codepen](http://codepen.io/ChrisDJordan/pen/QbMmzX)
+	- [ ] [Sam's pen on font size on body](http://codepen.io/samkap/pen/dozmxd)
+	- [ ] [Elements labeling is css](http://codepen.io/samkap/pen/dozmJR)
+	- [ ] [Typical body tag stuff](http://codepen.io/samkap/pen/gpxzLE)
+- [ ] [Jason Weaver's blog onr routine](http://jasonweaver.name/blog/working-normal)
+- [ ] [Ems as a unit](https://en.wikipedia.org/wiki/Em_(typography))
+_ [ ] **Reading**
+	- [ ] [Responsive Process](http://responsiveprocess.com/)
+	- [ ] [Usability / UX Basics](http://www.usability.gov/what-and-why/user-experience.html)
+	- [ ] [Six questions every website to awnser](http://www.creativebloq.com/netmag/6-questions-every-homepage-should-answer-101413151)
+	- [ ] [5 Lessons from the RWD classroom](http://www.creativebloq.com/netmag/5-lessons-responsive-web-design-classroom-7135527)
+	- [ ] [How to keep your creative tap flowing](http://www.creativebloq.com/web-design/geek-mental-help-week-5-ways-keep-your-creative-tap-turned-101412827)
+	- [ ] [Animal, vegetable, mineral](http://www.sensible.com/downloads/DMMT-Revisited-sample-chapter.pdf)
+- [ ] [Make Surf & Paddle responsive](http://tiy-atx-ui-may2015.github.io/17b.html)
