@@ -18,7 +18,7 @@ In the western world we hear Major keys as uplifting and Minor keys as morose; i
 
 They give passive listeners a "safe" place to start from. 
 
-Once you've done that an entire new world will open to you. The expression and emotion that music creates is built on all those things. Knowing that they exist is important because having a base to start from is important. Think of it kind of like playing tag as a child: you start at "safe", run around a bit, and then try to get back to "safe" without becoming "it". Music should be the same way. 
+Once you understand and respect the norm an entire new world will open to you. The expression and emotions that music creates are built on all those things. Knowing that they exist is important because having a base to start from is important. Think of it like playing tag as a child: you start at "safe", run around a bit, and then try to get back to "safe" without becoming "it". Music should be the same way. 
 
 You need to start from some sort of base point; once you have established that point you're free to roam. But if you stay out there forever, well that's just no fun. You've become that kid who would run home or fake a knee scrape when someone caught him.
 
@@ -26,5 +26,9 @@ You need to start from some sort of base point; once you have established that p
 
 He's not playing the game. And he's a jerk. And he doesn't understand that in order to have fun he has to make it back to "safe". And sometimes he has to be "it". And one more "and" for posterity. 
 
-You can't ignore the rules, but if you need to do a barrel role or piroute to avoid capture, go for it. Do anything you can imagine. But you eventually have to come back to "safe", otherwise no one is going to want to play with you anymore. 
+Design, like music, is also social. It has standards and norms and the expected. There is the same amount of freedom of expression and emtotion you can create for your audience. But you can't ignore all the rules all the time; if you need to do a barrel role or piroute to avoid capture, go for it. Do anything you can imagine. But you eventually have to come back to "safe", otherwise no one is going to want to play with you anymore. 
 
+
+Inspired by someone who has actual degrees and stuff, go read [*This is Your Brain on Music* by Dr. Daniel J. Levitan](http://daniellevitin.com/publicpage/books/this-is-your-brain-on-music/).
+
+Who was almost certainly nick-named Dan "The Man" Levitan after *Good Morning, Vietnam*.
