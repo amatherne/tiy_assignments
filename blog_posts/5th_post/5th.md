@@ -22,8 +22,7 @@ Once you've done that an entire new world will open to you. The expression and e
 
 You need to start from some sort of base point; once you have established that point you're free to roam. But if you stay out there forever, well that's just no fun. You've become that kid who would run home or fake a knee scrape when someone caught him.
 
-	![This @%^#ing kid](http://goo.gl/4sjPka "Dont be this kid")<BR>
-	You _haaate_ this kid.
+![This @%^#ing kid](http://goo.gl/4sjPka "Dont be this kid")<BR>You _haaate_ this kid.
 
 He's not playing the game. And he's a jerk. And he doesn't understand that in order to have fun he has to make it back to "safe". And sometimes he has to be "it". And one more "and" for posterity. 
 
