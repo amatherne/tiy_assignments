@@ -1,10 +1,14 @@
 #"Safe"#
 
+You're going to have to bear with me; there is a point to all this. 
+
+###Tag! You're "It"!###
+
 I've got a decently creative mind and, on occasion, an intellegent one. My roadblocks come from not knowing the dialogue and tools needed to create my works. I've spent almost all of the last 20 years practicing, writing, and performing music. I'm accustomed to the creative process there. I've learned a vast array of the expected and rather common musical ideas (Rhythms, keys, chords, techniques, styles, genres, subgenres, effects, recording styles, instrumentation, tunings, tempos, layering, sampling, and that ridicuous tool of a tool: Auto-tune. To name a few.)
 
-My point here, is that I've found and taken the time to understand these tools. To understand these concepts, theories, and rules. And I've done it for one purpose: *To learn how to bend and break them.* What I really enjoy in any kind of art is the ability of its creator to blend the expected with the abnormal. Especially if the abnormal is difficult to spot at first. 
+My point here, is that I've found and taken the time to understand these tools. To understand these concepts, theories, and rules. And I've done it for one purpose: **To learn how to bend and break them.** What I really enjoy in any kind of art is the ability of its creator to blend the expected with the abnormal. Especially if the abnormal is difficult to spot at first. 
 
-##Subtlety.##
+###Subtlety.###
 
 (Feel free here to replace "music" with whatever your preferred form of art may be, along with that art's particular terminology.)
 
@@ -14,7 +18,10 @@ Once you've done that an entire new world will open to you. The expression and e
 
 You need to start from some sort of base point; once you have established that point you're free to roam. But if you stay out there forever, well that's just no fun. You've become that kid who would run home or fake a knee scrape when someone caught him.
 
-![This @%^#ing kid](http://goo.gl/4sjPka "Dont be this kid")
+![This @%^#ing kid](http://goo.gl/4sjPka "Dont be this kid")<BR>
 You _haaate_ this kid.
 
-He's not playing the game. And he's a jerk. And he doesn't understand that in order to have fun he has to make it back to "safe". And sometimes he has to be "it". You can't ignore the rules, but if you need to do a barrel role or piroute to avoid capture, go for it. Do anything you can imagine. But you eventually have to come back to "safe".
+He's not playing the game. And he's a jerk. And he doesn't understand that in order to have fun he has to make it back to "safe". And sometimes he has to be "it". And one more "and" for posterity. 
+
+You can't ignore the rules, but if you need to do a barrel role or piroute to avoid capture, go for it. Do anything you can imagine. But you eventually have to come back to "safe", otherwise no one is going to want to play with you anymore. 
+
