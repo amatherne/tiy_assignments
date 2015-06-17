@@ -30,15 +30,15 @@ body {
 	.right {
 		margin-right: 2%;
 	}
-	h1 {
-		font-size: 3.7em;
-		padding-top:85px;
-	}
-	p {
-		font-size: 1em;
-	}
-	.container {
-		margin-top:-32em;
+	.jumbotron {
+		h1 {
+			font-size: 3.7em;
+			padding-top:2em;
+		}
+		p {
+			font-size: 1em;
+			padding-bottom:4em;
+		}
 	}
 	.article {
 		width: 90%;
@@ -83,9 +83,37 @@ body {
 			font-size:2.1em;
 		}
 	}
+	.posts {
+		div {
+			position: relative;
+			float: left;
+			width: 50%;
+			height: 225px;
+			background-color:gray;
+			background-size:cover;
+			background-repeat: no-repeat;
+			p {
+				position: relative;
+				top:11em;
+				left:0.5em;
+				font-size: 1.8em;
+				color:#003366;
+			}
+		}
+		.zack {
+			p {
+				top:10em;
+			}
+		}
+		.brew {
+			p {
+				color:white;
+			}
+		}
+	}
 }
 // end of query
-@media screen and (min-width:500px) {
+@media screen and (min-width:501px) {
 	.main img {
 		width: 70%;
 	}
@@ -95,15 +123,15 @@ body {
 	.right {
 		margin-right: 3%;
 	}
-	h1 {
-		font-size: 4.5em;
-		padding-top: 100px;
-	}
-	p {
-		font-size: 1.2em;
-	}
-	.container {
-		margin-top:-24em;
+	.jumbotron {
+		h1 {
+			font-size: 4.5em;
+			padding-top: 2.3em;
+		}
+		p {
+			font-size: 1.2em;
+			padding-bottom:9em;
+		}
 	}
 	.article {
 		width: 90%;
@@ -146,6 +174,34 @@ body {
 			font-size:2.5em;
 		}
 	}
+	.posts {
+		div {
+			position: relative;
+			float: left;
+			width: 50%;
+			height: 225px;
+			background-color:gray;
+			background-size:cover;
+			background-repeat: no-repeat;
+			p {
+				position: relative;
+				top:11em;
+				left:0.5em;
+				font-size: 1.8em;
+				color:#003366;
+			}
+		}
+		.zack {
+			p {
+				top:10em;
+			}
+		}
+		.brew {
+			p {
+				color:white;
+			}
+		}
+	}
 }
 // end of query
 @media screen and (min-width:650px) {
@@ -158,15 +214,15 @@ body {
 	.right {
 		margin-right: 6%;
 	}
-	h1 {
-		font-size: 5em;
-		padding-top: 125px; 
-	}
-	p {
-		font-size: 1.3em;
-	}
-	.container {
-		margin-top:-20em;
+	.jumbotron {
+		h1 {
+			font-size: 5em;
+			padding-top: 3em; 
+		}
+		p {
+			font-size: 1.3em;
+			padding-bottom:10em;
+		}
 	}
 	.article {
 		width: 90%;
@@ -221,15 +277,15 @@ body {
 	.right {
 		margin-right: 8%;
 	}
-	h1 {
-		font-size: 7em;
-		padding-top:150px;
-	}
-	p {
-		font-size: 1.42em;
-	}
-	.container {
-		margin-top:-16em;
+	.jumbotron {
+		h1 {
+			font-size: 6.5em;
+			padding-top:2em;
+		}
+		p {
+			font-size: 1.42em;
+			padding-bottom:10em;
+		}
 	}
 	.article {
 		float:left;
@@ -271,6 +327,17 @@ body {
 			font-size:3em;
 		}
 	}
+	.posts {
+		div {
+			position: relative;
+			float: left;
+			width: 25%;
+			height: 220px;
+			background-color:gray;
+			background-size:cover;
+			background-repeat: no-repeat;
+		}
+	}
 }
 // end of query
 @media screen and (min-width:900px) {
@@ -283,15 +350,15 @@ body {
 	.right {
 		margin-right: 8%;
 	}
-	h1 {
-		font-size: 7em;
-		padding-top:2em;
-	}
-	p {
-		font-size: 1.42em;
-	}
-	.container {
-		margin-top:-6em;
+	.jumbotron {
+		h1 {
+			font-size: 7em;
+			padding-top:2em;
+		}
+		p {
+			font-size: 1.42em;
+			padding-bottom:10em;
+		}
 	}
 	.article {
 		float:left;
@@ -330,6 +397,34 @@ body {
 			font-size:3.2em;
 		}
 	}
+	.posts {
+		div {
+			position: relative;
+			float: left;
+			width: 25%;
+			height: 260px;
+			background-color:gray;
+			background-size:cover;
+			background-repeat: no-repeat;
+			p {
+				position: relative;
+				top:13em;
+				left:0.5em;
+				font-size: 1.8em;
+				color:#003366;
+			}
+		}
+		.zack {
+			p {
+				top:12em;
+			}
+		}
+		.brew {
+			p {
+				color:white;
+			}
+		}
+	}
 }
 // end of query
 @media screen and (min-width:1100px) {
@@ -339,15 +434,15 @@ body {
 	.right {
 		margin-right: 10%;
 	}
-	h1 {
-		font-size: 9.1em;
-		padding-top: 2.1em;
-	}
-	p {
-		font-size: 1.6em;
-	}
-	.container {
-		margin-top:-0.2em;
+	.jumbotron {
+		h1 {
+			font-size: 9.1em;
+			padding-top: 2em;
+		}
+		p {
+			font-size: 1.6em;
+			padding-bottom:10em;
+		}
 	}
 	.article {
 		float:left;
@@ -386,12 +481,41 @@ body {
 			font-size:3.2em;
 		}
 	}
+	.posts {
+		div {
+			position: relative;
+			float: left;
+			width: 25%;
+			height: 330px;
+			background-color:gray;
+			background-size:cover;
+			background-repeat: no-repeat;
+			p {
+				position: relative;
+				top:17em;
+				left:0.5em;
+				font-size: 1.8em;
+				color:#003366;
+			}
+		}
+		.zack {
+			p {
+				top:16em;
+			}
+		}
+		.brew {
+			p {
+				color:white;
+			}
+		}
+	}
 }
 // end of query
 
 // // ==========================
 // 	Main css
 // // ==========================
+
 header {
 	nav {
 		display:inline;
@@ -416,13 +540,12 @@ header {
 		}
 	}
 }
-
 .jumbotron {
 	width: 100%;
-	height:528px;
+	// height:300px;
 	background-image: url('../img/surf.jpg');
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	text-align:center;
 	h1 {
 		color: white;
@@ -433,7 +556,6 @@ header {
 		color: white;
 	}
 }
-
 .container{
 	// margin-left: 10%;
 	// margin-right: 14%;
@@ -554,63 +676,69 @@ header {
 		border-top: 2px solid #a3b3bf;
 		padding: 50px;
 	}
-	.posts {
-		max-width: $max;
-		margin-bottom: -2px;
-		.thumbs {
-			display: inline-block;
-			color: #003366;
-			
-			width: 325px;
-				a {
-					position: relative;
-					text-transform: uppercase;
-					line-height: 1.3;
-				}
-				a.surf {
-					width: 100%;
-					height: 330px;
-					display: block;
-					background-image: url('../img/surfer.jpg') ;
-					background-repeat: no-repeat;
-					font-size: 1.8em;
-					}
-				a.brew {
-					width: 100%;
-					height: 330px;
-					display: block;
-					background-image: url('../img/beer.jpg') ;
-					background-repeat: no-repeat;
-					font-size: 1.8em;
-					color:white;
-					}
-				a.zack {
-					width: 100%;
-					height: 330px;
-					display: block;
-					background-image: url('../img/zack.jpg') ;
-					background-repeat: no-repeat;
-					font-size: 1.8em;
-				
-					}
-				a.shot {
-					width: 100%;
-					height: 330px;
-					display: block;
-					background-image: url('../img/booze.jpg') ;
-					background-repeat: no-repeat;
-					font-size: 1.8em;
-					}
-				a span {
-					position: absolute;
-					bottom: 5px;
-					left:5px;
-				}
-				}
-				
-			
-	}
 }
+.surf {
+	background: url('../img/surfer.jpg')
+}
+.brew {
+	background: url('../img/beer.jpg')
+}
+.zack {
+	background: url('../img/zack.jpg')
+}
+.shot {
+	background: url('../img/booze.jpg')
+}
+// .thumbs {
+// 	display: inline-block;
+// 	color: #003366;
+	
+// 	// width: 325px;
+// 		a {
+// 			position: relative;
+// 			text-transform: uppercase;
+// 			line-height: 1.3;
+// 		}
+// 		a.surf {
+// 			width: auto;
+// 			height: 330px;
+// 			display: block;
+// 			background-image: url('../img/surfer.jpg') ;
+// 			background-repeat: no-repeat;
+// 			font-size: 1.8em;
+// 			}
+// 		a.brew {
+// 			width: 100%;
+// 			height: 330px;
+// 			display: block;
+// 			background-image: url('../img/beer.jpg') ;
+// 			background-repeat: no-repeat;
+// 			font-size: 1.8em;
+// 			color:white;
+// 			}
+// 		a.zack {
+// 			width: 100%;
+// 			height: 330px;
+// 			display: block;
+// 			background-image: url('../img/zack.jpg') ;
+// 			background-repeat: no-repeat;
+// 			font-size: 1.8em;
+		
+// 			}
+// 		a.shot {
+// 			width: 100%;
+// 			height: 330px;
+// 			display: block;
+// 			background-image: url('../img/booze.jpg') ;
+// 			background-repeat: no-repeat;
+// 			font-size: 1.8em;
+// 			}
+// 		a span {
+// 			position: absolute;
+// 			bottom: 5px;
+// 			left:5px;
+// 		}
+// 		}
 footer {
 	clear: both;
 	max-width: 1300px;
