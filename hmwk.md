@@ -37,11 +37,11 @@
 - [ ] **Reading**
 	1. [x] [On Creative Direction](http://danielmall.com/articles/on-creative-direction/)
 	2. [x] [Periodic Table of Web Design Process](http://www.webdesignerdepot.com/2014/09/the-periodic-table-of-web-design/)
-	3. [ ] [Process, Methodolgy, Life Cycle, Oh My!](http://alistapart.com/article/Process)
-	4. [ ] [Website Design Creative Process](http://justcreative.com/2014/06/03/website-design-creative-process-workflow/)
-	5. [ ] [Why every coder should write](https://medium.com/@SchnettHappens/why-every-coder-should-start-writing-fe05e831d1cf)
-	6. [ ] [Read about Style Tiles](http://styletil.es/)
-	7. [ ] [Elemental Collages](http://danielmall.com/articles/rif-element-collages/)
+	3. [x] [Process, Methodolgy, Life Cycle, Oh My!](http://alistapart.com/article/Process)
+	4. [x] [Website Design Creative Process](http://justcreative.com/2014/06/03/website-design-creative-process-workflow/)
+	5. [x] [Why every coder should write](https://medium.com/@SchnettHappens/why-every-coder-should-start-writing-fe05e831d1cf)
+	6. [x] [Read about Style Tiles](http://styletil.es/)
+	7. [x] [Elemental Collages](http://danielmall.com/articles/rif-element-collages/)
 	8. [ ] [Sketching can help your web design](http://webdesign.tutsplus.com/articles/sketching-how-a-simple-pen-and-paper-can-transform-your-web-designs--webdesign-3073)
 	9. [ ] [How to plan your website with sketches](http://tympanus.net/codrops/2013/01/29/planning-your-web-design-with-sketches/)
 
