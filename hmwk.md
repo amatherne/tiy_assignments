@@ -42,8 +42,8 @@
 	5. [x] [Why every coder should write](https://medium.com/@SchnettHappens/why-every-coder-should-start-writing-fe05e831d1cf)
 	6. [x] [Read about Style Tiles](http://styletil.es/)
 	7. [x] [Elemental Collages](http://danielmall.com/articles/rif-element-collages/)
-	8. [ ] [Sketching can help your web design](http://webdesign.tutsplus.com/articles/sketching-how-a-simple-pen-and-paper-can-transform-your-web-designs--webdesign-3073)
-	9. [ ] [How to plan your website with sketches](http://tympanus.net/codrops/2013/01/29/planning-your-web-design-with-sketches/)
+	8. [x] [Sketching can help your web design](http://webdesign.tutsplus.com/articles/sketching-how-a-simple-pen-and-paper-can-transform-your-web-designs--webdesign-3073)
+	9. [x] [How to plan your website with sketches](http://tympanus.net/codrops/2013/01/29/planning-your-web-design-with-sketches/)
 
 ### Thursday June 11th
 - [ ] Create Style tiles for the 10 websites you drew the other day.
