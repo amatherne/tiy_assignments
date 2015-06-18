@@ -556,23 +556,16 @@ header {
 	}
 }
 .container{
-	// margin-left: 10%;
-	// margin-right: 14%;
 		.article {
 			color:  #5e686f;
-			// float: left;
-			// max-width: 50%;
-			// margin-right: 6%;
 			p {
 				line-height: 1.7;
-				// font-size: 1em;
 				img {
 					max-width: 23%;	
 					padding-right: 87px;
 				}
 			} 
 			h2 {
-				// font-size: 3.5em;
 				padding-bottom: 15px;
 				color: black;
 				}
@@ -601,32 +594,24 @@ header {
 					display: inline-block;
 					max-height: 30px;
 					text-decoration: none;
-
 				}
 				.share {
 					background-color: #106db3;
 				}
-
 				img {
 					background-color: #5f686f;
 				}
 				a {
-					
 					display: inline-block;
-
 				}
 				em{
 					color: white;
 					padding-left: 6px;
 					padding-right:4px;
-
 				}
-
 			}
 		}
 		.sidebar {
-			// max-width: 25.5%;
-		 	// float: right;
 		 	text-align: center;
 			.icon {
 				img {
@@ -641,13 +626,10 @@ header {
 				font-size: 0.750em;
 				}
 			.paddle {
-				// margin-top: 40px;
 				p {
-					// float: right;
 					padding-top: 10px;
 					color: #a3b3bf;
 					text-decoration: underline;
-					// margin-right: -35px;
 					}
 			}
 			.finalside {
@@ -657,13 +639,11 @@ header {
 				line-height: 1.5;	
 				h4 {
 					color: #106db3;
-					// font-size: 1em;
 					font-weight: bold;
 					text-transform: uppercase;
 					}
 				p{
 					color: #a3b3bf;
-					// font-size: 0.813em;
 					}}} 
 			}
 .popular {
