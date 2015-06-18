@@ -1,0 +1,518 @@
+@import url(reset.css);
+body {
+  box-sizing: border-box;
+  font-size: 0.625em;
+  font-family: helvetica;
+  max-width: 1300px; }
+  body a {
+    text-decoration: none;
+    color: #083657; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+@media screen and (max-width: 500px) {
+  .main img {
+    width: 60%; }
+
+  .left {
+    margin-left: 2%; }
+    .left li {
+      margin-top: 3px; }
+
+  .right {
+    margin-right: 2%; }
+
+  .jumbotron h1 {
+    font-size: 3.7em;
+    padding-top: 2em; }
+  .jumbotron p {
+    font-size: 1em;
+    padding-bottom: 4em; }
+
+  .article {
+    width: 90%;
+    margin: 0 auto; }
+    .article img {
+      width: 20%; }
+    .article h2 {
+      font-size: 1.5em; }
+
+  .sidebar {
+    width: 90%;
+    margin: 0 auto; }
+    .sidebar h4 {
+      font-size: 1em; }
+    .sidebar p {
+      font-size: 0.8em; }
+
+  .side-links {
+    float: left;
+    width: 50% img;
+      width-width: 40%; }
+
+  .paddle {
+    width: 50%;
+    float: left; }
+    .paddle img {
+      width: 100%;
+      padding-left: 2em; }
+    .paddle a {
+      float: right; }
+
+  .popular h2 {
+    font-size: 2.1em; }
+
+  .posts div {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 225px;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .posts div p {
+      position: relative;
+      top: 11em;
+      left: 0.5em;
+      font-size: 1.8em;
+      color: #003366; }
+  .posts .zack p {
+    top: 10em; }
+  .posts .brew p {
+    color: white; } }
+@media screen and (min-width: 501px) {
+  .main img {
+    width: 70%; }
+
+  .left {
+    margin-left: 3%; }
+
+  .right {
+    margin-right: 3%; }
+
+  .jumbotron h1 {
+    font-size: 4.5em;
+    padding-top: 2.3em; }
+  .jumbotron p {
+    font-size: 1.2em;
+    padding-bottom: 9em; }
+
+  .article {
+    width: 90%;
+    margin: 0 auto; }
+    .article h2 {
+      font-size: 2em; }
+
+  .sidebar {
+    width: 90%;
+    margin: 0 auto; }
+    .sidebar h4 {
+      font-size: 1.1em; }
+    .sidebar p {
+      font-size: 0.9em; }
+
+  .side-links {
+    float: left;
+    width: 50%;
+    margin-top: 2.5em; }
+    .side-links img {
+      width: 30%; }
+
+  .paddle {
+    width: 46%;
+    margin-right: 4%;
+    float: left; }
+    .paddle img {
+      width: 100%; }
+    .paddle a {
+      float: right; }
+
+  .popular h2 {
+    font-size: 2.5em; }
+
+  .posts div {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 225px;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .posts div p {
+      position: relative;
+      top: 11em;
+      left: 0.5em;
+      font-size: 1.8em;
+      color: #003366; }
+  .posts .zack p {
+    top: 10em; }
+  .posts .brew p {
+    color: white; } }
+@media screen and (min-width: 650px) {
+  .main img {
+    width: 85%; }
+
+  .left {
+    margin-left: 5%; }
+
+  .right {
+    margin-right: 6%; }
+
+  .jumbotron h1 {
+    font-size: 5em;
+    padding-top: 3em; }
+  .jumbotron p {
+    font-size: 1.3em;
+    padding-bottom: 10em; }
+
+  .article {
+    width: 90%;
+    margin: 0 auto; }
+    .article p {
+      font-size: 1.1em; }
+    .article h2 {
+      font-size: 2.5em; }
+
+  .sidebar {
+    width: 90%;
+    margin: 0 auto; }
+    .sidebar h4 {
+      font-size: 1.2em; }
+    .sidebar p {
+      font-size: 1em; }
+
+  .side-links {
+    float: left;
+    width: 40%;
+    margin-top: 7.5em; }
+
+  .paddle {
+    width: 48%;
+    margin-right: 2%;
+    float: left; }
+    .paddle img {
+      width: 100%; }
+    .paddle a {
+      float: right; }
+
+  .popular h2 {
+    font-size: 2.8em; } }
+@media screen and (min-width: 750px) {
+  .main img {
+    width: 100%; }
+
+  .left {
+    margin-left: 6%; }
+
+  .right {
+    margin-right: 8%; }
+
+  .jumbotron h1 {
+    font-size: 6.5em;
+    padding-top: 2em; }
+  .jumbotron p {
+    font-size: 1.42em;
+    padding-bottom: 10em; }
+
+  .article {
+    float: left;
+    width: 50%;
+    margin: 0 6%; }
+    .article p {
+      font-size: 1.15em; }
+    .article h2 {
+      font-size: 3em; }
+
+  .sidebar {
+    float: left;
+    width: 30%;
+    margin: 0 6% 0 2%; }
+
+  .side-links {
+    clear: both;
+    margin-top: 1em;
+    width: 100%; }
+    .side-links img {
+      width: 30%; }
+
+  .paddle {
+    clear: both;
+    width: 100%;
+    margin-top: 3em; }
+    .paddle img {
+      width: 100%; }
+    .paddle a {
+      float: right; }
+
+  .popular h2 {
+    font-size: 3em; }
+
+  .posts div {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 220px;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat; } }
+@media screen and (min-width: 900px) {
+  .main img {
+    width: 100%; }
+
+  .left {
+    margin-left: 6%; }
+
+  .right {
+    margin-right: 8%; }
+
+  .jumbotron h1 {
+    font-size: 7em;
+    padding-top: 2em; }
+  .jumbotron p {
+    font-size: 1.42em;
+    padding-bottom: 10em; }
+
+  .article {
+    float: left;
+    width: 50%;
+    margin: 0 6%; }
+    .article h2 {
+      font-size: 3em; }
+
+  .sidebar {
+    float: left;
+    width: 25.5%;
+    margin: 0 4% 0 4%; }
+
+  .side-links {
+    clear: both;
+    margin-top: 1em;
+    width: 100%; }
+    .side-links img {
+      width: 30%; }
+
+  .paddle {
+    clear: both;
+    width: 100%;
+    margin-top: 3em; }
+    .paddle img {
+      width: 100%; }
+    .paddle a {
+      text-align: right; }
+
+  .popular h2 {
+    font-size: 3.2em; }
+
+  .posts div {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 260px;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .posts div p {
+      position: relative;
+      top: 13em;
+      left: 0.5em;
+      font-size: 1.8em;
+      color: #003366; }
+  .posts .zack p {
+    top: 12em; }
+  .posts .brew p {
+    color: white; } }
+@media screen and (min-width: 1100px) {
+  .left {
+    margin-left: 7%; }
+
+  .right {
+    margin-right: 10%; }
+
+  .jumbotron h1 {
+    font-size: 9.1em;
+    padding-top: 2em; }
+  .jumbotron p {
+    font-size: 1.6em;
+    padding-bottom: 10em; }
+
+  .article {
+    float: left;
+    width: 50%;
+    margin: 0 6%; }
+    .article h2 {
+      font-size: 3em; }
+
+  .sidebar {
+    float: left;
+    width: 25.5%;
+    margin: 0 4% 0 4%; }
+
+  .side-links {
+    clear: both;
+    margin-top: 1em;
+    width: 100%; }
+    .side-links img {
+      width: 25%; }
+
+  .paddle {
+    clear: both;
+    width: 100%;
+    margin-top: 3em; }
+    .paddle img {
+      width: 100%; }
+    .paddle a {
+      text-align: right; }
+
+  .popular h2 {
+    font-size: 3.2em; }
+
+  .posts div {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 330px;
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .posts div p {
+      position: relative;
+      top: 17em;
+      left: 0.5em;
+      font-size: 1.8em;
+      color: #003366; }
+  .posts .zack p {
+    top: 16em; }
+  .posts .brew p {
+    color: white; } }
+header nav {
+  display: inline; }
+  header nav .left ul {
+    float: left;
+    margin-top: 1px; }
+  header nav .right ul {
+    float: right;
+    padding-top: 10px; }
+  header nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1em;
+    vertical-align: middle; }
+
+.jumbotron {
+  width: 100%;
+  background-image: url("../img/surf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; }
+  .jumbotron h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .jumbotron p {
+    color: white; }
+
+.container .article {
+  color: #5e686f; }
+  .container .article p {
+    line-height: 1.7; }
+    .container .article p img {
+      max-width: 23%;
+      padding-right: 87px; }
+  .container .article h2 {
+    padding-bottom: 15px;
+    color: black; }
+  .container .article em {
+    color: #a3b3bf;
+    text-decoration: underline; }
+  .container .article h3 {
+    font-style: italic;
+    color: #106db3;
+    border-left: 2px solid #5e686f;
+    font-size: 1.563em;
+    margin-left: 8px;
+    padding-left: 20px; }
+  .container .article strong {
+    text-decoration: underline;
+    color: #106db3; }
+  .container .article .buttons {
+    margin-right: 10px;
+    font-size: 0.9em;
+    margin-bottom: 70px; }
+    .container .article .buttons .button {
+      background-color: #a3b3c0;
+      display: inline-block;
+      max-height: 30px;
+      text-decoration: none; }
+    .container .article .buttons .share {
+      background-color: #106db3; }
+    .container .article .buttons img {
+      background-color: #5f686f; }
+    .container .article .buttons a {
+      display: inline-block; }
+    .container .article .buttons em {
+      color: white;
+      padding-left: 6px;
+      padding-right: 4px; }
+.container .sidebar {
+  text-align: center; }
+  .container .sidebar .icon img {
+    padding-bottom: 30px;
+    max-width: 280px; }
+  .container .sidebar .social li {
+    display: inline;
+    color: #a3b3bf;
+    padding: 7px;
+    font-size: 0.750em; }
+  .container .sidebar .paddle p {
+    padding-top: 10px;
+    color: #a3b3bf;
+    text-decoration: underline; }
+  .container .sidebar .finalside {
+    text-align: left;
+    clear: both;
+    padding-top: 35px;
+    line-height: 1.5; }
+    .container .sidebar .finalside h4 {
+      color: #106db3;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .container .sidebar .finalside p {
+      color: #a3b3bf; }
+
+.popular .box {
+  clear: both;
+  color: black;
+  text-align: center;
+  border-top: 2px solid #a3b3bf;
+  padding: 50px; }
+
+.surf {
+  background: url("../img/surfer.jpg"); }
+
+.brew {
+  background: url("../img/beer.jpg"); }
+
+.zack {
+  background: url("../img/zack.jpg"); }
+
+.shot {
+  background: url("../img/booze.jpg"); }
+
+footer {
+  clear: both;
+  max-width: 1300px;
+  background-color: #083452;
+  height: 100px; }
+  footer .bottom {
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #a3b3bf; }
+    footer .bottom .left {
+      padding-top: 20px; }
+    footer .bottom .right {
+      padding-top: 45px; }
+
+/*# sourceMappingURL=style.css.map */
