@@ -32,7 +32,7 @@ body {
 
   .article {
     width: 90%;
-    margin: 0 auto; }
+    margin: 2em auto 0 auto; }
     .article img {
       width: 20%; }
     .article h2 {
@@ -44,7 +44,7 @@ body {
     .sidebar h4 {
       font-size: 1em; }
     .sidebar p {
-      font-size: 0.8em; }
+      font-size: 0.95em; }
 
   .side-links {
     float: left;
@@ -73,14 +73,45 @@ body {
     background-repeat: no-repeat; }
     .posts div p {
       position: relative;
-      top: 11em;
+      top: 7.7em;
       left: 0.5em;
-      font-size: 1.8em;
+      font-size: 2.5em;
       color: #003366; }
   .posts .zack p {
-    top: 10em; }
+    top: 6.7em; }
   .posts .brew p {
-    color: white; } }
+    color: white; }
+
+  footer {
+    clear: both;
+    max-width: 1300px;
+    height: 14em;
+    background-color: #083452; }
+
+  .bottom {
+    width: 80%;
+    padding-top: 1em;
+    margin: 0 auto;
+    color: #a3b3bf;
+    vertical-align: middle; }
+    .bottom img {
+      display: inline-block;
+      margin-top: 2em; }
+    .bottom p {
+      display: inline-block;
+      margin-bottom: 2.2em;
+      padding-left: 1em;
+      vertical-align: middle;
+      font-size: 1.1em; }
+    .bottom li {
+      margin: 0 2.7em; }
+    .bottom a {
+      margin-top: 1em;
+      color: #a3b3bf;
+      float: left;
+      padding: 0 1.5em;
+      font-size: 1.3em;
+      border-right: #a3b3bf solid 1px; } }
 @media screen and (min-width: 501px) {
   .main img {
     width: 70%; }
@@ -100,7 +131,7 @@ body {
 
   .article {
     width: 90%;
-    margin: 0 auto; }
+    margin: 2em auto 0 auto; }
     .article h2 {
       font-size: 2em; }
 
@@ -110,7 +141,7 @@ body {
     .sidebar h4 {
       font-size: 1.1em; }
     .sidebar p {
-      font-size: 0.9em; }
+      font-size: 1em; }
 
   .side-links {
     float: left;
@@ -141,14 +172,49 @@ body {
     background-repeat: no-repeat; }
     .posts div p {
       position: relative;
-      top: 11em;
+      top: 7.7em;
       left: 0.5em;
-      font-size: 1.8em;
+      font-size: 2.5em;
       color: #003366; }
   .posts .zack p {
-    top: 10em; }
+    top: 6.7em; }
   .posts .brew p {
-    color: white; } }
+    color: white; }
+
+  footer {
+    clear: both;
+    max-width: 1300px;
+    height: 14em;
+    background-color: #083452; }
+
+  .bottom {
+    width: 70%;
+    padding-top: 1em;
+    margin: 0 auto;
+    color: #a3b3bf;
+    vertical-align: middle; }
+    .bottom .left {
+      margin: 0 auto; }
+    .bottom .right {
+      margin: 0 auto; }
+    .bottom img {
+      display: inline-block;
+      margin-top: 2em; }
+    .bottom p {
+      display: inline-block;
+      margin-bottom: 2.2em;
+      padding-left: 1em;
+      vertical-align: middle;
+      font-size: 1.1em; }
+    .bottom li {
+      margin: 0 2.7em; }
+    .bottom a {
+      margin-top: 1em;
+      color: #a3b3bf;
+      float: left;
+      padding: 0 1.5em;
+      font-size: 1.3em;
+      border-right: #a3b3bf solid 1px; } }
 @media screen and (min-width: 650px) {
   .main img {
     width: 85%; }
@@ -168,7 +234,7 @@ body {
 
   .article {
     width: 90%;
-    margin: 0 auto; }
+    margin: 2em auto 0 auto; }
     .article p {
       font-size: 1.1em; }
     .article h2 {
@@ -197,7 +263,52 @@ body {
       float: right; }
 
   .popular h2 {
-    font-size: 2.8em; } }
+    font-size: 2.8em; }
+  .popular p {
+    position: relative;
+    top: 7.7em;
+    left: 0.5em;
+    font-size: 2.5em;
+    color: #003366; }
+
+  .zack p {
+    top: 6.7em; }
+
+  footer {
+    clear: both;
+    max-width: 1300px;
+    height: 10em;
+    background-color: #083452; }
+
+  .bottom {
+    width: 90%;
+    padding-top: 1em;
+    margin: 0 auto;
+    color: #a3b3bf;
+    vertical-align: middle; }
+    .bottom .left {
+      float: left; }
+    .bottom .right {
+      float: right; }
+    .bottom img {
+      display: inline-block;
+      margin-top: 2em; }
+    .bottom p {
+      display: inline-block;
+      margin-bottom: 2.2em;
+      padding-left: 1em;
+      vertical-align: middle;
+      font-size: 1.1em; }
+    .bottom li {
+      margin: 0 0;
+      display: inline-block; }
+    .bottom a {
+      margin-top: 3em;
+      color: #a3b3bf;
+      float: left;
+      padding: 0 1.5em;
+      font-size: 1.3em;
+      border-right: #a3b3bf solid 1px; } }
 @media screen and (min-width: 750px) {
   .main img {
     width: 100%; }
@@ -218,7 +329,7 @@ body {
   .article {
     float: left;
     width: 50%;
-    margin: 0 6%; }
+    margin: 2em 6% 0 6%; }
     .article p {
       font-size: 1.15em; }
     .article h2 {
@@ -255,7 +366,43 @@ body {
     height: 220px;
     background-color: gray;
     background-size: cover;
-    background-repeat: no-repeat; } }
+    background-repeat: no-repeat; }
+
+  footer {
+    clear: both;
+    max-width: 1300px;
+    height: 14em;
+    background-color: #083452; }
+
+  .bottom {
+    width: 80%;
+    padding-top: 1em;
+    margin: 0 auto;
+    color: #a3b3bf;
+    vertical-align: middle; }
+    .bottom .left {
+      float: left; }
+    .bottom .right {
+      float: right; }
+    .bottom img {
+      display: inline-block;
+      margin-top: 2em; }
+    .bottom p {
+      display: inline-block;
+      margin-bottom: 2.2em;
+      padding-left: 1em;
+      vertical-align: middle;
+      font-size: 1.1em; }
+    .bottom li {
+      margin: 0 0;
+      display: inline-block; }
+    .bottom a {
+      margin-top: 3em;
+      color: #a3b3bf;
+      float: left;
+      padding: 0 1.5em;
+      font-size: 1.3em;
+      border-right: #a3b3bf solid 1px; } }
 @media screen and (min-width: 900px) {
   .main img {
     width: 100%; }
@@ -276,7 +423,7 @@ body {
   .article {
     float: left;
     width: 50%;
-    margin: 0 6%; }
+    margin: 2em 6% 0 6%; }
     .article h2 {
       font-size: 3em; }
 
@@ -314,12 +461,12 @@ body {
     background-repeat: no-repeat; }
     .posts div p {
       position: relative;
-      top: 13em;
+      top: 9em;
       left: 0.5em;
-      font-size: 1.8em;
+      font-size: 2.5em;
       color: #003366; }
   .posts .zack p {
-    top: 12em; }
+    top: 8em; }
   .posts .brew p {
     color: white; } }
 @media screen and (min-width: 1100px) {
@@ -339,7 +486,7 @@ body {
   .article {
     float: left;
     width: 50%;
-    margin: 0 6%; }
+    margin: 2em 6% 0 6%; }
     .article h2 {
       font-size: 3em; }
 
@@ -377,12 +524,12 @@ body {
     background-repeat: no-repeat; }
     .posts div p {
       position: relative;
-      top: 17em;
+      top: 11.7em;
       left: 0.5em;
-      font-size: 1.8em;
+      font-size: 2.5em;
       color: #003366; }
   .posts .zack p {
-    top: 16em; }
+    top: 10.7em; }
   .posts .brew p {
     color: white; } }
 header nav {
@@ -498,21 +645,5 @@ header nav {
 
 .shot {
   background: url("../img/booze.jpg"); }
-
-footer {
-  clear: both;
-  max-width: 1300px;
-  background-color: #083452;
-  height: 100px; }
-  footer .bottom {
-    max-width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    color: #a3b3bf; }
-    footer .bottom .left {
-      padding-top: 20px; }
-    footer .bottom .right {
-      padding-top: 45px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -42,7 +42,7 @@ body {
 	}
 	.article {
 		width: 90%;
-		margin: 0 auto;
+		margin: 2em auto 0 auto;
 		img {
 			width: 20%;
 		}
@@ -57,7 +57,7 @@ body {
 			font-size: 1em;
 		}
 		p {
-			font-size: 0.8em;
+			font-size: 0.95em;
 		}
 	}
 	.side-links {
@@ -94,21 +94,56 @@ body {
 			background-repeat: no-repeat;
 			p {
 				position: relative;
-				top:11em;
+				top:7.7em;
 				left:0.5em;
-				font-size: 1.8em;
+				font-size: 2.5em;
 				color:#003366;
 			}
 		}
 		.zack {
 			p {
-				top:10em;
+				top:6.7em;
 			}
 		}
 		.brew {
 			p {
 				color:white;
 			}
+		}
+	}
+	footer {
+		clear: both;
+		max-width: $max;
+		height: 14em;
+		background-color: #083452;
+	}
+	.bottom {
+		width: 80%;
+		padding-top:1em;
+		margin: 0 auto;
+		color: #a3b3bf;
+		vertical-align: middle;
+		img {
+			display: inline-block;
+			margin-top:2em;
+		}
+		p {
+			display: inline-block;
+			margin-bottom:2.2em;
+			padding-left:1em;
+			vertical-align: middle;
+			font-size: 1.1em;
+		}
+		li {
+			margin:0 2.7em;
+		}
+		a {
+			margin-top: 1em;
+			color: #a3b3bf;
+			float: left;
+			padding:0 1.5em;
+			font-size: 1.3em;
+			border-right: #a3b3bf solid 1px;
 		}
 	}
 }
@@ -135,7 +170,7 @@ body {
 	}
 	.article {
 		width: 90%;
-		margin: 0 auto;
+		margin: 2em auto 0 auto;
 		h2 {
 			font-size: 2em;
 		}
@@ -147,7 +182,7 @@ body {
 			font-size: 1.1em;
 		}
 		p {
-			font-size: 0.9em;
+			font-size: 1em;
 		}
 	}
 	.side-links {
@@ -185,21 +220,62 @@ body {
 			background-repeat: no-repeat;
 			p {
 				position: relative;
-				top:11em;
+				top:7.7em;
 				left:0.5em;
-				font-size: 1.8em;
+				font-size: 2.5em;
 				color:#003366;
 			}
 		}
 		.zack {
 			p {
-				top:10em;
+				top:6.7em;
 			}
 		}
 		.brew {
 			p {
 				color:white;
 			}
+		}
+	}
+	footer {
+		clear: both;
+		max-width: $max;
+		height: 14em;
+		background-color: #083452;
+	}
+	.bottom {
+		width: 70%;
+		padding-top:1em;
+		margin: 0 auto;
+		color: #a3b3bf;
+		vertical-align: middle;
+		.left {
+			margin:  0 auto;
+		}
+		.right {
+			margin: 0 auto;
+		}
+		img {
+			display: inline-block;
+			margin-top:2em;
+		}
+		p {
+			display: inline-block;
+			margin-bottom:2.2em;
+			padding-left:1em;
+			vertical-align: middle;
+			font-size: 1.1em;
+		}
+		li {
+			margin:0 2.7em;
+		}
+		a {
+			margin-top: 1em;
+			color: #a3b3bf;
+			float: left;
+			padding:0 1.5em;
+			font-size: 1.3em;
+			border-right: #a3b3bf solid 1px;
 		}
 	}
 }
@@ -226,7 +302,7 @@ body {
 	}
 	.article {
 		width: 90%;
-		margin: 0 auto;
+		margin: 2em auto 0 auto;
 		p {
 			font-size: 1.1em;
 		}
@@ -263,6 +339,61 @@ body {
 	.popular {
 		h2 {
 			font-size:2.8em;
+
+		}
+		p {
+				position: relative;
+				top:7.7em;
+				left:0.5em;
+				font-size: 2.5em;
+				color:#003366;
+			}
+		}
+		.zack {
+			p {
+				top:6.7em;
+			}	
+	}
+	footer {
+		clear: both;
+		max-width: $max;
+		height: 10em;
+		background-color: #083452;
+	}
+	.bottom {
+		width: 90%;
+		padding-top:1em;
+		margin: 0 auto;
+		color: #a3b3bf;
+		vertical-align: middle;
+		.left {
+			float: left;
+		}
+		.right {
+			float: right;
+		}
+		img {
+			display: inline-block;
+			margin-top:2em;
+		}
+		p {
+			display: inline-block;
+			margin-bottom:2.2em;
+			padding-left:1em;
+			vertical-align: middle;
+			font-size: 1.1em;
+		}
+		li {
+			margin: 0 0;
+			display: inline-block;
+		}
+		a {
+			margin-top: 3em;
+			color: #a3b3bf;
+			float: left;
+			padding:0 1.5em;
+			font-size: 1.3em;
+			border-right: #a3b3bf solid 1px;
 		}
 	}
 }
@@ -290,7 +421,7 @@ body {
 	.article {
 		float:left;
 		width: 50%;
-		margin: 0 6%;
+		margin: 2em 6% 0 6%;
 		p {
 			font-size: 1.15em;
 		}
@@ -338,6 +469,48 @@ body {
 			background-repeat: no-repeat;
 		}
 	}
+	footer {
+		clear: both;
+		max-width: $max;
+		height: 14em;
+		background-color: #083452;
+	}
+	.bottom {
+		width: 80%;
+		padding-top:1em;
+		margin: 0 auto;
+		color: #a3b3bf;
+		vertical-align: middle;
+		.left {
+			float: left;
+		}
+		.right {
+			float: right;
+		}
+		img {
+			display: inline-block;
+			margin-top:2em;
+		}
+		p {
+			display: inline-block;
+			margin-bottom:2.2em;
+			padding-left:1em;
+			vertical-align: middle;
+			font-size: 1.1em;
+		}
+		li {
+			margin: 0 0;
+			display: inline-block;
+		}
+		a {
+			margin-top: 3em;
+			color: #a3b3bf;
+			float: left;
+			padding:0 1.5em;
+			font-size: 1.3em;
+			border-right: #a3b3bf solid 1px;
+		}
+	}
 }
 // end of query
 @media screen and (min-width:900px) {
@@ -363,7 +536,7 @@ body {
 	.article {
 		float:left;
 		width: 50%;
-		margin: 0 6%;
+		margin: 2em 6% 0 6%;
 		h2 {
 			font-size: 3em;
 		}
@@ -408,15 +581,15 @@ body {
 			background-repeat: no-repeat;
 			p {
 				position: relative;
-				top:13em;
+				top:9em;
 				left:0.5em;
-				font-size: 1.8em;
+				font-size: 2.5em;
 				color:#003366;
 			}
 		}
 		.zack {
 			p {
-				top:12em;
+				top:8em;
 			}
 		}
 		.brew {
@@ -447,7 +620,7 @@ body {
 	.article {
 		float:left;
 		width: 50%;
-		margin: 0 6%;
+		margin: 2em 6% 0 6%;
 		h2 {
 			font-size: 3em;
 		}
@@ -492,15 +665,15 @@ body {
 			background-repeat: no-repeat;
 			p {
 				position: relative;
-				top:17em;
+				top:11.7em;
 				left:0.5em;
-				font-size: 1.8em;
+				font-size: 2.5em;
 				color:#003366;
 			}
 		}
 		.zack {
 			p {
-				top:16em;
+				top:10.7em;
 			}
 		}
 		.brew {
@@ -668,20 +841,20 @@ header {
 	background: url('../img/booze.jpg')
 }
 footer {
-	clear: both;
-	max-width: 1300px;
-	background-color: #083452;
- 	height: 100px;
+	// clear: both;
+	// max-width: $max;
+	// background-color: #083452;
+ 	// height: 10em;
 		.bottom{
-		max-width: 75%;
-		margin-right:auto;
-		margin-left: auto;
-		text-align: center;
-		color: #a3b3bf;
-			.left {
-			padding-top: 20px;
-			}
-			.right {
-			padding-top: 45px;
-			}
+		// max-width: 75%;
+		// margin-right:auto;
+		// margin-left: auto;
+		// text-align: center;
+
+			// .left {
+			// padding-top: 20px;
+			// }
+			// .right {
+			// padding-top: 45px;
+			// }
 	}}
