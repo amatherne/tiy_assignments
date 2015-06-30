@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,700);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,700|Cabin+Sketch:700);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -61,7 +61,7 @@ h4 {
 a:hover {
   color: #e9d0c6; }
 
-@media screen and (min-width: 200px) and (max-width: 600px) {
+@media screen and (min-width: 200px) and (max-width: 609px) {
   header {
     width: 100%;
     margin: 0 auto;
@@ -110,8 +110,34 @@ a:hover {
       border-right: 0;
       text-align: center; }
     .right li:hover {
-      background-color: #ceb59d; } }
-@media screen and (min-width: 601px) and (max-width: 1000px) {
+      background-color: #ceb59d; }
+
+  .jumbotron {
+    margin-top: 1.33em;
+    width: 100%;
+    height: 25em;
+    background-image: url("../img/beige-cup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .jumbotron h2 {
+      font-family: 'Cabin Sketch', cursive;
+      font-weight: 700;
+      text-align: center;
+      color: #261305; }
+    .jumbotron .floating {
+      padding-top: 5.5em; }
+    .jumbotron .top {
+      margin-bottom: -0.55em;
+      margin-left: 0; }
+    .jumbotron .bottom {
+      margin-top: -0.85em;
+      margin-left: 0; }
+    .jumbotron .small {
+      font-size: 3em; }
+    .jumbotron .big {
+      font-size: 12em; } }
+@media screen and (min-width: 610px) and (max-width: 1000px) {
   header {
     width: 100%;
     margin: 0 auto;
@@ -119,7 +145,7 @@ a:hover {
     background-image: url("../img/beans-wide.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 7.28em; }
+    height: 7.5em; }
 
   .gradient {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
@@ -138,7 +164,7 @@ a:hover {
 
   h1 {
     font-size: 3.75em;
-    padding-left: 0.3em;
+    padding-left: 0.7em;
     font-weight: 300;
     padding-top: 0.31em; }
 
@@ -155,10 +181,94 @@ a:hover {
     .right li {
       width: 19.2%;
       display: inline-block;
-      font-size: 0.875em;
+      font-size: 1em;
       font-weight: 700;
       padding-top: 0.5em;
       padding-bottom: 0.5em;
+      border: 1px #ceb59d solid;
+      border-right: 0;
+      text-align: center; }
+    .right li:first-of-type {
+      -webkit-border-top-left-radius: 1.3em;
+      -moz-border-radius-topleft: 1.3em;
+      border-top-left-radius: 1.3em; }
+    .right li:hover {
+      background-color: #ceb59d; }
+
+  .jumbotron {
+    margin-top: 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 35em;
+    background-image: url("../img/beige-cup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .jumbotron h2 {
+      font-family: 'Cabin Sketch', cursive;
+      font-weight: 700;
+      text-align: center;
+      color: #261305; }
+    .jumbotron .floating {
+      padding-top: 5em; }
+    .jumbotron .top {
+      margin-bottom: -0.45em;
+      margin-left: 0; }
+    .jumbotron .bottom {
+      margin-top: -0.79em;
+      margin-left: 0; }
+    .jumbotron .small {
+      font-size: 5em; }
+    .jumbotron .big {
+      font-size: 20em; } }
+@media screen and (min-width: 1001px) and (max-width: 2000px) {
+  header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ceb59d;
+    background-image: url("../img/beans-wide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8.39em; }
+
+  .gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+    background: -moz-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(20%, #ceb59d), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */ }
+
+  h1 {
+    font-size: 4.375em;
+    padding-left: 1.3em;
+    font-weight: 300;
+    padding-top: 0.31em; }
+
+  .right {
+    width: 50%;
+    background-color: #ae866b;
+    margin-left: 50%;
+    -webkit-border-top-left-radius: 1.3em;
+    -moz-border-radius-topleft: 1.3em;
+    border-top-left-radius: 1.3em; }
+    .right ul {
+      width: 100%;
+      margin: 0.5em auto 0 auto; }
+    .right li {
+      width: 19.2%;
+      display: inline-block;
+      font-size: 1.1875em;
+      font-weight: 700;
+      padding-top: 0.375em;
+      padding-bottom: 0.375em;
       border: 1px #ceb59d solid;
       border-right: 0;
       text-align: center; }
