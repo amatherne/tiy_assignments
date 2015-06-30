@@ -23,6 +23,12 @@ background: linear-gradient(to right,  $fromColor $start,$toColor $end); /* W3C 
 border-top-left-radius: $radius;
 }
 
+@mixin radius-all($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
 body,
 a,
 p,
@@ -110,6 +116,18 @@ a:hover {
 		}
 		.floating {
 			padding-top: 5.5em;
+			position: relative;
+		}
+		.coffee-tint {
+			position: absolute;
+			width:18em;
+			height:18em;
+			top: 20%;
+			left:20%;
+			right:20%;
+			bottom:20%;
+			@include radius-all(20em);
+			background-color: rgba(206,181,157,0.5);
 		}
 		.top {
 			margin-bottom: -0.55em;
