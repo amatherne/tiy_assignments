@@ -1,0 +1,162 @@
+@media screen and (min-width:371px) and (max-width:699px) {
+	// body{
+	// 	max-width:600px;
+	// }
+	header {
+		width:100%;
+		margin:0 auto;
+		background-color: $bg2;
+		background-image: url("../img/beans-wide.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:4.2em;
+		
+	}
+	.gradient {
+		@include gradient($bg2,rgba(255,255,255,0),45%,100%);
+		position: relative;
+		overflow: hidden;
+	}
+	h1 {
+		font-size: $global*3;
+		padding-top: 0.34em;
+		padding-bottom:0.34em;
+		padding-left:0.3em;
+		font-weight:300;
+		width:auto;
+		span {
+			font-family: 'Marck Script', cursive;
+			font-size:$global*2.5;
+		}
+	}
+	nav {
+		margin-right:-2%;
+		// margin-left:-1%;
+
+	}
+	.right {
+		width: 100%;
+		background-color:$bg3;
+		ul {
+			width:100%;
+			margin: 0 auto;
+		}
+		li {
+			width: 20%;
+			display: inline-block;
+			font-size: $global*1.4;
+			// padding-top:$global*1;
+			// padding-bottom:$global*1;
+			// border:1px $bg2 solid;
+			// border-right:0;
+			text-align: center;
+			margin-right: -0.9%;
+		}
+		a {
+			width: 100%;
+			display: block;
+			font-size: $global*1.4;
+			font-weight:700;
+			padding-top:$global*1;
+			padding-bottom:$global*1;
+			// margin-right:-1em;
+			border:1px $bg2 solid;
+			border-right:0;
+			text-align: center;
+			
+		}
+	}
+	.nav-toggle {
+		margin-top: 1.4em;
+	}
+	.jumbotron {
+		// margin-top: 1.33em;
+		width: 100%;
+		height: 25em;
+		background-image: url("../img/beige-cup.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
+		h2 {
+			font-family: 'Cabin Sketch', cursive;
+			font-weight:700;
+			text-align: center;
+			color: #261305;
+		}
+		.floating {
+			padding-top: 5.5em;
+			position: relative;
+		}
+		// .coffee-tint {
+		// 	position: absolute;
+		// 	width:18em;
+		// 	height:18em;
+		// 	top: 20%;
+		// 	left:20%;
+		// 	right:20%;
+		// 	bottom:20%;
+		// 	// @include radius-all(20em);
+		// 	// background-color: rgba(206,181,157,0.5);
+		// // 	// add gradient and figure out how to center responsively
+		// }
+		.top {
+			margin-bottom: -0.55em;
+			margin-left: 0;
+		}
+		.bottom {
+			margin-top: -0.85em;
+			margin-left: 0;
+		}
+		.small {
+			font-size: 3em;
+		}
+		.big {
+			font-size: 12em;
+		}
+	}
+	aside {
+		h3 {
+			margin-top: 0.3em;
+			text-align: center;
+			font-size: $global*5;
+			font-weight:300;
+			// span {
+			// font-family: 'Marck Script', cursive;
+			// font-size:$global*2.4;
+			// top:0.28em;
+			// position: relative;
+			// 	&:first-of-type {
+			// 		letter-spacing: 0.05em;
+			// 	}
+			// }
+		}
+	}
+	.thumbs {
+		display: block;
+		width: 40%;
+		height:200px;
+		margin:0.7em 5%;
+		float: left;
+		position: relative;
+		span {
+			position: absolute;
+			bottom:0;
+			left:0;
+			padding-bottom:4.5em;
+			padding-left:2.1em;
+			text-align:center;
+			font-size: $global*2;
+			font-weight: 700;
+		}
+		&:hover {
+			color: black;
+			span {
+			font-size: $global*2.7;
+			padding-left:1.1em;
+			padding-bottom:3.25em;
+		}
+		}
+	}
+
+
+}

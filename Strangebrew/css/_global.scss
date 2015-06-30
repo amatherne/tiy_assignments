@@ -1,0 +1,231 @@
+body,
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+	color:$text;
+	text-decoration:none;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size:$global*1.6;
+}
+
+a:hover {
+	color:$bg;
+}
+
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+}
+
+body{
+	width:90%;
+	margin: 0 auto;
+	min-width:190px;
+	}
+	header {
+		width:100%;
+		margin:0 auto;
+		background-color: $bg2;
+		background-image: url("../img/beans-wide.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:4.3em;
+		
+	}
+	.gradient {
+		@include gradient($bg2,rgba(255,255,255,0),45%,100%);
+		position: relative;
+	}
+	h1 {
+		font-size: $global*2.3;
+		padding-top: 0.5em;
+		padding-bottom:0.97em;
+		padding-left:0.3em;
+		font-weight:300;
+		// width: 40px;
+		span {
+			font-family: 'Marck Script', cursive;
+			font-size:$global*2.5;
+		}
+	}
+
+	.right {
+		width: 100%;
+		background-color:$bg3; 
+		z-index: 1;
+		ul {
+			width:100%;
+			margin: 0 auto;
+		}
+		a {
+			width: 100%;
+			display: block;
+			padding:0.2em;
+			font-size: $global*1.9;
+			font-weight:700;
+			border:1px $bg2 solid;
+			border-right:0;
+			text-align: center;
+		}
+		// li:hover {
+		// 	background-color:$bg3;
+		// }
+	}
+	.nav-toggle {
+		margin-top: 2.4em;
+	}
+	.jumbotron {
+		// margin-top: 1.33em;
+		width: 100%;
+		height: 25em;
+		background-image: url("../img/beige-cup.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: center;
+		h2 {
+			font-family: 'Cabin Sketch', cursive;
+			font-weight:700;
+			text-align: center;
+			color: #261305;
+		}
+		.floating {
+			padding-top: 5.5em;
+			position: relative;
+		}
+		// .coffee-tint {
+		// 	position: absolute;
+		// 	width:18em;
+		// 	height:18em;
+		// 	top: 20%;
+		// 	left:20%;
+		// 	right:20%;
+		// 	bottom:20%;
+		// 	// @include radius-all(20em);
+		// 	// background-color: rgba(206,181,157,0.5);
+		// 	// add gradient and figure out how to center responsively
+		// }
+		.top {
+			margin-bottom: -0.55em;
+			margin-left: 0;
+		}
+		.bottom {
+			margin-top: -0.85em;
+			margin-left: 0;
+		}
+		.small {
+			font-size: 3em;
+		}
+		.big {
+			font-size: 12em;
+		}
+	}
+	aside {
+		background-color:$bg2;
+		// @include gradient-vert(rgba(255,255,255,0),$bg2,40%,100%);
+		// border: 1px $bg3 solid;
+		@include radius-all(0.5em);
+		overflow: hidden;
+		width:90%;
+		margin:1em 5%;
+		h3 {
+			margin: 0.2em;
+			text-align: center;
+			font-size: $global*4;
+			font-weight:300;
+
+			// span {
+			// font-family: 'Marck Script', cursive;
+			// font-size:$global*2.4;
+			// top:0.28em;
+			// position: relative;
+			// 	&:first-of-type {
+			// 		letter-spacing: 0.05em;
+			// 	}
+			// }
+		}
+	}
+	.one {
+		background-image: url("../img/beige-cup.jpg");
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position: center;
+		&:hover {
+			background-image: url("../img/beige-cup-50.jpg");
+		}
+
+	}
+	.two {
+		background-image: url("../img/beige-cup.jpg");
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position: center;
+		&:hover {
+			background-image: url("../img/beige-cup-50.jpg");
+		}
+	}
+	.three {
+		background-image: url("../img/beige-cup.jpg");
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position: center;
+		&:hover {
+			background-image: url("../img/beige-cup-50.jpg");
+		}
+	}
+	.four {
+		background-image: url("../img/beige-cup.jpg");
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position: center;
+		&:hover {
+			background-image: url("../img/beige-cup-50.jpg");
+		}
+	}
+	.five {
+		background-image: url("../img/beige-cup.jpg");
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position: center;
+		&:hover {
+			background-image: url("../img/beige-cup-50.jpg");
+		}
+	}
+	.six {
+		background-image: url("../img/beige-cup.jpg");
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position: center;
+		&:hover {
+			background-image: url("../img/beige-cup-50.jpg");
+		}
+	}
+	.thumbs {
+		display: block;
+		width: 80%;
+		height:180px;
+		margin:5% 10%;
+		float: left;
+		position: relative;
+		span {
+			position: absolute;
+			bottom:0;
+			left:0;
+			padding-bottom:3.7em;
+			padding-left:4.6em;
+			text-align: center;
+			font-size: $global*2;
+			font-weight: 700;
+		}
+		&:hover {
+			color: black;
+			span {
+			font-size: $global*2.7;
+			padding-left:3em;
+			padding-bottom:2.6em;
+		}
+		}
+	}

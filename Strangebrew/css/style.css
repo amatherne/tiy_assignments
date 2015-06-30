@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,700|Cabin+Sketch:700);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,700|Cabin+Sketch:700|Marck+Script);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,6 +46,72 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none; }
+
+.nav-collapse li {
+  width: 100%;
+  display: block; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 1.5em;
+  margin-right: 0.5em;
+  text-align: right;
+  padding-top: 0.125em;
+  padding-right: 0.625em;
+  width: 80px;
+  height: 20px;
+  background-color: #ae866b;
+  border: 1px #ceb59d solid;
+  background-image: url(../img/arrow-red.png);
+  background-position: left 8px top 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 0.6em;
+  -moz-border-radius: 0.6em;
+  border-radius: 0.6em;
+  font-weight: 700; }
+  .nav-toggle:hover {
+    background-image: url(../img/arrow-hover.png);
+    background-position: left 8px top 0px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+@media screen and (min-width: 699px) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; } }
 body,
 a,
 p,
@@ -61,7 +127,185 @@ h4 {
 a:hover {
   color: #e9d0c6; }
 
-@media screen and (min-width: 200px) and (max-width: 609px) {
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  min-width: 190px; }
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ceb59d;
+  background-image: url("../img/beans-wide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 4.3em; }
+
+.gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+  background: -moz-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(45%, #ceb59d), color-stop(100%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+  /* W3C */
+  position: relative; }
+
+h1 {
+  font-size: 1.4375em;
+  padding-top: 0.5em;
+  padding-bottom: 0.97em;
+  padding-left: 0.3em;
+  font-weight: 300; }
+  h1 span {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.5625em; }
+
+.right {
+  width: 100%;
+  background-color: #ae866b;
+  z-index: 1; }
+  .right ul {
+    width: 100%;
+    margin: 0 auto; }
+  .right a {
+    width: 100%;
+    display: block;
+    padding: 0.2em;
+    font-size: 1.1875em;
+    font-weight: 700;
+    border: 1px #ceb59d solid;
+    border-right: 0;
+    text-align: center; }
+
+.nav-toggle {
+  margin-top: 2.4em; }
+
+.jumbotron {
+  width: 100%;
+  height: 25em;
+  background-image: url("../img/beige-cup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .jumbotron h2 {
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 700;
+    text-align: center;
+    color: #261305; }
+  .jumbotron .floating {
+    padding-top: 5.5em;
+    position: relative; }
+  .jumbotron .top {
+    margin-bottom: -0.55em;
+    margin-left: 0; }
+  .jumbotron .bottom {
+    margin-top: -0.85em;
+    margin-left: 0; }
+  .jumbotron .small {
+    font-size: 3em; }
+  .jumbotron .big {
+    font-size: 12em; }
+
+aside {
+  background-color: #ceb59d;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+  overflow: hidden;
+  width: 90%;
+  margin: 1em 5%; }
+  aside h3 {
+    margin: 0.2em;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 300; }
+
+.one {
+  background-image: url("../img/beige-cup.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+  .one:hover {
+    background-image: url("../img/beige-cup-50.jpg"); }
+
+.two {
+  background-image: url("../img/beige-cup.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+  .two:hover {
+    background-image: url("../img/beige-cup-50.jpg"); }
+
+.three {
+  background-image: url("../img/beige-cup.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+  .three:hover {
+    background-image: url("../img/beige-cup-50.jpg"); }
+
+.four {
+  background-image: url("../img/beige-cup.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+  .four:hover {
+    background-image: url("../img/beige-cup-50.jpg"); }
+
+.five {
+  background-image: url("../img/beige-cup.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+  .five:hover {
+    background-image: url("../img/beige-cup-50.jpg"); }
+
+.six {
+  background-image: url("../img/beige-cup.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+  .six:hover {
+    background-image: url("../img/beige-cup-50.jpg"); }
+
+.thumbs {
+  display: block;
+  width: 80%;
+  height: 180px;
+  margin: 5% 10%;
+  float: left;
+  position: relative; }
+  .thumbs span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 3.7em;
+    padding-left: 4.6em;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 700; }
+  .thumbs:hover {
+    color: black; }
+    .thumbs:hover span {
+      font-size: 1.6875em;
+      padding-left: 3em;
+      padding-bottom: 2.6em; }
+
+@media screen and (min-width: 371px) and (max-width: 699px) {
   header {
     width: 100%;
     margin: 0 auto;
@@ -84,14 +328,23 @@ a:hover {
     background: -ms-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
     /* IE10+ */
     background: linear-gradient(to right, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
-    /* W3C */ }
+    /* W3C */
+    position: relative;
+    overflow: hidden; }
 
   h1 {
-    font-size: 2.5em;
-    padding-top: 0.2em;
-    padding-bottom: 0.15em;
+    font-size: 1.875em;
+    padding-top: 0.34em;
+    padding-bottom: 0.34em;
     padding-left: 0.3em;
-    font-weight: 300; }
+    font-weight: 300;
+    width: auto; }
+    h1 span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.5625em; }
+
+  nav {
+    margin-right: -2%; }
 
   .right {
     width: 100%;
@@ -100,8 +353,14 @@ a:hover {
       width: 100%;
       margin: 0 auto; }
     .right li {
-      width: 19.2%;
+      width: 20%;
       display: inline-block;
+      font-size: 0.875em;
+      text-align: center;
+      margin-right: -0.9%; }
+    .right a {
+      width: 100%;
+      display: block;
       font-size: 0.875em;
       font-weight: 700;
       padding-top: 0.625em;
@@ -109,11 +368,11 @@ a:hover {
       border: 1px #ceb59d solid;
       border-right: 0;
       text-align: center; }
-    .right li:hover {
-      background-color: #ceb59d; }
+
+  .nav-toggle {
+    margin-top: 1.4em; }
 
   .jumbotron {
-    margin-top: 1.33em;
     width: 100%;
     height: 25em;
     background-image: url("../img/beige-cup.jpg");
@@ -128,18 +387,6 @@ a:hover {
     .jumbotron .floating {
       padding-top: 5.5em;
       position: relative; }
-    .jumbotron .coffee-tint {
-      position: absolute;
-      width: 18em;
-      height: 18em;
-      top: 20%;
-      left: 20%;
-      right: 20%;
-      bottom: 20%;
-      -webkit-border-radius: 20em;
-      -moz-border-radius: 20em;
-      border-radius: 20em;
-      background-color: rgba(206, 181, 157, 0.5); }
     .jumbotron .top {
       margin-bottom: -0.55em;
       margin-left: 0; }
@@ -149,8 +396,41 @@ a:hover {
     .jumbotron .small {
       font-size: 3em; }
     .jumbotron .big {
-      font-size: 12em; } }
-@media screen and (min-width: 610px) and (max-width: 1000px) {
+      font-size: 12em; }
+
+  aside h3 {
+    margin-top: 0.3em;
+    text-align: center;
+    font-size: 3.125em;
+    font-weight: 300; }
+
+  .thumbs {
+    display: block;
+    width: 40%;
+    height: 200px;
+    margin: 0.7em 5%;
+    float: left;
+    position: relative; }
+    .thumbs span {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding-bottom: 4.5em;
+      padding-left: 2.1em;
+      text-align: center;
+      font-size: 1.25em;
+      font-weight: 700; }
+    .thumbs:hover {
+      color: black; }
+      .thumbs:hover span {
+        font-size: 1.6875em;
+        padding-left: 1.1em;
+        padding-bottom: 3.25em; } }
+@media screen and (min-width: 700px) and (max-width: 1109px) {
+  body {
+    width: 95%;
+    margin: 0 auto; }
+
   header {
     width: 100%;
     margin: 0 auto;
@@ -158,7 +438,7 @@ a:hover {
     background-image: url("../img/beans-wide.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 7.5em; }
+    height: 7.8em; }
 
   .gradient {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
@@ -173,46 +453,58 @@ a:hover {
     background: -ms-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
     /* IE10+ */
     background: linear-gradient(to right, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
-    /* W3C */ }
+    /* W3C */
+    overflow: hidden; }
 
   h1 {
-    font-size: 3.75em;
+    font-size: 3.125em;
     padding-left: 0.7em;
     font-weight: 300;
-    padding-top: 0.31em; }
+    padding-top: 0.22em;
+    width: auto;
+    padding-bottom: 0; }
+    h1 span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.5625em; }
+
+  nav {
+    margin-right: -2%; }
 
   .right {
-    width: 66%;
+    margin-top: 0em;
+    width: 55%;
     background-color: #ae866b;
-    margin-left: 34%;
-    -webkit-border-top-left-radius: 1.3em;
-    -moz-border-radius-topleft: 1.3em;
-    border-top-left-radius: 1.3em; }
+    margin: 0 10% 0 35%; }
     .right ul {
       width: 100%;
-      margin: 0.5em auto 0 auto; }
-    .right li {
+      margin: 0 auto; }
+    .right a {
       width: 19.2%;
-      display: inline-block;
+      display: block;
       font-size: 1em;
       font-weight: 700;
       padding-top: 0.5em;
       padding-bottom: 0.5em;
       border: 1px #ceb59d solid;
       border-right: 0;
-      text-align: center; }
-    .right li:first-of-type {
-      -webkit-border-top-left-radius: 1.3em;
-      -moz-border-radius-topleft: 1.3em;
-      border-top-left-radius: 1.3em; }
-    .right li:hover {
-      background-color: #ceb59d; }
+      text-align: center;
+      float: left; }
+    .right:first-of-type {
+      border: 1px #ceb59d solid;
+      -webkit-border-top-left-radius: 1.4em;
+      -moz-border-radius-topleft: 1.4em;
+      border-top-left-radius: 1.4em; }
+    .right:last-of-type {
+      border: 1px #ceb59d solid;
+      -webkit-border-top-right-radius: 1.4em;
+      -moz-border-radius-topright: 1.4em;
+      border-top-right-radius: 1.4em; }
 
   .jumbotron {
-    margin-top: 0;
-    width: 100%;
-    margin: 0 auto;
-    height: 35em;
+    width: 50%;
+    margin: 1em 3%;
+    height: 20em;
+    float: right;
     background-image: url("../img/beige-cup.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -223,18 +515,50 @@ a:hover {
       text-align: center;
       color: #261305; }
     .jumbotron .floating {
-      padding-top: 5em; }
+      padding-top: 2.3em; }
     .jumbotron .top {
-      margin-bottom: -0.45em;
+      margin-bottom: -0.38em;
       margin-left: 0; }
     .jumbotron .bottom {
-      margin-top: -0.79em;
+      margin-top: -0.66em;
       margin-left: 0; }
     .jumbotron .small {
-      font-size: 5em; }
+      font-size: 3.8em; }
     .jumbotron .big {
-      font-size: 20em; } }
-@media screen and (min-width: 1001px) and (max-width: 2000px) {
+      font-size: 12em; }
+
+  aside {
+    width: 40%;
+    margin: 1em 2%;
+    float: left; }
+
+  .thumbs {
+    display: block;
+    width: 40%;
+    height: 150px;
+    margin: 0.3em 5%;
+    float: left;
+    position: relative; }
+    .thumbs span {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding-bottom: 3.1em;
+      padding-left: 1em;
+      text-align: center;
+      font-size: 1.25em;
+      font-weight: 700; }
+    .thumbs:hover {
+      color: black; }
+      .thumbs:hover span {
+        font-size: 1.5em;
+        padding-left: 0.3em;
+        padding-bottom: 2.6em; } }
+@media screen and (min-width: 1100px) and (max-width: 3000px) {
+  body {
+    width: 95%;
+    margin: 0 auto; }
+
   header {
     width: 100%;
     margin: 0 auto;
@@ -242,7 +566,7 @@ a:hover {
     background-image: url("../img/beans-wide.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 8.39em; }
+    height: 7.95em; }
 
   .gradient {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
@@ -257,39 +581,107 @@ a:hover {
     background: -ms-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
     /* IE10+ */
     background: linear-gradient(to right, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
-    /* W3C */ }
+    /* W3C */
+    overflow: hidden; }
 
   h1 {
     font-size: 4.375em;
-    padding-left: 1.3em;
+    padding-left: 0.5em;
     font-weight: 300;
-    padding-top: 0.31em; }
+    padding-top: 0.1em;
+    width: auto;
+    padding-bottom: 0; }
+    h1 span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.5625em; }
+
+  nav {
+    margin-right: -2%;
+    margin-top: -1.5em; }
 
   .right {
     width: 50%;
     background-color: #ae866b;
-    margin-left: 50%;
+    margin: 0 10% 0 40%;
     -webkit-border-top-left-radius: 1.3em;
     -moz-border-radius-topleft: 1.3em;
     border-top-left-radius: 1.3em; }
     .right ul {
       width: 100%;
-      margin: 0.5em auto 0 auto; }
-    .right li {
+      margin: 0 auto; }
+    .right a {
       width: 19.2%;
-      display: inline-block;
-      font-size: 1.1875em;
+      display: block;
+      font-size: 1em;
       font-weight: 700;
-      padding-top: 0.375em;
-      padding-bottom: 0.375em;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
       border: 1px #ceb59d solid;
       border-right: 0;
-      text-align: center; }
-    .right li:first-of-type {
-      -webkit-border-top-left-radius: 1.3em;
-      -moz-border-radius-topleft: 1.3em;
-      border-top-left-radius: 1.3em; }
-    .right li:hover {
-      background-color: #ceb59d; } }
+      text-align: center;
+      float: left; }
+    .right:first-of-type {
+      border: 1px #ceb59d solid;
+      -webkit-border-top-left-radius: 1.4em;
+      -moz-border-radius-topleft: 1.4em;
+      border-top-left-radius: 1.4em; }
+    .right:last-of-type {
+      border: 1px #ceb59d solid;
+      -webkit-border-top-right-radius: 1.4em;
+      -moz-border-radius-topright: 1.4em;
+      border-top-right-radius: 1.4em; }
+
+  .jumbotron {
+    margin: 1em 3%;
+    width: 50%;
+    height: 25em;
+    background-image: url("../img/beige-cup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: right; }
+    .jumbotron h2 {
+      font-family: 'Cabin Sketch', cursive;
+      font-weight: 700;
+      text-align: center;
+      color: #261305; }
+    .jumbotron .top {
+      margin-bottom: -0.45em;
+      margin-left: 0; }
+    .jumbotron .bottom {
+      margin-top: -0.79em;
+      margin-left: 0; }
+    .jumbotron .small {
+      font-size: 3em; }
+    .jumbotron .big {
+      font-size: 12em; }
+
+  aside {
+    width: 40%;
+    margin: 1em 2%;
+    float: left; }
+
+  .thumbs {
+    display: block;
+    width: 40%;
+    height: 150px;
+    margin: 0.3em 5%;
+    float: left;
+    position: relative; }
+    .thumbs span {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding-bottom: 3.1em;
+      padding-left: 2.3em;
+      text-align: left;
+      font-size: 1.25em;
+      font-weight: 700; }
+    .thumbs:hover {
+      color: black; }
+      .thumbs:hover span {
+        font-size: 1.6875em;
+        padding-left: 1.4em;
+        padding-bottom: 2.2em; } }
 
 /*# sourceMappingURL=style.css.map */

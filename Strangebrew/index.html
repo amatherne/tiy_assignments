@@ -6,21 +6,22 @@
 	<meta name="viewport" content="initial-scale=1">
 	<title>Strange Brew ATX</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/responsive-nav.js"></script>
 </head>
 <body>
 	<header>
 		<div class="gradient">
 			<div class="left">
-				<h1><a href="#">Strange Brew</a></h1>
+				<h1><a href="#"><span>S</span>trange <span>B</span>rew</a></h1>
 			</div>
 		<nav>
-			<div class="right">
+			<div class="right nav-collapse">
 				<ul>
-					<li class="2"><a href="#">Home</a></li>
-					<li class="2"><a href="#">Menus</a></li>
-					<li class="3"><a href="#">Events</a></li>
-					<li class="3"><a href="#">About Us</a></li>
-					<li class="3"><a href="#">Contact</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Menus</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
 					
 				</ul>
 			</div>
@@ -29,13 +30,30 @@
 	</header>
 	<section class="jumbotron">
 		<div class="floating">
-			<div class="coffee-tint"></div>
+<!-- 			<div class="coffee-tint"></div> -->
 			<div class="top small"><h2>Open</h2></div>
 			<div class="big"><h2>24</h2></div>
 			<div class=" bottom small"><h2>Hours!</h2></div>
 		</div>
 	</section>
+	<aside>
+		<h3><span>T</span>his <span>W</span>eek!</h3>
+		<ul>
+			<li><a class="thumbs one" href="#"><span>ZZ Top</span></a></li>
+			<li><a class="thumbs two" href="#"><span>asdfasdf</span></a></li>
+			<li><a class="thumbs three" href="#"><span>sdfasdf</span></a></li>
+			<li><a class="thumbs four" href="#"><span>sdfasdf</span></a></li>
+			<li><a class="thumbs five" href="#"><span>asdfasdf</span></a></li>
+			<li><a class="thumbs six" href="#"><span>asdfasdf</span></a></li>
+		</ul>
+	</aside>
 	
+
+
+
+	<script>
+  		var nav = responsiveNav(".nav-collapse");
+	</script>
 </body>
 
 </html>
