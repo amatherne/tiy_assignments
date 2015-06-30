@@ -10,17 +10,19 @@
 		background-image: url("../img/beans-wide.jpg");
 		background-repeat:no-repeat;
 		background-size:cover;
-		height:7.95em;
+		height:7em;
+		@include radius-bottom(1em);
 	}
 	.gradient {
 		@include gradient($bg2,rgba(255,255,255,0),20%,100%);
-		overflow: hidden;
+		height:7em;
+		@include radius-bottom(1em);
 	}
 	h1 {
 		font-size: $global*7;
 		padding-left:0.5em;
 		font-weight:300;
-		padding-top:0.1em;
+		padding-top:0em;
 		width:auto;
 		padding-bottom: 0;
 		span {
@@ -58,21 +60,22 @@
 		}
 		&:first-of-type {
 			border:1px $bg2 solid;
-			@include radius-top-left(1.4em);
+			@include radius-all(1.4em);
 		}
-		&:last-of-type {
-			border:1px $bg2 solid;
-			@include radius-top-right(1.4em);
-		}
+		// &:last-of-type {
+		// 	border:1px $bg2 solid;
+		// 	@include radius-top-right(1.4em);
+		// }
 	}
 	.jumbotron {
-		margin:1em 3%;
+		margin:2em 3%;
 		width: 50%;
 		height: 25em;
 		background-image: url("../img/beige-cup.jpg");
 		background-repeat:no-repeat;
 		background-size:cover;
 		background-position: center;
+		@include radius-all(1em);
 		float: right;
 		h2 {
 			font-family: 'Cabin Sketch', cursive;
@@ -95,9 +98,76 @@
 			font-size: 12em;
 		}
 	}
+	.main-info {
+		width: 42%;
+		max-width: 320px;
+		margin: 2em auto 1em auto;
+		background-color:$bg2;
+		@include gradient-vert($bg2,$text,30%,130%);
+		border: 1px $bg3 solid;
+		overflow: hidden;
+		@include radius-all(0.5em);
+		h2 {
+			font-size: $global*2;
+			width: 60%;
+			margin: 0.7em auto;
+			text-align: center;
+		}
+		span {
+			font-family: 'Marck Script', cursive;
+			font-size:$global*2.5;
+		}
+		.info {
+			width: 95%;
+			margin: 0 auto;
+			div {
+				background-color:$bg3;
+				border:1px $bg solid;
+				@include radius-all(0.6em);
+				float: left;
+				width: 47%;
+				height:5em;
+				margin: 0 1.5%;
+				font-size: $global*1.45;
+				padding:0.8em 0.4em;
+			}
+		}
+		.social {
+			width: 98%;
+			margin: 1em auto;
+			clear:both;
+			overflow: hidden;
+		}
+		h3 {
+			font-size: $global*2;
+			width: 50%;
+			margin: 0.9em auto 0.2em auto;
+			text-align: center;
+		}
+		ul {
+			width: 100%;
+			margin: 0 auto;
+		}
+		li {
+			width: 48%;
+			margin: 0.2em 1%;
+			padding-top:$global*0.2;
+			padding-right:$global*1;
+			background-color:$bg3;
+			border:1px $bg2 solid;
+			@include radius-all(0.6em);
+			text-align: right;
+			float: left;
+		}
+		a {
+			display: block;
+			width:125px;
+			height:20px;
+		}
+	}
 	aside {
 		width: 40%;
-		margin: 1em 2%;
+		margin: 2em 2%;
 		float: left;
 	}
 	.thumbs {

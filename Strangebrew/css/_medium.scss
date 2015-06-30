@@ -67,7 +67,7 @@
 		}
 	}
 	.nav-toggle {
-		margin-top: 1.4em;
+		margin-top: 2.4em;
 	}
 	.jumbotron {
 		// margin-top: 1.33em;
@@ -112,6 +112,73 @@
 		}
 		.big {
 			font-size: 12em;
+		}
+	}
+	.main-info {
+		width: 90%;
+		max-width: 320px;
+		margin: 1em auto;
+		background-color:$bg2;
+		@include gradient-vert($bg2,$text,30%,130%);
+		border: 1px $bg3 solid;
+		overflow: hidden;
+		@include radius-all(0.5em);
+		h2 {
+			font-size: $global*2;
+			width: 50%;
+			margin: 1em auto;
+			text-align: center;
+		}
+		span {
+			font-family: 'Marck Script', cursive;
+			font-size:$global*2.5;
+		}
+		.info {
+			width: 95%;
+			margin: 0 auto;
+			div {
+				background-color:$bg3;
+				border:1px $bg solid;
+				@include radius-all(0.6em);
+				float: left;
+				width: 47%;
+				height:5em;
+				margin: 0 1.5%;
+				font-size: $global*1.5;
+				padding:0.8em 0.5em;
+			}
+		}
+		.social {
+			width: 98%;
+			margin: 1em auto;
+			clear:both;
+			overflow: hidden;
+		}
+		h3 {
+			font-size: $global*2;
+			width: 50%;
+			margin: 0.9em auto 0.2em auto;
+			text-align: center;
+		}
+		ul {
+			width: 100%;
+			margin: 0 auto;
+		}
+		li {
+			width: 46%;
+			margin: 0.2em 2%;
+			padding-top:$global*0.2;
+			padding-right:$global*1;
+			background-color:$bg3;
+			border:1px $bg2 solid;
+			@include radius-all(0.6em);
+			text-align: right;
+			float: left;
+		}
+		a {
+			display: block;
+			width:125px;
+			height:20px;
 		}
 	}
 	aside {
