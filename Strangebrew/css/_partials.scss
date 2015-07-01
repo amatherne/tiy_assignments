@@ -1,7 +1,7 @@
 $text: rgba(79,31,21,1);
-$bg: rgba(233,208,198,1);
-$bg2: rgba(206,181,157,1);
-$bg3: rgba(174,134,107,1);
+$bg: rgb(233,208,198);
+$bg2: rgb(206,181,157);
+$bg3: rgb(174,134,107);
 $global:0.625em;
 
 @mixin gradient($fromColor, $toColor,$start,$end) {

@@ -11,12 +11,12 @@
 		background-repeat:no-repeat;
 		background-size:cover;
 		height:7em;
-		@include radius-bottom(0.8em);
+		// @include radius-bottom(0.8em);
 	}
 	.gradient {
 		@include gradient($bg2,rgba(255,255,255,0),20%,100%);
 		height: 7em;
-		@include radius-bottom(0.8em);
+		// @include radius-bottom(0.8em);
 	}
 	h1 {
 		font-size: $global*5;
@@ -39,7 +39,8 @@
 		margin-top: 0em;
 		width: 55%;
 		background-color:$bg3;
-		margin: 0 10% 0 35%;
+		@include gradient-vert(darken($bg3,20%),$bg3,10%,100%);
+		margin: 0.3em 4% 0 41%;
 		// @include radius-top-left(1.6em);
 		ul {
 			width:100%;
@@ -71,10 +72,13 @@
 		// 	background-color:$bg2;
 		// }
 	}
+	.spacer {
+		@include radius-bottom(0.4em);
+	}
 	.jumbotron {
 		width: 50%;
-		margin: 2em 3%;
-		height: 20em;
+		margin: 1em 3%;
+		height: 19em;
 		float:right;
 		background-image: url("../img/beige-cup.jpg");
 		background-repeat:no-repeat;
@@ -89,14 +93,14 @@
 			color: #261305;
 		}
 		.floating {
-			padding-top: 2.3em;
+			padding-top: 1em;
 		}
 		.top {
-			margin-bottom: -0.38em;
+			margin-bottom: -1em;
 			margin-left: 0;
 		}
 		.bottom {
-			margin-top: -0.66em;
+			margin-top: -1.25em;
 			margin-left: 0;
 		}
 		.small {
@@ -106,12 +110,20 @@
 			font-size: 12em;
 		}
 	}
+	article {
+		padding:1em;
+		font-size:$global*1.5;
+		float:right;
+		width:50%;
+		margin: 0 2% 0 0;
+
+	}
 	.main-info {
-		width: 42%;
-		max-width: 320px;
-		margin: 2em auto 1em auto;
+		float: left;
+		width: 43%;
+		margin: -20em 1% 1em 1%;
 		background-color:$bg2;
-		@include gradient-vert($bg2,$text,30%,130%);
+		@include gradient-vert($bg2,$text,30%,140%);
 		border: 1px $bg3 solid;
 		overflow: hidden;
 		@include radius-all(0.5em);
@@ -174,8 +186,8 @@
 		}
 	}
 	aside {
-		width: 40%;
-		margin: 1em 2%;
+		width: 43%;
+		margin: 1em 1%;
 		float: left;
 	}
 	.thumbs {
@@ -195,13 +207,109 @@
 			font-size: $global*2;
 			font-weight: 700;
 		}
-		&:hover {
-			color: black;
-			span {
-			font-size: $global*2.4;
-			padding-left:0.3em;
-			padding-bottom:2.6em;
+		// &:hover {
+		// 	color: black;
+		// 	span {
+		// 	font-size: $global*2.4;
+		// 	padding-left:0.3em;
+		// 	padding-bottom:2.6em;
+		// }
+		// }
+	}
+	.hot {
+		float: left;
+		width: 45%;
+		padding-bottom:1.74em;
+		margin: 1em 0 1em 5%;
+	}
+	.cold {
+		float: left;
+		width: 45%;
+		margin: 1em 5% 1em 0;
+	}
+	.frozen {
+		width:45%;
+		margin:0 0 0 5%;
+		float: left;
+	}
+	.creme {
+		width: 45%;
+		height:313px;
+		margin:0 5% 2em 0;
+		float: left;
+	}
+	.sandwich {
+		background-image: url("../img/sandwich.jpg");
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position: right;
+		.gradient-three {
+			@include gradient($bg,rgba(255,255,255,0),50%,100%);
+			height:325px;
 		}
+		h2 {
+			text-align: left;
+			padding-left:2em;
+		}
+		.menu-left {
+			width: 30%;
+			margin:0 0 0 10%;
+		}
+		.menu-right {
+			width: 10%;
+			margin-right:50%;
+		}
+		@media screen and (min-width:1000px){
+			.gradient-three{
+				background: rgba(255,255,255,0);
+			}
+			.menu-left {
+				width: 30%;
+				margin:0 0 0 5%;
+			}
+			.menu-right {
+				width: 10%;
+				margin-right:55%;
+			}
+		}
+	}
+	footer {
+		width:100%;
+		// margin-top: 3em;
+		background-color:$bg3;
+		padding:0em 5% 2em 5%;
+		overflow:hidden;
+		h2 {
+			text-align: center;
+			font-size: $global*2;
+			padding-top: 0.5em;
+			padding-bottom:0.5em;
+			padding-left:0.3em;
+			font-weight:300;
+			width:27%;
+			margin: 0 auto -0.4em 13%;
+			float: left;
+			span {
+				font-family: 'Marck Script', cursive;
+				font-size:$global*2.2;
+			}
+
+		}
+		ul {
+			text-align: center;
+			width:50%;
+			margin: 1.07em 10% -0.4em auto;
+			float: right;
+		}
+		li {
+			display: inline-block;
+			margin: 0 0.1%;
+
+		}
+		h4 {
+			margin:0em auto -2em;
+			font-size:$global*1.2;
+			text-align: center;
 		}
 	}
 }
