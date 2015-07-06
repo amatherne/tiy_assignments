@@ -324,6 +324,7 @@ h2:after {
 	}
 	p {
 		@include font(0.9);
+		color: darken($navy,20%);
 	}
 	&:after {
 		content:"";
@@ -383,7 +384,7 @@ h2:after {
 	}
 	a,
 	p {
-		@include font(1.2);
+		@include font(1.1);
 		line-height: 1.5em;
 	}
 

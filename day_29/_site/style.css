@@ -458,7 +458,8 @@ h2:after {
   .benefits p,
   .requirements p {
     font-size: 0.5625pxpx;
-    font-size: 0.9em; }
+    font-size: 0.9em;
+    color: #00090f; }
   .participation:after,
   .benefits:after,
   .requirements:after {
@@ -523,8 +524,8 @@ h2:after {
     line-height: 1em; }
   .wrapper a,
   .wrapper p {
-    font-size: 0.75pxpx;
-    font-size: 1.2em;
+    font-size: 0.6875pxpx;
+    font-size: 1.1em;
     line-height: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */
