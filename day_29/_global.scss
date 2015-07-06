@@ -1,145 +1,394 @@
+header {
+
+	top:0;
+	width:100%;
+	// margin: 0 auto;
+	position: fixed;
+	z-index:-4;
+}
 body {
-	background:lighten(grey,35%);
-	// background:url("bg.jpg");
-	// background-repeat:no-repeat;
-	// background-size:cover;
+// background:lighten($dark,0%);
+background:url("city2.png"),url("bg-navy-full.png") darken($dark,10%) ;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+background-position:center;
+line-height:1.3em;
+// body:before {
+// 	@include pulse(darken($dark,10%));
+// 	content:"";
+// 	height:50em;
+// 	overflow:hidden;
+// }
+
+
+}
+a {
+	text-decoration:none;
+	color:$gold;
+	font-family:$font9;
+
+}
+p {
+	font-family:$font9;
+	@include font(1.3);
+	color:$seafoam;
+
 }
 h1 {
-	background: lighten(grey, 25%);
+	background: lighten($dark, 25%);
 	font-family:$font6;
 	@include font(2);
 	text-transform:uppercase;
-	// transform: rotate(-90deg);
 	width:4px;
 	word-break:break-all;
 	position: absolute;
-	top:1em;
-
-	left:0em;
+	// top:4em;
+	z-index:-0.3;
+	// left:2em;
 	line-height:1.2em;
 	padding:0.3em 1.1em 0.1em 0.3em;
-	border:2px blue solid;
-	border-left:none;
-	@include border-right-radius(0.7em);
-	color: darken(#D048BC,5%);
-	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
-	animation: neon1 1.5s ease-in-out infinite alternate;
+    top:2em;
+    left:42%;
+	border:2px $neoncenter solid;
+	// border-left:none;
+	@include border-radius(0.7em);
+	color:$seafoam;
+	-webkit-animation: none;
+	-moz-animation: none;
+	animation: none;
+	@include flash(2s,1s,1);
+	@include neon(4);
 	
 }
 h1:after {
 	content:"";
-	background: lighten(grey, 25%);
-	z-index:-2;
+	background: lighten($dark, 25%);
+	z-index:-1;
 	width:4px;
 	word-break:break-all;
 	position: absolute;
-	top:1em;
-	left:0em;
+	top:0em;
+	left:-0.52em;
 	line-height:1.2em;
-	padding:14em 1.5em 0.1em 0.3em;
-	border:2px blue solid;
-	border-left:none;
-	border-top:none;
-	@include border-bottom-right-radius(1em);
-	color: darken(#D048BC,5%);
-	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
-	animation: neon1 1.5s ease-in-out infinite alternate;		
+	margin-top:0.5em;
+	padding:12.5em 1.2em 2.1em 1.2em;
+	border:2px $neoncenter solid;
+	// border-left:none;
+	// border-top:none;
+	@include border-bottom-radius(0.4em);
+	// color: darken(#D048BC,5%);
+	-webkit-animation: none;
+	-moz-animation: none;
+	animation: none;
+	@include neon(4.5s);		
 }
 h1:before {
 	content:"";
-	background: lighten(grey, 25%);
+	background: lighten($dark, 25%);
 	z-index:-2;
 	width:4px;
 	word-break:break-all;
 	position: absolute;
-	top:1em;
-	left:0em;
+	top:0em;
+	left:-1em;
+	margin-top:1em;
 	line-height:1.2em;
-	padding:14.4em 1.9em 0.1em 0.3em;
-	border:2px blue solid;
-	border-left:none;
-	border-top:none;
-	@include border-bottom-right-radius(1em);
-	color: darken(#D048BC,5%);
-	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
-	animation: neon1 1.5s ease-in-out infinite alternate;		
+	padding:12.5em 1.7em 2.1em 1.7em;
+	border:2px $neoncenter solid;
+	// border-left:none;
+	// border-top:none;
+	@include border-bottom-radius(0.2em);
+	// color: darken(#D048BC,5%);
+	@include neon(4.7s);		
 }
 h2 {
-	background: lighten(grey, 25%);
+	background: lighten($dark, 25%);
 	font-family:$font6;
 	@include font(1.2);
 	clear:both;
 	position: absolute;
-	z-index: -2;
-	top:0em;
-	left:-1.5em;
+	z-index: -0.5;
+	top:29.5em;
+	left:31%;
 	line-height:1.6em;
-	padding:0.22em 0.4em 0.18em 2.9em;
-	border:2px blue solid;
-	border-left:none;
-	border-top:none;
-	@include border-bottom-right-radius(1em);
-	color: darken(#D048BC,5%);
-	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
-	animation: neon1 1.5s ease-in-out infinite alternate;
+	padding:0.5em 0.9em 0.5em 0.9em;
+	border:2px $neoncenter solid;
+	@include border-bottom-radius(1em);
+	color: $seafoam;
+	@include neon(4.2s);
 }
 h2:before {
 	content:"";
+	background: lighten($dark, 25%);
 	position: absolute;
-	z-index: -3;
+	z-index:-3;
 	top:0em;
 	left:0em;
 	line-height:1.6em;
-	padding:3em 16.1em 0.18em 2.9em;
-	border:2px blue solid;
-	border-left:none;
-	border-top:none;
-	@include border-bottom-right-radius(1.5em);
-	color: darken(#D048BC,5%);
-	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
-	animation: neon1 1.5s ease-in-out infinite alternate;
+	margin-left:-1.5em;
+	margin-top:1.3em;
+	padding:2.1em 16.1em 0.18em 2.9em;
+	border:2px $neoncenter solid;
+	@include border-bottom-radius(1.5em);
+	@include neon(5.5s);
 }
 h2:after {
 	content:"";
+	background: lighten($dark, 25%);
 	position: absolute;
-	z-index: -3;
+	z-index: -2;
 	top:0em;
 	left:0em;
+	margin-left:-1em;
+	margin-top:0.3em;
 	line-height:1.6em;
-	padding:2.5em 15.5em 0.18em 2.9em;
-	border:2px blue solid;
-	border-left:none;
-	border-top:none;
-	@include border-bottom-right-radius(1.4em);
-	color: darken(#D048BC,5%);
-	-webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-	-moz-animation: neon1 1.5s ease-in-out infinite alternate;
-	animation: neon1 1.5s ease-in-out infinite alternate;
+	padding:2.5em 15.1em 0.18em 2.9em;
+	border:2px $neoncenter solid;
+	@include border-bottom-radius(1.4em);
+	@include neon(4.9s);
+}
+.intro {  
+	width:100%;
+	margin: 0 auto;
+	margin-top:50em;
+	background:$gold;
+	padding:4em;
+	overflow:hidden;
+	background:url("bg-gold-full.png") darken($neonouter,0%);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center bottom;
+	height:50em;   
+	div {         
+		width:45%;         
+		// border:2px  solid;
+		height:45em;
+		overflow: hidden;
+		padding:1em;         
+		margin:0 2.5% 1em 2.5%;
+		float: left;         
+		@include border-radius(1em);  
+		color: $seafoam;  
+		// background: rgba(2,72,115,0.6); 
+		background: rgba(2,72,115,0.6); 
+	}     
+	.summary {         
+		p {
+			float: right;
+			margin:5em 3em;
+			line-height: 1.3em;
+		}  
+	} 
+} 
+.preamble {
+	h3 {
+		color:$neoncenter;
+		font-family: $font3;
+		width: 6.9em;
+		letter-spacing: -0.1em;
+		margin:0.5em auto 1em auto;
+		word-break: break-all;
+		text-align: center;   
+		@include font(3);
+		@include flash(1s,1s,1); 
+		@include border-radius(1em);
+		padding:0.9em;
+		border:2px $neonouter solid;
+		background: lighten($dark, 25%);
+		line-height:1em;
+	}
+	p {
+		line-height: 1.3em;
+	}
 }
 
-.intro {
-	div {
-		width:80%;
-		border:2px blue solid;
-		padding:1em;
-		margin:0 10% 1em 10%;
+.main {
+	background:rgba(2,72,115,0.6);
+	position: relative;
+	z-index:1;
+	
+}
+.main:before {
+	width: 50%;
+    content: " ";
+    background-image: url("art-deco-left.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+	background-position:left;
+    position: absolute;
+    background-attachment:fixed;
+    z-index: -1;
+    left:0em;
+    top: -50em;
+    height:50em;
+    animation: slideInLeft 3s 1s 1 backwards;
+
+}
+.main:after {
+	width: 50%;
+    content: " ";
+    background-image: url("art-deco-right.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:right;
+    position: absolute;
+    background-attachment:fixed;
+    z-index: -1;
+    right:0em;
+    top: -50em;
+    height:50em;
+    animation: slideInRight 3s 1s 1 backwards;
+
+}
+@media screen and (min-width:1056px){
+	.main:before {
+		background-size:cover;
+	}
+	.main:after {
+		background-size: cover;
+	}
+}
+.supporting {
+	margin-top:50em;
+}
+.explanation {
+	position: absolute;
+	width:30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	left: 0;
+	right: 0;
+	top:-37em;
+	z-index:1;
+	h3 {
+		color:$seafoam;
+		font-family: $font10;
+		@include font(1.8);
+		background:none;
+		text-transform:none;
+		width:100%;
+		word-break:none;
+		position: relative;
+		z-index:0;
+		line-height:1.2em;
+		padding:auto;
+    	top:0em;
+   		left:auto;
+		border:none;
+		-webkit-animation: none;
+		-moz-animation: none;
+		animation: none;
+		animation: zoomIn 2s ease-in 5.1s 1 backwards;
+		
+	}
+	p {
+		color: $seafoam;
+		animation: zoomIn 200ms ease-in 6.5s 1 backwards;
+		@include font(0.9);
+		line-height: 1.3em;
+	}
+
+}
+
+.participation,
+.benefits,
+.requirements {
+	float:left;
+	width:30%;
+	height:50em;
+	margin: 2em 1.66666%;
+	// background: ;
+	padding:0.7em;
+	color:$seafoam;
+	position: relative;
+	overflow:hidden;
+	background: rgba(2,72,115,0.3);
+	@include border-radius(1em);
+	h3 {
+		color:$neoncenter;
+		padding:0.4em 0.4em;
+		@include font(1.8);
+		font-family: $font3;
+		margin:1em  auto;
+		width: 3.8em;
+		letter-spacing: none;
+		word-break: break-all;
+		text-align: center;   
+		@include flash(1s,1s,1); 
+		@include border-radius(1em);
+		border:2px $neonouter solid;
+		background: lighten($dark, 25%);
+		line-height:1em;
+
+	}
+	p {
+		@include font(0.9);
+	}
+	&:after {
+		content:"";
+		width: 100%;
+		position: absolute;
+		height:50em;
+		top:0;
+		left: 0;
+		margin: 0 0;
+		padding:0.7em;
+		z-index: -1;
+		color:none;
+		background:url("bg-gold-full.png") darken($neonouter,0%);
+		background-size:cover;
+		background-position:center bottom;
 		@include border-radius(1em);
 	}
-	.summary {
-		margin-top:35em;
+}
+.sidebar {
+	background: darken($navy,5%) url("bg1.png");
+	background-size: cover;
+	background-repeat:no-repeat;
+	height:50em;
+	width:100%;
+	position: relative;
+	left:0;
+}
+.wrapper {
+	width:100%;
+	overflow:hidden;
+	color:$seafoam;
+
+	div {
+		width: 30%;
+		margin:0 1.66666%;
+		float: left;
+		padding:1em;
+		background:rgba(2,72,115,0.6);
+		height: 26em;
 	}
+	h3 {
+		color:$neoncenter;
+		font-family: $font3;
+		margin:1em  auto;
+		padding:0.23em 0.3em;
+		width: 4em;
+		letter-spacing: none;
+		word-break: break-all;
+		text-align: center;   
+		@include font(1.8);
+		@include flash(1s,1s,1); 
+		@include border-radius(1em);
+
+		border:2px $neonouter solid;
+		background: lighten($dark, 25%);
+		line-height:1em;
+	}
+	a,
+	p {
+		@include font(1.2);
+		line-height: 1.5em;
+	}
+
 }
-h3 {
-	position: absolute;
-	top:3.5em;
-	left:1.7em;
-	width:8em;
-	font-family: $font10;
-	@include font(2.5);
-	padding:1em;	
-}
+
+
+
+

@@ -72,6 +72,7 @@
   border-bottom-right-radius: $radius;
    background-clip: padding-box;
 }
+
 /* ======================== Opacity ========================== */
 
 @mixin opacity($opacity) {
@@ -80,6 +81,25 @@
   filter: alpha(opacity=$opacity-ie); //IE8
 }
 
+
+/* ======================= Neon ============================== */
+@mixin neon($delay) {
+-webkit-animation: neon1 1.5s $delay ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s $delay ease-in-out infinite alternate;
+  animation: neon1 1.5s $delay ease-in-out infinite alternate;
+}
+@mixin flash($duration,$delay,$interation) {
+-webkit-animation: flash $duration step-start $delay $interation forwards;
+  -moz-animation: flash $duration step-start $delay $interation forwards;
+  animation: flash $duration step-start $delay $interation forwards;
+}
+@mixin pulse($color){
+  -webkit-animation: neon1 1.5s 5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s 5s ease-in-out infinite alternate;
+  animation: neon1 1.5s 5s ease-in-out infinite alternate;
+}
+
+
 /* ======================= Keyframes ========================= */
 
 @-webkit-keyframes neon1 {
@@ -87,16 +107,16 @@
     text-shadow: 0 0 10px #fff,
                0 0 20px  #fff,
                0 0 30px  #fff,
-               0 0 40px  lighten($neon1,5%),
-               0 0 70px  lighten($neon1,5%),
-               0 0 80px  lighten($neon1,5%),
-               0 0 100px lighten($neon1,5%);
+               0 0 40px  $purple,
+               0 0 70px  $purple,
+               0 0 80px  $purple,
+               0 0 100px $purple;
                // 0 0 150px lighten($neon1,5%);
     box-shadow: 0 0 10px #fff,
                0 0 20px  #fff,
                0 0 30px  #fff,
-               0 0 40px  lighten($neon2,5%),
-               0 0 70px  lighten($neon2,5%)
+               0 0 40px  $neonbright,
+               0 0 70px  $neonbright;
                // 0 0 80px  lighten($neon2,5%),
                // 0 0 100px lighten($neon2,5%);
                // 0 0 150px lighten($neon2,5%);
@@ -105,27 +125,128 @@
     text-shadow: 0 0 5px #fff,
                0 0 10px #fff,
                0 0 15px #fff,
-               0 0 20px lighten($neon1,5%),
-               0 0 35px lighten($neon1,5%),
-               0 0 40px lighten($neon1,5%),
-               0 0 50px lighten($neon1,5%);
+               0 0 20px darken($purple,5%),
+               0 0 35px darken($purple,5%),
+               0 0 40px darken($purple,5%),
+               0 0 50px darken($purple,5%);
                // // 0 0 75px lighten($neon1,5%);
     box-shadow: 0 0 5px #fff,
                0 0 10px #fff,
                0 0 15px #fff,
-               0 0 20px lighten($neon2,5%),
-               0 0 35px lighten($neon2,5%);
+               0 0 20px $neonbright,
+               0 0 35px $neonbright;
                // 0 0 40px lighten($neon2,5%),
                // 0 0 50px lighten($neon2,5%);
                // // 0 0 75px lighten($neon2,5%);
   }
 }
-@-webkit-keyframes boxneon {
-  
+@-webkit-keyframes flash {
+  // 0%, 50%, 100% {
+  //   opacity: 1;
+  // }
+
+  // 25%, 75% {
+  //   opacity: 0;
+  // }
+  0%, 10%, 50%, 80%, 100%{
+    text-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  rgba(128,107,244,1),
+               0 0 70px  rgba(128,107,244,1),
+               0 0 80px  rgba(128,107,244,1),
+               0 0 100px rgba(128,107,244,1);
+               // 0 0 150px lighten($neon1,5%);
+    box-shadow: 0 0 10px #fff,
+               0 0 20px  #fff,
+               0 0 30px  #fff,
+               0 0 40px  rgba(243,95,83,1),
+               0 0 70px  rgba(243,95,83,1);
+               // 0 0 80px  lighten($neon2,5%),
+               // 0 0 100px lighten($neon2,5%);
+               // 0 0 150px lighten($neon2,5%);
+  }
+  5%, 15%, 75%, 90%  {
+    text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px darken(rgba(128,107,244,0),5%),
+               0 0 35px darken(rgba(128,107,244,0),5%),
+               0 0 40px darken(rgba(128,107,244,0),5%),
+               0 0 50px darken(rgba(128,107,244,0),5%);
+               // // 0 0 75px lighten($neon1,5%);
+    box-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px rgba(243,95,83,0),
+               0 0 35px rgba(243,95,83,0);
+               // 0 0 40px lighten($neon2,5%),
+               // 0 0 50px lighten($neon2,5%);
+               // // 0 0 75px lighten($neon2,5%);
+  }
 }
+@-webkit-keyframes slideInLeft {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
 
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes slideInRight {
+  0% {
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
 
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
 
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
 
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
 
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
 
