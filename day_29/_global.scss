@@ -37,7 +37,7 @@ p {
 }
 h1 {
 	background: lighten($dark, 25%);
-	font-family:$font6;
+	font-family:"cassandra";
 	@include font(2);
 	text-transform:uppercase;
 	width:4px;

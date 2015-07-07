@@ -12,6 +12,13 @@ $font9:"hypatia-sans-pro";
 $font10:"coquette";
 /* Reg and Bold */
 
+@font-face {
+    font-family: 'Cassandra';
+    src: url('https://github.com/amatherne/tiy_assignments/blob/master/downloaded-fonts/CassandraTwo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* ====================== Color List ================================= */
 
 $neon1:#FF000B;

@@ -48,6 +48,11 @@ table {
 /* ======================= Possible Fonts =========================== */
 /*  Reg and Bold */
 /* Reg and Bold */
+@font-face {
+  font-family: 'Cassandra';
+  src: url("https://github.com/amatherne/tiy_assignments/blob/master/downloaded-fonts/CassandraTwo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 /* ====================== Color List ================================= */
 /* ========================== Font ============================= */
 /* ========================== Border Box ======================= */
@@ -141,7 +146,7 @@ p {
 
 h1 {
   background: #476075;
-  font-family: "ltc-broadway-engraved";
+  font-family: "cassandra";
   font-size: 1.25pxpx;
   font-size: 2em;
   text-transform: uppercase;
