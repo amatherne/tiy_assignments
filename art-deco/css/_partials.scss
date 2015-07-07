@@ -1,0 +1,52 @@
+
+
+$global:0.625px;
+
+
+/* ======================= Possible Fonts =========================== */
+
+$font3:"aw-conqueror-carved";
+$font6:"ltc-broadway-engraved";
+$font9:"hypatia-sans-pro";
+/*  Reg and Bold */
+$font10:"coquette";
+/* Reg and Bold */
+
+@font-face {
+    font-family: 'cassandra';
+    src: url('fonts/CassandraTwo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'metropolis';
+    src: url('fonts/Metropolis 1920.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bifur';
+    src: url('fonts/bifur.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ====================== Color List ================================= */
+
+$neon1:#FF000B;
+$pink:#FF58DE;
+$neon2:#4F4CD0;
+
+
+$neoncenter:#D04934;
+$neonbright:#F35f53;
+$neonouter:#BE213f;
+
+$seafoam:#E2FFF4;
+$purple:#806BE0;
+$dark:#171F26;
+$navy:#024873;
+$gold:#BFAD50;
+$li-beige:#F2E2C4;
+$beige:#F2D8A7;
+$bl-green:#0D8C8C;
+$bl-green2:#0D7F8C;
