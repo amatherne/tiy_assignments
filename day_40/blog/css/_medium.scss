@@ -1,0 +1,59 @@
+@media screen and (min-width:550px){
+	.site-header {
+		height:20em;
+		.site-title {
+			font-size: 70px;
+			margin-top: 2.5em;
+			margin-left:0.3em;
+		}
+		.logo-top{
+			display: none;
+		}
+		.menu-icon {
+			margin-top: 6.68em;
+		}
+		.menu {
+			display: block;
+		}
+	}
+	.mini-about {
+		img {
+			display: block;
+			float: left;
+			width: 25%;
+			max-width: 190px;
+			margin:5.5em 3% 2em 2%;
+		}
+		a {
+			float: right;
+			width: 60%;
+			margin:0 7% 0.5em 3%;
+			font-size: 25px;
+		}
+		p {
+			float: right;
+			width: 60%;
+			margin:0 7% 2em 3%;
+		}
+		span {
+			font-size: 40px;
+		}
+
+	}
+	.break {
+		&:before {
+
+		}
+		&:after {
+
+		}
+	}
+	.closed {
+		width: 45%;
+		float: left;
+	}
+	aside {
+		clear: both;
+	}
+
+}

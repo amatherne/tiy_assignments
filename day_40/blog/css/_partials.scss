@@ -1,0 +1,121 @@
+$global:0.625;
+$globalfont:"john-doe";
+$displayfont-1:"aw-conqueror-carved";
+$displayfont-2:"aw-conqueror-inline";
+$displayfont-3:"continuo";
+$displayfont-4:"hotel-open";
+$displayfont-5:"phosphate";
+
+/* ========================= Colors ============================ */
+
+$maincolor:#78c4b4;
+$secondary:#efe9c8;
+$stripe2:#ffebb8;
+$stripe3:#f39f99;
+$fontcolor:#5d2f1c;
+$linkcolor:#c6562f;
+$bordercolor:#92688e;
+
+
+
+/* ========================== Font ============================= */
+@mixin font($em){
+    font-size: ($em*$global) + px;
+    font-size: ($em) + em;
+}
+@font-face {
+    font-family: 'phosphate';
+    src: url('fonts/phosphateinline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* ========================== Border Box ======================= */
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+body,
+*,
+*:after,
+*:before {
+  @include box-sizing(border-box);
+  &:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
+}
+/* ==================== Drop Menu ============================== */
+.slicknav_menu {
+  display:none;
+}
+@media screen and (max-width: 550px) {
+  .js #menu {
+    display:none;
+    top: 10em;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    }
+  
+  
+  .slicknav_menu {
+    display:block;
+  }
+}
+
+
+
+/* ==================== Border Radius ========================== */
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
+// Single side border-radius
+
+// Top
+@mixin border-top-radius($radius) {
+  -webkit-border-top-right-radius: $radius;
+  border-top-right-radius: $radius;
+   -webkit-border-top-left-radius: $radius;
+   border-top-left-radius: $radius;
+   background-clip: padding-box;
+}
+
+// Right
+@mixin border-right-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+     -webkit-border-top-right-radius: $radius;
+     border-top-right-radius: $radius;
+     background-clip: padding-box;
+}
+
+// Bottom
+@mixin border-bottom-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+   -webkit-border-bottom-left-radius: $radius;
+   border-bottom-left-radius: $radius;
+   background-clip: padding-box;
+}
+
+// Left
+@mixin border-left-radius($radius) {
+  -webkit-border-bottom-left-radius: $radius;
+  border-bottom-left-radius: $radius;
+     -webkit-border-top-left-radius: $radius;
+     border-top-left-radius: $radius;
+     background-clip: padding-box;
+}
+
+// Bottom Right
+@mixin border-bottom-right-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+   background-clip: padding-box;
+}
