@@ -7,7 +7,7 @@
     var
     // default settings object.
         defaults = {
-            label: 'MENU',
+            label: 'Nav',
             duplicate: true,
             duration: 200,
             easingOpen: 'swing',
@@ -469,3 +469,13 @@
         }
     };
 }(jQuery, document, window));
+
+$('nav li ul').hide().removeClass('fallback');
+$('nav li').hover(
+  function () {
+    $('ul', this).stop().slideDown(100);
+  },
+  function () {
+    $('ul', this).stop().slideUp(100);
+  }
+);

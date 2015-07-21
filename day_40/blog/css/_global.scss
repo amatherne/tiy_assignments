@@ -28,61 +28,19 @@ body {
 
 	}
 	.logo-top {
-		display: none;
-		// float:right;
-		// margin: 0.5em 5% 0 0;
-		// width:115px;
-		// background:lighten($stripe3,10%);
+		// display: none;
+		float:right;
+		margin: 3.7em 5% 0 0;
+		width:60px;
 	}
 	.menu {
 		display: none;
 	}
-	// #menu2 {
-	// 	color:$fontcolor;
-	// 	font-size: 30px;
-	// 	margin-right: 0.5em;
-	// 	margin-top: 4em;
-	// 	float:right;
-	// 	border:2px solid $fontcolor;
-	//     position: relative;
-	//     height: 40px;
-	//     width: 100px;
-	//     overflow: hidden;
-	//     background-color: $maincolor;
-	// 	z-index: 50;
-	//     span {
-	//     	z-index: 1000;
-	//     	position: absolute;
-	//     	top:0.2em;
-	//     	left: 0.4em;
-	//     }
-	// 	&:before { 
-	// 	    content: '';
-	// 	    position: absolute;
-	// 	    left: 32%;
-	// 	    width: 100%; 
-	// 	    height: 150%; 
-	// 	    background-color: $stripe3;
-	// 	    top: 0;
-	// 	    transform: rotate(-45deg);
-	// 	    z-index: 1;
-	// 	}
-	// 	&:after {
-	// 		content: '';
-	// 		position: absolute;
-	// 		top:0;
-	// 		left: 15%;
-	// 	    width: 100%; 
-	// 	    height: 30%;
-	// 		background: $stripe2;
-	// 		transform: rotate(-45deg);
-	// 		z-index: 1;
-	// 	}
-	// }
+
 
 }
 .mini-about {
-	margin:3em 5% 3em 5%;
+	margin:6em 5% 6em 5%;
 	img {
 		display: none;
 	}
@@ -91,10 +49,6 @@ body {
 		font-size: 20px;
 	}
 }
-// .break {
-// 	height:1em;
-// 	background:$maincolor;
-// }
 .break {
     position: relative;
     height: 20px;
@@ -121,10 +75,9 @@ body {
 		background: #ffebb8;
 		transform: rotate(-45deg);
 	}
-
 }
 .home {
-	margin: 1em 10% 1em 0;
+	margin: 1em 10% 1em 0%;
 	h1 {
 		font-family: $displayfont-2;
 		font-size: 40px;
@@ -140,7 +93,7 @@ body {
 		overflow: hidden;
 		font-size: 30px;
 		border: 2px solid $fontcolor;
-		border-left:none;
+		border-left:hidden;
 		padding:5%;
 		@include border-right-radius(5px);
 	}
@@ -177,7 +130,7 @@ body {
 			left: 15%;
 		    width: 100%; 
 		    height: 30%;
-			background: rgb(190,193,178);
+			background: $stripe2;
 			transform: rotate(-45deg);
 		}
 	}
@@ -186,16 +139,59 @@ body {
 		font-size: 15px;
 		float: left;
 	}
+
+	
 	.closed {
-		margin:0.5em;
-		// min-height: 0.1em;
+		// width:90%;
+		// margin:0.5em 0 0.5em 10%;
 		font-size: 20px;
 		padding:5%;
 		overflow: hidden;
 		border:2px solid $bordercolor;
+		height:150px;
+	}
+	.largetoggle {
+		overflow: hidden;
+		height:150px;
+		div.hide {
+			display: none;
+		}
 	}
 }
+.rss-subscribe {
+	clear: both;
+	width: 80%;
+	padding: 3em 10% 3em 10%;
+}
 
-
+footer {
+	background:$maincolor;
+	margin-top:2em;
+	padding-left:5%;
+	padding-right:5%;
+	overflow:hidden;
+	font-size:13px;
+	width:100%;
+	padding-top:2em;
+	padding-bottom:3em;
+	a {
+		font-size: 11px;
+	}
+	svg {
+		width: 15px;
+	}
+	
+		.wrapper {
+			width: 50%;
+			float:left;
+		}
+	
+	.logo-bottom{
+		float: right;
+		width:28%;
+		margin-top: 0.5em;
+		max-width:80px;
+	}
+}
 
 

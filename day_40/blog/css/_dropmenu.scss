@@ -112,6 +112,7 @@
 	}
 	.slicknav_row {
 		display: block;
+
 	}
 	a {
 		display: block;
@@ -137,9 +138,10 @@
       color:$stripe2;
       }
   	}
-
-    
 }
 .slicknav_brand {
 	float: left;
+}
+.slicknav_item.slicknav_row:hover  a {
+	color: $stripe2;
 }

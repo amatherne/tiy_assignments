@@ -13,7 +13,8 @@ $secondary:#efe9c8;
 $stripe2:#ffebb8;
 $stripe3:#f39f99;
 $fontcolor:#5d2f1c;
-$linkcolor:#c6562f;
+// $linkcolor:#c6562f;
+$linkcolor:darken(#92688e,10%);
 $bordercolor:#92688e;
 
 
@@ -64,6 +65,62 @@ body,
     display:block;
   }
 }
+
+nav {
+  background:$stripe2;
+  float:right;
+  position: absolute;
+  top:20em;
+  ul {
+    text-align:center;
+  }
+  ul a {
+  // float:left;
+    display:inline-block;
+    margin:0.5em;
+  }
+}
+.menu li:hover {
+  background:$stripe3;
+  color:$stripe2;
+  a:hover{
+  color:$stripe2;
+}
+  
+}
+// nav ul li a {
+//   display:block;
+//   padding:15px 25px;
+//   color:#444;
+// }
+nav ul li ul {
+  position:absolute;
+  width:110px;
+  background:$stripe2;
+}
+nav ul li ul li {
+  width:110px;
+}
+// nav ul li ul li a {
+//   display:block;
+//   padding:15px 10px;
+//   color:$linkcolor;
+// }
+// a:hover {
+//   background:$stripe3;
+//     a {
+//       display: inline-block;
+//       padding-top:1em;
+//       padding-bottom:1em;
+//       padding-left:1em;
+//       &:hover {
+//       background:$stripe3;
+//       color:$stripe2;
+//       }
+//     }
+// }
+// nav ul li ul.fallback {display:none;}
+// nav ul li:hover ul.fallback {display:block;}
 
 
 
