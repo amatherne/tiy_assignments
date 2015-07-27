@@ -1,0 +1,76 @@
+/*! responsive-nav.js 1.0.39 by @viljamis */
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+}
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+  @media screen and (min-width:371px){
+    @include gradient-vert(darken($bg3,20%),$bg3,50%,100%);
+  }
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position: absolute;
+  top:0;
+  right:0;
+  margin-top:1.5em;
+  margin-right:0.5em;
+  text-align: right;
+  padding-top:$global*0.03;
+  padding-right:$global*1;
+  width:80px;
+  height:20px;
+  background-color:$bg3;
+  border:1px $bg solid;
+  background-image: url(../img/arrow-red.png);
+  background-position: left 8px top 0px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  @include radius-all(0.6em);
+  font-weight: 700;
+  &:hover{
+    background-image: url(../img/arrow-hover.png);
+    background-position: left 8px top 0px;
+    background-size:contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 699px) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}

@@ -1,0 +1,1519 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,700|Cabin+Sketch:700|Marck+Script);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*! responsive-nav.js 1.0.39 by @viljamis */
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none; }
+
+.nav-collapse li {
+  width: 100%;
+  display: block; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+  @media screen and (min-width: 371px) {
+    .nav-collapse.opened {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+      background: -moz-linear-gradient(top, #74543f 50%, #ae866b 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #74543f), color-stop(100%, #ae866b));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, #74543f 50%, #ae866b 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, #74543f 50%, #ae866b 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, #74543f 50%, #ae866b 100%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, #74543f 50%, #ae866b 100%);
+      /* W3C */ } }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 1.5em;
+  margin-right: 0.5em;
+  text-align: right;
+  padding-top: 0.01875em;
+  padding-right: 0.625em;
+  width: 80px;
+  height: 20px;
+  background-color: #ae866b;
+  border: 1px #e9d0c6 solid;
+  background-image: url(../img/arrow-red.png);
+  background-position: left 8px top 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 0.6em;
+  -moz-border-radius: 0.6em;
+  border-radius: 0.6em;
+  font-weight: 700; }
+  .nav-toggle:hover {
+    background-image: url(../img/arrow-hover.png);
+    background-position: left 8px top 0px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+@media screen and (min-width: 699px) {
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; } }
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+  color: #4f1f15;
+  text-decoration: none;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1em;
+  line-height: 1.3em; }
+
+a:hover {
+  color: #e9d0c6; }
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  width: 95%;
+  margin: 0 2.5%;
+  min-width: 190px; }
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ceb59d;
+  background-image: url("../img/beans-wide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 4.05em; }
+
+.gradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+  background: -moz-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(45%, #ceb59d), color-stop(100%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+  /* W3C */
+  position: relative; }
+
+h1 {
+  font-size: 1.4375em;
+  padding-top: 0.5em;
+  padding-bottom: 0.97em;
+  padding-left: 0.3em;
+  font-weight: 300; }
+  h1 span {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.5625em; }
+
+.right {
+  width: 100%;
+  background-color: #ae866b;
+  z-index: 1; }
+  .right ul {
+    width: 100%;
+    margin: 0 auto; }
+  .right a {
+    width: 100%;
+    display: block;
+    padding: 0.2em;
+    font-size: 1.1875em;
+    font-weight: 700;
+    border: 1px #ceb59d solid;
+    border-right: 0;
+    text-align: center; }
+
+.nav-toggle {
+  margin-top: 2.4em; }
+
+.spacer {
+  width: 100%;
+  margin: 0 auto 0.5em auto;
+  height: 0.8em;
+  background: #4f1f15; }
+
+.jumbotron {
+  width: 35%;
+  margin: 1.5em 2.5% 1em 2.5%;
+  height: 7em;
+  background-image: url("../img/beige-cup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-border-radius: 0.6em;
+  -moz-border-radius: 0.6em;
+  border-radius: 0.6em;
+  float: right; }
+  .jumbotron h2 {
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: 700;
+    text-align: center;
+    color: #261305; }
+  .jumbotron .floating {
+    padding-top: 0.6em;
+    position: relative; }
+  .jumbotron .top {
+    margin-bottom: -1em;
+    margin-left: 0; }
+  .jumbotron .bottom {
+    margin-top: -1.3em;
+    margin-left: 0; }
+  .jumbotron .small {
+    font-size: 1.25em; }
+  .jumbotron .big {
+    font-size: 4.25em; }
+
+article {
+  margin-top: 1em;
+  padding: 1em;
+  font-size: 0.9375em; }
+  article p {
+    margin-bottom: 0.9em; }
+
+.main-info {
+  width: 90%;
+  margin: 1em auto;
+  background-color: #ceb59d;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+  background: -moz-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ceb59d), color-stop(140%, #4f1f15));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ceb59d 30%, #4f1f15 140%);
+  /* W3C */
+  border: 1px #ae866b solid;
+  overflow: hidden;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em; }
+  .main-info h2 {
+    font-size: 1.25em;
+    width: 50%;
+    margin: 1em auto;
+    text-align: center; }
+  .main-info span {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.5625em; }
+  .main-info .info {
+    width: 90%;
+    margin: 0 auto; }
+    .main-info .info div {
+      background-color: #ae866b;
+      border: 1px #e9d0c6 solid;
+      -webkit-border-radius: 0.6em;
+      -moz-border-radius: 0.6em;
+      border-radius: 0.6em;
+      float: left;
+      width: 47%;
+      height: 5em;
+      margin: 0 1.5%;
+      font-size: 0.90625em;
+      padding: 0.8em 0.2em;
+      font-weight: 700; }
+  .main-info .social {
+    width: 98%;
+    margin: 1em auto;
+    clear: both;
+    overflow: hidden; }
+  .main-info h3 {
+    font-size: 1.25em;
+    width: 50%;
+    margin: 0.9em auto 0.2em auto;
+    text-align: center; }
+  .main-info ul {
+    width: 100%;
+    margin: 0 auto; }
+  .main-info li {
+    width: 46%;
+    margin: 0.2em 2%;
+    padding-top: 0.125em;
+    padding-right: 0.625em;
+    background-color: #ae866b;
+    border: 1px #ceb59d solid;
+    -webkit-border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+    border-radius: 0.6em;
+    text-align: right;
+    float: left; }
+  .main-info a {
+    display: block;
+    width: 125px;
+    height: 20px; }
+  .main-info .insta {
+    background-image: url(../img/icons/insta.png);
+    background-position: left 8px top 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 0 25%; }
+  .main-info .urban {
+    background-image: url(../img/icons/urban.png);
+    background-position: left 8px top 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    clear: left; }
+  .main-info .twitter {
+    background-image: url(../img/icons/twitter.png);
+    background-position: left 8px top 0px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .main-info .facebook {
+    background-image: url(../img/icons/facebook.png);
+    background-position: left 8px top 0px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .main-info .youtube {
+    background-image: url(../img/icons/youtube.png);
+    background-position: left 8px top 0px;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+aside {
+  background-color: #ceb59d;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+  background: -moz-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ceb59d), color-stop(140%, #4f1f15));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ceb59d 30%, #4f1f15 140%);
+  /* W3C */
+  border: 1px #ae866b solid;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+  overflow: hidden;
+  width: 90%;
+  margin: 1em 5%; }
+  aside h3 {
+    margin: 0.2em;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 300; }
+
+.one {
+  background-image: url("../img/zztop.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+.two {
+  background-image: url("../img/sandwich-sq.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+.three {
+  background-image: url("../img/bagels.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+.four {
+  background-image: url("../img/bg2-sq.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+.five {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+.six {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; }
+
+.thumbs {
+  display: block;
+  width: 80%;
+  height: 180px;
+  margin: 0.5em 10%;
+  float: left;
+  position: relative;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em; }
+  .thumbs span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0.5em;
+    padding-left: 1.5em;
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: 700;
+    width: 40px;
+    line-height: 1.1; }
+
+.hot {
+  background-color: #e9d0c6;
+  width: 90%;
+  margin: 1em 5%;
+  overflow: hidden;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #4f1f15;
+  line-height: 1.3em; }
+  .hot h2 {
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: 700;
+    padding: 0.5em; }
+  .hot .menu-left {
+    width: 40%;
+    margin: 0 0 0 10%;
+    float: left;
+    font-weight: 700; }
+  .hot .menu-right {
+    width: 40%;
+    margin: 0 10% 1.7em 0;
+    float: right; }
+    .hot .menu-right li {
+      text-align: right; }
+
+.cold {
+  background-color: #e9d0c6;
+  width: 90%;
+  margin: 1em 5%;
+  overflow: hidden;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #4f1f15;
+  line-height: 1.3em; }
+  .cold h2 {
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: 700;
+    padding: 0.5em; }
+  .cold .menu-left {
+    width: 40%;
+    margin: 0 0 0 10%;
+    float: left;
+    font-weight: 700; }
+  .cold .menu-right {
+    width: 40%;
+    margin: 0 10% 1.7em 0;
+    float: right; }
+    .cold .menu-right li {
+      text-align: right; }
+  .cold .sub {
+    font-weight: 300;
+    font-size: 0.8125em;
+    margin: -0.3em 0 0.2em 1em;
+    line-height: 1.2;
+    width: 6em; }
+
+.flavors {
+  background-color: #e9d0c6;
+  width: 45%;
+  margin: 1em 0 0 5%;
+  overflow: hidden;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #4f1f15;
+  line-height: 1.3em;
+  float: left;
+  padding: 0 0 1em 0; }
+  .flavors h2 {
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: 700;
+    padding: 0.5em; }
+  .flavors h3 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: -1.5em;
+    margin-bottom: 1.5em; }
+  .flavors .menu-left {
+    width: 40%;
+    margin: 0 0 1.25em 10%;
+    padding-left: 1.5em;
+    font-weight: 700;
+    white-space: nowrap; }
+
+.milk {
+  background-color: #e9d0c6;
+  width: 45%;
+  margin: 1em 5% 2em 0;
+  overflow: hidden;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #4f1f15;
+  line-height: 1.3em;
+  float: left;
+  padding: 0 0 2.25em 0; }
+  .milk h2 {
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: 700;
+    padding: 0.5em; }
+  .milk h3 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: -1.5em;
+    margin-bottom: 1.5em; }
+  .milk .menu-right {
+    width: 40%;
+    margin: 0 0 0 10%;
+    padding-left: 1.5em;
+    font-weight: 700; }
+
+.frozen {
+  clear: both;
+  background-color: #e9d0c6;
+  width: 90%;
+  margin: 0.5em 5%;
+  overflow: hidden;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #4f1f15;
+  line-height: 1.3em; }
+  .frozen h2 {
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: 700;
+    padding: 0.5em; }
+  .frozen .menu-left {
+    width: 44%;
+    margin: 0 0 0 6%;
+    float: left;
+    font-weight: 700; }
+  .frozen .menu-right {
+    width: 44%;
+    margin: 0 6% 1.7em 0;
+    float: right;
+    font-weight: 700; }
+    .frozen .menu-right li {
+      text-align: right; }
+  .frozen .sub {
+    font-weight: 300;
+    font-size: 0.8125em;
+    margin: -0.3em 0 0.2em 1em;
+    line-height: 1.2;
+    width: 6em; }
+
+.creme {
+  width: 90%;
+  margin: 0 auto;
+  height: 400px;
+  background-image: url("../img/localsourced.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.sandwich {
+  background-color: #e9d0c6;
+  width: 90%;
+  margin: 1em 5%;
+  overflow: hidden;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #4f1f15;
+  line-height: 1.3em; }
+  .sandwich h2 {
+    text-align: center;
+    font-size: 1.875em;
+    font-weight: 700;
+    padding: 0.5em; }
+  .sandwich .menu-left {
+    width: 40%;
+    margin: 0 0 0 10%;
+    float: left;
+    font-weight: 700;
+    white-space: nowrap; }
+  .sandwich .menu-right {
+    width: 40%;
+    margin: 0 10% 1.7em 0;
+    float: right;
+    font-weight: 700; }
+    .sandwich .menu-right li {
+      text-align: right; }
+  .sandwich .sub {
+    font-weight: 300;
+    font-size: 0.8125em;
+    margin: -0.3em 0 0.2em 1em;
+    line-height: 1.2;
+    white-space: normal;
+    width: 12em; }
+
+footer {
+  width: 100%;
+  background-color: #ae866b;
+  padding: 0em 5% 2em 5%;
+  overflow: hidden; }
+  footer h2 {
+    text-align: center;
+    font-size: 1.25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.97em;
+    padding-left: 0.3em;
+    font-weight: 300; }
+    footer h2 span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.375em; }
+  footer ul {
+    text-align: center; }
+  footer li {
+    display: inline-block;
+    margin: 0 0.1%; }
+  footer h4 {
+    margin: 0.4em auto -2em auto;
+    font-size: 0.75em;
+    text-align: center;
+    clear: both; }
+    footer h4 span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.375em; }
+
+@media screen and (min-width: 371px) and (max-width: 699px) {
+  header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ceb59d;
+    background-image: url("../img/beans-wide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 4.2em; }
+
+  .gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+    background: -moz-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(45%, #ceb59d), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, #ceb59d 45%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */
+    position: relative;
+    overflow: hidden; }
+
+  h1 {
+    font-size: 1.875em;
+    padding-top: 0.34em;
+    padding-bottom: 0.58em;
+    padding-left: 0.3em;
+    font-weight: 300;
+    width: auto; }
+    h1 span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.5625em; }
+
+  nav {
+    margin-right: -2%; }
+
+  .right {
+    width: 100%;
+    background-color: #ae866b; }
+    .right ul {
+      width: 100%;
+      margin: 0 auto; }
+    .right li {
+      width: 20%;
+      display: inline-block;
+      font-size: 0.875em;
+      text-align: center;
+      margin-right: -0.9%; }
+    .right a {
+      width: 100%;
+      display: block;
+      font-size: 0.875em;
+      font-weight: 700;
+      padding-top: 0.625em;
+      padding-bottom: 0.625em;
+      border: 1px #ceb59d solid;
+      border-right: 0;
+      text-align: center; }
+
+  .nav-toggle {
+    margin-top: 2.4em; }
+
+  .jumbotron {
+    width: 35%;
+    margin: 1em 2.5% 0.2em 2.5%;
+    height: 7em;
+    background-image: url("../img/beige-cup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .jumbotron h2 {
+      font-family: 'Cabin Sketch', cursive;
+      font-weight: 700;
+      text-align: center;
+      color: #261305; }
+    .jumbotron .floating {
+      padding-top: 0.6em;
+      position: relative; }
+    .jumbotron .top {
+      margin-bottom: -1em;
+      margin-left: 0; }
+    .jumbotron .bottom {
+      margin-top: -1.3em;
+      margin-left: 0; }
+    .jumbotron .small {
+      font-size: 1.25em; }
+    .jumbotron .big {
+      font-size: 4.25em; } }
+  @media screen and (min-width: 371px) and (max-width: 699px) and (min-width: 500px) {
+    .jumbotron {
+      height: 11em; }
+      .jumbotron .floating {
+        padding-top: 0.4em;
+        position: relative; }
+      .jumbotron .top {
+        margin-bottom: -0.8em;
+        margin-left: 0; }
+      .jumbotron .bottom {
+        margin-top: -1em;
+        margin-left: 0; }
+      .jumbotron .small {
+        font-size: 2.5em; }
+      .jumbotron .big {
+        font-size: 6.25em; } }
+
+@media screen and (min-width: 371px) and (max-width: 699px) {
+  article {
+    margin-top: 0em;
+    padding: 1em;
+    font-size: 0.9375em; }
+
+  .main-info {
+    width: 90%;
+    max-width: 320px;
+    margin: 1em auto;
+    background-color: #ceb59d;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+    background: -moz-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ceb59d), color-stop(140%, #4f1f15));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #ceb59d 30%, #4f1f15 140%);
+    /* W3C */
+    border: 1px #ae866b solid;
+    overflow: hidden;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em; } }
+  @media screen and (min-width: 371px) and (max-width: 699px) and (min-width: 633px) {
+    .main-info {
+      width: 50%;
+      margin: 0 0 0 2%;
+      float: left; } }
+@media screen and (min-width: 371px) and (max-width: 699px) {
+    .main-info h2 {
+      font-size: 1.25em;
+      width: 50%;
+      margin: 1em auto;
+      text-align: center; }
+    .main-info span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.5625em; }
+    .main-info .info {
+      width: 95%;
+      margin: 0 auto; }
+      .main-info .info div {
+        background-color: #ae866b;
+        border: 1px #e9d0c6 solid;
+        -webkit-border-radius: 0.6em;
+        -moz-border-radius: 0.6em;
+        border-radius: 0.6em;
+        float: left;
+        width: 47%;
+        height: 5em;
+        margin: 0 1.5%;
+        font-size: 0.9375em;
+        padding: 0.8em 0.5em; }
+    .main-info .social {
+      width: 98%;
+      margin: 1em auto;
+      clear: both;
+      overflow: hidden; }
+    .main-info h3 {
+      font-size: 1.25em;
+      width: 50%;
+      margin: 0.9em auto 0.2em auto;
+      text-align: center; }
+    .main-info ul {
+      width: 100%;
+      margin: 0 auto; }
+    .main-info li {
+      width: 46%;
+      margin: 0.2em 2%;
+      padding-top: 0.125em;
+      padding-right: 0.625em;
+      background-color: #ae866b;
+      border: 1px #ceb59d solid;
+      -webkit-border-radius: 0.6em;
+      -moz-border-radius: 0.6em;
+      border-radius: 0.6em;
+      text-align: right;
+      float: left; }
+    .main-info a {
+      display: block;
+      width: 125px;
+      height: 20px; }
+
+  aside h3 {
+    margin-top: 0.3em;
+    text-align: center;
+    font-size: 3.125em;
+    font-weight: 300; } }
+@media screen and (min-width: 371px) and (max-width: 699px) and (min-width: 600px) {
+  aside {
+    width: 45%;
+    margin: 0 2% 3em 1%;
+    float: left; } }
+
+@media screen and (min-width: 371px) and (max-width: 699px) {
+  .thumbs {
+    display: block;
+    width: 40%;
+    height: 170px;
+    margin: 0.7em 5%;
+    float: left;
+    position: relative; }
+    .thumbs span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-top: 0.5em;
+      padding-left: 0.5em;
+      text-align: center;
+      font-size: 1.875em;
+      font-weight: 700;
+      width: 40px;
+      line-height: 1.1; }
+
+  footer {
+    width: 100%;
+    background-color: #ae866b;
+    padding: 0em 5% 2em 5%;
+    overflow: hidden; }
+    footer h2 {
+      text-align: center;
+      font-size: 1.25em;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      padding-left: 0.3em;
+      font-weight: 300; }
+      footer h2 span {
+        font-family: 'Marck Script', cursive;
+        font-size: 1.375em; }
+    footer ul {
+      text-align: center; }
+    footer li {
+      display: inline-block;
+      margin: 0 0.1%; }
+    footer h4 {
+      margin: 0.2em auto -2em auto;
+      font-size: 0.75em;
+      text-align: center; } }
+  @media screen and (min-width: 371px) and (max-width: 699px) and (min-width: 623px) {
+    footer h2 {
+      width: 30%;
+      margin: 0 auto -0.4em 10%;
+      float: left; }
+    footer ul {
+      width: 50%;
+      margin: 1.07em 10% -0.4em auto;
+      float: right; }
+    footer h4 {
+      margin: 0em auto -2em; } }
+
+@media screen and (min-width: 700px) and (max-width: 1109px) {
+  body {
+    width: 95%;
+    margin: 0 auto; }
+
+  header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ceb59d;
+    background-image: url("../img/beans-wide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 7em; }
+
+  .gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+    background: -moz-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(20%, #ceb59d), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */
+    height: 7em; }
+
+  h1 {
+    font-size: 3.125em;
+    padding-left: 0.7em;
+    font-weight: 300;
+    padding-top: 0.22em;
+    width: auto;
+    padding-bottom: 0; }
+    h1 span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.5625em; }
+
+  nav {
+    margin-right: -2%; }
+
+  .right {
+    margin-top: 0em;
+    width: 55%;
+    background-color: #ae866b;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+    background: -moz-linear-gradient(top, #74543f 10%, #ae866b 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #74543f), color-stop(100%, #ae866b));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #74543f 10%, #ae866b 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #74543f 10%, #ae866b 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #74543f 10%, #ae866b 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #74543f 10%, #ae866b 100%);
+    /* W3C */
+    margin: 0.3em 4% 0 41%; }
+    .right ul {
+      width: 100%;
+      margin: 0 auto; }
+    .right a {
+      width: 19.2%;
+      display: block;
+      font-size: 1em;
+      font-weight: 700;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      border: 1px #ceb59d solid;
+      border-right: 0;
+      text-align: center;
+      float: left; }
+    .right:first-of-type {
+      border: 1px #ceb59d solid;
+      -webkit-border-radius: 1.3em;
+      -moz-border-radius: 1.3em;
+      border-radius: 1.3em; }
+
+  .spacer {
+    -webkit-border-bottom-right-radius: 0.4em;
+    -webkit-border-bottom-left-radius: 0.4em;
+    -moz-border-radius-bottomright: 0.4em;
+    -moz-border-radius-bottomleft: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em; }
+
+  .jumbotron {
+    width: 50%;
+    margin: 1em 3%;
+    height: 19em;
+    float: right;
+    background-image: url("../img/beige-cup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    border-radius: 0.8em; }
+    .jumbotron h2 {
+      font-family: 'Cabin Sketch', cursive;
+      font-weight: 700;
+      text-align: center;
+      color: #261305; }
+    .jumbotron .floating {
+      padding-top: 1em; }
+    .jumbotron .top {
+      margin-bottom: -1em;
+      margin-left: 0; }
+    .jumbotron .bottom {
+      margin-top: -1.25em;
+      margin-left: 0; }
+    .jumbotron .small {
+      font-size: 3.8em; }
+    .jumbotron .big {
+      font-size: 12em; }
+
+  article {
+    padding: 1em;
+    font-size: 0.9375em;
+    float: right;
+    width: 50%;
+    margin: 0 2% 0 0; }
+
+  .main-info {
+    float: left;
+    width: 43%;
+    margin: -20em 1% 1em 1%;
+    background-color: #ceb59d;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+    background: -moz-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ceb59d), color-stop(140%, #4f1f15));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #ceb59d 30%, #4f1f15 140%);
+    /* W3C */
+    border: 1px #ae866b solid;
+    overflow: hidden;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em; }
+    .main-info h2 {
+      font-size: 1.25em;
+      width: 60%;
+      margin: 0.7em auto;
+      text-align: center; }
+    .main-info span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.5625em; }
+    .main-info .info {
+      width: 95%;
+      margin: 0 auto; }
+      .main-info .info div {
+        background-color: #ae866b;
+        border: 1px #e9d0c6 solid;
+        -webkit-border-radius: 0.6em;
+        -moz-border-radius: 0.6em;
+        border-radius: 0.6em;
+        float: left;
+        width: 48%;
+        height: 5em;
+        margin: 0 1%;
+        font-size: 0.90625em;
+        padding: 0.8em 0.4em; }
+    .main-info .social {
+      width: 98%;
+      margin: 1em auto;
+      clear: both;
+      overflow: hidden; }
+    .main-info h3 {
+      font-size: 1.25em;
+      width: 50%;
+      margin: 0.9em auto 0.2em auto;
+      text-align: center; }
+    .main-info ul {
+      width: 100%;
+      margin: 0 auto; }
+    .main-info li {
+      width: 48%;
+      margin: 0.2em 1%;
+      padding-top: 0.125em;
+      padding-right: 0.625em;
+      background-color: #ae866b;
+      border: 1px #ceb59d solid;
+      -webkit-border-radius: 0.6em;
+      -moz-border-radius: 0.6em;
+      border-radius: 0.6em;
+      text-align: right;
+      float: left; }
+    .main-info a {
+      display: block;
+      width: 125px;
+      height: 20px; }
+
+  aside {
+    width: 43%;
+    margin: 1em 1%;
+    float: left; }
+
+  .thumbs {
+    display: block;
+    width: 40%;
+    height: 150px;
+    margin: 0.3em 5%;
+    float: left;
+    position: relative; }
+    .thumbs span {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding-bottom: 3.1em;
+      padding-left: 1em;
+      text-align: center;
+      font-size: 1.25em;
+      font-weight: 700; }
+
+  .hot {
+    float: left;
+    width: 45%;
+    padding-bottom: 1.74em;
+    margin: 1em 0 1em 5%; }
+
+  .cold {
+    float: left;
+    width: 45%;
+    margin: 1em 5% 1em 0; }
+
+  .frozen {
+    width: 45%;
+    margin: 0 0 0 5%;
+    float: left; }
+
+  .creme {
+    width: 45%;
+    height: 313px;
+    margin: 0 5% 2em 0;
+    float: left; }
+
+  .sandwich {
+    background-image: url("../img/sandwich.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right; }
+    .sandwich .gradient-three {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+      background: -moz-linear-gradient(left, #e9d0c6 50%, rgba(255, 255, 255, 0) 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, right top, color-stop(50%, #e9d0c6), color-stop(100%, rgba(255, 255, 255, 0)));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(left, #e9d0c6 50%, rgba(255, 255, 255, 0) 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(left, #e9d0c6 50%, rgba(255, 255, 255, 0) 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(left, #e9d0c6 50%, rgba(255, 255, 255, 0) 100%);
+      /* IE10+ */
+      background: linear-gradient(to right, #e9d0c6 50%, rgba(255, 255, 255, 0) 100%);
+      /* W3C */
+      height: 325px; }
+    .sandwich h2 {
+      text-align: left;
+      padding-left: 2em; }
+    .sandwich .menu-left {
+      width: 30%;
+      margin: 0 0 0 10%; }
+    .sandwich .menu-right {
+      width: 10%;
+      margin-right: 50%; } }
+  @media screen and (min-width: 700px) and (max-width: 1109px) and (min-width: 1000px) {
+    .sandwich .gradient-three {
+      background: rgba(255, 255, 255, 0); }
+    .sandwich .menu-left {
+      width: 30%;
+      margin: 0 0 0 5%; }
+    .sandwich .menu-right {
+      width: 10%;
+      margin-right: 55%; } }
+
+@media screen and (min-width: 700px) and (max-width: 1109px) {
+  footer {
+    width: 100%;
+    background-color: #ae866b;
+    padding: 0em 5% 2em 5%;
+    overflow: hidden; }
+    footer h2 {
+      text-align: center;
+      font-size: 1.25em;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      padding-left: 0.3em;
+      font-weight: 300;
+      width: 27%;
+      margin: 0 auto -0.4em 13%;
+      float: left; }
+      footer h2 span {
+        font-family: 'Marck Script', cursive;
+        font-size: 1.375em; }
+    footer ul {
+      text-align: center;
+      width: 50%;
+      margin: 1.07em 10% -0.4em auto;
+      float: right; }
+    footer li {
+      display: inline-block;
+      margin: 0 0.1%; }
+    footer h4 {
+      margin: 0em auto -2em;
+      font-size: 0.75em;
+      text-align: center; } }
+@media screen and (min-width: 1110px) and (max-width: 3000px) {
+  body {
+    width: 95%;
+    margin: 0 auto; }
+
+  header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ceb59d;
+    background-image: url("../img/beans-wide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 7em; }
+
+  .gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+    background: -moz-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(20%, #ceb59d), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, #ceb59d 20%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */
+    height: 7em; }
+
+  h1 {
+    font-size: 4.375em;
+    padding-left: 0.5em;
+    font-weight: 300;
+    padding-top: 0em;
+    width: auto;
+    padding-bottom: 0; }
+    h1 span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.5625em; }
+
+  nav {
+    margin-right: -2%;
+    margin-top: -0.7em; }
+
+  .right {
+    width: 55%;
+    background-color: #ae866b;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+    background: -moz-linear-gradient(top, #74543f 10%, #ae866b 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #74543f), color-stop(100%, #ae866b));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #74543f 10%, #ae866b 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #74543f 10%, #ae866b 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #74543f 10%, #ae866b 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #74543f 10%, #ae866b 100%);
+    /* W3C */
+    margin: 0em 4% 0 41%;
+    -webkit-border-top-left-radius: 1.3em;
+    -moz-border-radius-topleft: 1.3em;
+    border-top-left-radius: 1.3em; }
+    .right ul {
+      width: 100%;
+      margin: 0 auto; }
+    .right a {
+      width: 19.2%;
+      display: block;
+      font-size: 1em;
+      font-weight: 700;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      border: 1px #ceb59d solid;
+      border-right: 0;
+      text-align: center;
+      float: left; }
+    .right:first-of-type {
+      border: 1px #ceb59d solid;
+      -webkit-border-radius: 1.4em;
+      -moz-border-radius: 1.4em;
+      border-radius: 1.4em; }
+
+  .jumbotron {
+    margin: 352px 1.5% 0 1.5%;
+    width: 30%;
+    height: 18.5em;
+    background-image: url("../img/beige-cup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border-radius: 0.4em;
+    float: right; }
+    .jumbotron h2 {
+      font-family: 'Cabin Sketch', cursive;
+      font-weight: 700;
+      text-align: center;
+      color: #261305; }
+    .jumbotron .floating {
+      padding-top: 0.9em; }
+    .jumbotron .top {
+      margin-bottom: -1em;
+      margin-left: 0; }
+    .jumbotron .bottom {
+      margin-top: -1.3em;
+      margin-left: 0; }
+    .jumbotron .small {
+      font-size: 3.4em; }
+    .jumbotron .big {
+      font-size: 11em; }
+
+  article {
+    font-size: 0.9375em;
+    width: 100%;
+    height: 360px;
+    padding-top: 0;
+    margin-top: -0.5em;
+    margin-bottom: -2.15em;
+    background-image: url("../img/over-cup.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right; }
+    article .gradient-two {
+      padding: 0em auto 0em auto;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+      background: -moz-linear-gradient(left, white 60%, rgba(255, 255, 255, 0) 100%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, right top, color-stop(60%, white), color-stop(100%, rgba(255, 255, 255, 0)));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(left, white 60%, rgba(255, 255, 255, 0) 100%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(left, white 60%, rgba(255, 255, 255, 0) 100%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(left, white 60%, rgba(255, 255, 255, 0) 100%);
+      /* IE10+ */
+      background: linear-gradient(to right, white 60%, rgba(255, 255, 255, 0) 100%);
+      /* W3C */
+      height: 360px; }
+    article .about {
+      padding: 3em; }
+      article .about p {
+        width: 20%;
+        margin: 0 1%;
+        float: left; }
+
+  .main-info {
+    float: left;
+    width: 30%;
+    margin: 2em 1.5% 1em 1.5%;
+    background-color: #ceb59d;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceb59d+0,ceb59d+100&amp;1+0,0+100 */
+    background: -moz-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #ceb59d), color-stop(140%, #4f1f15));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ceb59d 30%, #4f1f15 140%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #ceb59d 30%, #4f1f15 140%);
+    /* W3C */
+    border: 1px #ae866b solid;
+    overflow: hidden;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em; }
+    .main-info h2 {
+      font-size: 1.25em;
+      width: 60%;
+      margin: 0.7em auto;
+      text-align: center; }
+    .main-info span {
+      font-family: 'Marck Script', cursive;
+      font-size: 1.5625em; }
+    .main-info .info {
+      width: 95%;
+      margin: 0 auto; }
+      .main-info .info div {
+        background-color: #ae866b;
+        border: 1px #e9d0c6 solid;
+        -webkit-border-radius: 0.6em;
+        -moz-border-radius: 0.6em;
+        border-radius: 0.6em;
+        float: left;
+        width: 47%;
+        height: 5em;
+        margin: 0 1.5%;
+        font-size: 0.90625em;
+        padding: 0.8em 0.4em; }
+    .main-info .social {
+      width: 98%;
+      margin: 1em auto;
+      clear: both;
+      overflow: hidden; }
+    .main-info h3 {
+      font-size: 1.25em;
+      width: 50%;
+      margin: 0.9em auto 0.2em auto;
+      text-align: center; }
+    .main-info ul {
+      width: 100%;
+      margin: 0 auto; }
+    .main-info li {
+      width: 48%;
+      margin: 0.2em 1%;
+      padding-top: 0.125em;
+      padding-right: 0.625em;
+      background-color: #ae866b;
+      border: 1px #ceb59d solid;
+      -webkit-border-radius: 0.6em;
+      -moz-border-radius: 0.6em;
+      border-radius: 0.6em;
+      text-align: right;
+      float: left; }
+    .main-info a {
+      display: block;
+      width: 125px;
+      height: 20px; }
+
+  aside {
+    width: 30%;
+    margin: 2em 1.5%;
+    float: right; }
+
+  .thumbs {
+    display: block;
+    width: 40%;
+    height: 150px;
+    margin: 0.3em 5%;
+    float: left;
+    position: relative; }
+    .thumbs span {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding-bottom: 3.1em;
+      padding-left: 2.3em;
+      text-align: left;
+      font-size: 1.25em;
+      font-weight: 700; }
+
+  footer {
+    width: 100%;
+    background-color: #ae866b;
+    padding: 0.5em 10% 0.5em 10%;
+    overflow: hidden; }
+    footer h2 {
+      text-align: center;
+      font-size: 1.25em;
+      padding-top: 0.5em;
+      padding-left: 0em;
+      font-weight: 300;
+      width: 20.333%;
+      margin: 0 auto 0em 10%;
+      float: left; }
+      footer h2 span {
+        font-family: 'Marck Script', cursive;
+        font-size: 1.375em; }
+    footer ul {
+      text-align: center;
+      width: 33.3333%;
+      margin: 1.07em auto 0em auto;
+      float: left; }
+    footer li {
+      display: inline-block;
+      margin: 0 0.1%; }
+    footer h4 {
+      float: right;
+      width: 33.3333%;
+      margin: -3.9em 6% 0em 7%;
+      font-size: 0.8125em;
+      text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
